@@ -1,0 +1,29 @@
+name: ai_verse_speaker
+description: A voice-first AI English speaking coach prototype.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  fl_chart: ^1.2.0
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  flutter_tts: ^4.2.5
+  google_fonts: ^8.1.0
+  http: ^1.2.2
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  speech_to_text: ^7.4.0
+  sqflite: ^2.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  sqflite_common_ffi: ^2.3.6
+
+flutter:
+  uses-material-design: true
