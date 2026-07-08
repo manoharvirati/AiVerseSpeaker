@@ -457,9 +457,9 @@ class TopicDetailSheet extends StatelessWidget {
       maxChildSize: 0.94,
       builder: (context, controller) {
         return Container(
-          decoration: const BoxDecoration(
-            color: AppTheme.navy,
-            borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+          decoration: BoxDecoration(
+            color: AppTheme.sheetColor(context),
+            borderRadius: const BorderRadius.vertical(top: Radius.circular(28)),
           ),
           child: ListView(
             controller: controller,
@@ -470,7 +470,9 @@ class TopicDetailSheet extends StatelessWidget {
                   width: 46,
                   height: 5,
                   decoration: BoxDecoration(
-                    color: Colors.white24,
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.onSurface.withValues(alpha: 0.24),
                     borderRadius: BorderRadius.circular(99),
                   ),
                 ),

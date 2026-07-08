@@ -63,52 +63,69 @@ class ProgressOverview extends StatelessWidget {
         : (data.skillScores.fold<int>(0, (sum, item) => sum + item.score) /
                   data.skillScores.length)
               .round();
-    return GlassCard(
-      child: Row(
+    final ring = SizedBox(
+      width: 122,
+      height: 122,
+      child: Stack(
+        fit: StackFit.expand,
         children: [
-          SizedBox(
-            width: 132,
-            height: 132,
-            child: Stack(
-              fit: StackFit.expand,
+          CircularProgressIndicator(
+            value: (average / 100).clamp(0.0, 1.0),
+            strokeWidth: 11,
+            backgroundColor: Colors.white.withValues(alpha: 0.08),
+            color: AppTheme.emerald,
+            strokeCap: StrokeCap.round,
+          ),
+          Center(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
               children: [
-                CircularProgressIndicator(
-                  value: (average / 100).clamp(0.0, 1.0),
-                  strokeWidth: 12,
-                  backgroundColor: Colors.white.withValues(alpha: 0.08),
-                  color: AppTheme.emerald,
-                  strokeCap: StrokeCap.round,
-                ),
-                Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        '$average%',
-                        style: Theme.of(context).textTheme.headlineMedium,
-                      ),
-                      Text('Overall', style: Theme.of(context).textTheme.bodyMedium),
-                    ],
+                FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
+                    '$average%',
+                    style: Theme.of(context).textTheme.headlineMedium,
                   ),
                 ),
+                Text('Overall', style: Theme.of(context).textTheme.bodyMedium),
               ],
             ),
           ),
-          const SizedBox(width: 22),
-          Expanded(
-            child: Column(
-              children: data.skillScores
-                  .map(
-                    (score) => SkillLine(
-                      label: score.skill,
-                      value: score.score,
-                      color: colorForSkill(score.skill),
-                    ),
-                  )
-                  .toList(),
-            ),
-          ),
         ],
+      ),
+    );
+    final meters = Column(
+      children: data.skillScores
+          .map(
+            (score) => SkillLine(
+              label: score.skill,
+              value: score.score,
+              color: colorForSkill(score.skill),
+            ),
+          )
+          .toList(),
+    );
+
+    return GlassCard(
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          if (constraints.maxWidth < 340) {
+            return Column(
+              children: [
+                ring,
+                const SizedBox(height: 18),
+                meters,
+              ],
+            );
+          }
+          return Row(
+            children: [
+              ring,
+              const SizedBox(width: 18),
+              Expanded(child: meters),
+            ],
+          );
+        },
       ),
     );
   }
@@ -127,45 +144,51 @@ class WeeklyHeatMap extends StatelessWidget {
         children: [
           Text('Practice Calendar', style: Theme.of(context).textTheme.titleMedium),
           const SizedBox(height: 14),
-          Row(
-            children: List.generate(
-              data.dailyActivity.length,
-              (index) => Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 4),
-                  child: Column(
-                    children: [
-                      AnimatedContainer(
-                        duration: const Duration(milliseconds: 300),
-                        width: 42,
-                        height: 42,
-                        decoration: BoxDecoration(
-                          color: data.dailyActivity[index].practiceMinutes > 0
-                              ? AppTheme.emerald.withValues(alpha: 0.26)
-                              : Colors.white.withValues(alpha: 0.06),
-                          shape: BoxShape.circle,
-                          border: Border.all(
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: List.generate(
+                data.dailyActivity.length,
+                (index) => Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: SizedBox(
+                    width: 42,
+                    child: Column(
+                      children: [
+                        AnimatedContainer(
+                          duration: const Duration(milliseconds: 300),
+                          width: 38,
+                          height: 38,
+                          decoration: BoxDecoration(
+                            color: data.dailyActivity[index].practiceMinutes > 0
+                                ? AppTheme.emerald.withValues(alpha: 0.26)
+                                : Colors.white.withValues(alpha: 0.06),
+                            shape: BoxShape.circle,
+                            border: Border.all(
+                              color: data.dailyActivity[index].practiceMinutes > 0
+                                  ? AppTheme.emerald
+                                  : Colors.white.withValues(alpha: 0.04),
+                            ),
+                          ),
+                          child: Icon(
+                            data.dailyActivity[index].practiceMinutes > 0
+                                ? Icons.check_rounded
+                                : Icons.circle,
                             color: data.dailyActivity[index].practiceMinutes > 0
                                 ? AppTheme.emerald
-                                : Colors.white.withValues(alpha: 0.04),
+                                : AppTheme.muted,
+                            size: 18,
                           ),
                         ),
-                        child: Icon(
-                          data.dailyActivity[index].practiceMinutes > 0
-                              ? Icons.check_rounded
-                              : Icons.circle,
-                          color: data.dailyActivity[index].practiceMinutes > 0
-                              ? AppTheme.emerald
-                              : AppTheme.muted,
-                          size: 20,
+                        const SizedBox(height: 8),
+                        Text(
+                          data.dailyActivity[index].dayLabel,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: Theme.of(context).textTheme.bodyMedium,
                         ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        data.dailyActivity[index].dayLabel,
-                        style: Theme.of(context).textTheme.bodyMedium,
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
               ),

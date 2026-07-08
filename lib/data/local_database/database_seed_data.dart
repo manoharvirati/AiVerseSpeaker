@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/services.dart';
 import 'package:sqflite/sqflite.dart';
 
 typedef LessonSeedRow = (
@@ -12,20 +13,68 @@ typedef LessonSeedRow = (
   int recommended,
 );
 
+class OfflineContentBundle {
+  const OfflineContentBundle({
+    required this.categories,
+    required this.lessons,
+    required this.dialogues,
+    required this.vocabulary,
+    required this.reviewCards,
+    required this.pronunciationDrills,
+    required this.exercises,
+    required this.commonPhrases,
+    required this.grammarPatterns,
+  });
+
+  final List<Map<String, dynamic>> categories;
+  final List<Map<String, dynamic>> lessons;
+  final List<Map<String, dynamic>> dialogues;
+  final List<Map<String, dynamic>> vocabulary;
+  final List<Map<String, dynamic>> reviewCards;
+  final List<Map<String, dynamic>> pronunciationDrills;
+  final List<Map<String, dynamic>> exercises;
+  final List<Map<String, dynamic>> commonPhrases;
+  final List<Map<String, dynamic>> grammarPatterns;
+
+  static Future<OfflineContentBundle> load() async {
+    return OfflineContentBundle(
+      categories: await _loadRows('assets/content/categories.json'),
+      lessons: await _loadRows('assets/content/lessons.json'),
+      dialogues: await _loadRows('assets/content/dialogues.json'),
+      vocabulary: await _loadRows('assets/content/vocabulary.json'),
+      reviewCards: await _loadRows('assets/content/review_cards.json'),
+      pronunciationDrills: await _loadRows(
+        'assets/content/pronunciation_drills.json',
+      ),
+      exercises: await _loadRows('assets/content/exercises.json'),
+      commonPhrases: await _loadRows('assets/content/common_phrases.json'),
+      grammarPatterns: await _loadRows('assets/content/grammar_patterns.json'),
+    );
+  }
+
+  static Future<List<Map<String, dynamic>>> _loadRows(String assetPath) async {
+    final raw = await rootBundle.loadString(assetPath);
+    final decoded = jsonDecode(raw) as List<dynamic>;
+    return decoded.cast<Map<String, dynamic>>();
+  }
+}
+
 class DatabaseSeedData {
   const DatabaseSeedData._();
 
-  static void seedAll(Batch batch) {
+  static Future<void> seedAll(Batch batch) async {
     final now = DateTime.now().toIso8601String();
+    final content = await OfflineContentBundle.load();
     seedLearnerMemory(batch, now);
     seedSetupStatus(batch, now);
     seedAppPreferences(batch, now);
-    seedVocabulary(batch, now);
+    seedVocabulary(batch, now, content: content);
     seedGrammarMistakes(batch, now);
-    seedLessons(batch, now);
+    seedLessons(batch, now, content: content);
     seedAchievements(batch, now);
     seedTutorPersonas(batch, now);
     seedProgress(batch, now);
+    await seedEnterpriseContent(batch, now, content: content);
   }
 
   static void seedLearnerMemory(Batch batch, String now) {
@@ -55,6 +104,7 @@ class DatabaseSeedData {
   static void seedAppPreferences(Batch batch, String now) {
     final settings = {
       'dark_mode': 'true',
+      'theme_mode': 'system',
       'language': 'English',
       'ai_voice': 'Mano (Male)',
       'speech_speed': '0.46',
@@ -70,7 +120,24 @@ class DatabaseSeedData {
     }
   }
 
-  static void seedVocabulary(Batch batch, String now) {
+  static void seedVocabulary(
+    Batch batch,
+    String now, {
+    OfflineContentBundle? content,
+  }) {
+    if (content != null) {
+      for (final row in content.vocabulary) {
+        batch.insert('vocabulary', {
+          'id': row['id'] as int,
+          'word': row['word'] as String,
+          'topic': row['topic'] as String,
+          'mastery': (row['mastery'] as num).toDouble(),
+          'updated_at': now,
+        }, conflictAlgorithm: ConflictAlgorithm.ignore);
+      }
+      return;
+    }
+
     final rows = [
       ('departure', 'Airport', 0.72),
       ('reservation', 'Restaurant', 0.81),
@@ -102,7 +169,28 @@ class DatabaseSeedData {
     }
   }
 
-  static void seedLessons(Batch batch, String now) {
+  static void seedLessons(
+    Batch batch,
+    String now, {
+    OfflineContentBundle? content,
+  }) {
+    if (content != null) {
+      for (final row in content.lessons) {
+        batch.insert('lessons', {
+          'id': row['id'] as int,
+          'title': row['title'] as String,
+          'category': row['category'] as String,
+          'description': row['description'] as String,
+          'difficulty': row['difficulty'] as String,
+          'estimated_minutes': row['estimated_minutes'] as int,
+          'progress': (row['progress'] as num).toDouble(),
+          'recommended': row['recommended'] as int,
+          'updated_at': now,
+        }, conflictAlgorithm: ConflictAlgorithm.ignore);
+      }
+      return;
+    }
+
     for (final row in offlineLessonRows()) {
       _insertLesson(batch, row, now);
     }
@@ -187,6 +275,307 @@ class DatabaseSeedData {
         'active': row.$4,
         'updated_at': now,
       });
+    }
+  }
+
+  static Future<void> seedEnterpriseContent(
+    Batch batch,
+    String now, {
+    OfflineContentBundle? content,
+  }) async {
+    final resolvedContent = content ?? await OfflineContentBundle.load();
+    seedCategories(batch, now, resolvedContent);
+    seedUser(batch, now);
+    seedContentPack(batch, now);
+    seedLessonDepth(batch, now, content: resolvedContent);
+    seedOperationalState(batch, now);
+    seedSearchIndexes(batch, content: resolvedContent);
+  }
+
+  static void seedCategories(
+    Batch batch,
+    String now,
+    OfflineContentBundle content,
+  ) {
+    for (final row in content.categories) {
+      batch.insert('categories', {
+        'id': row['id'] as int,
+        'slug': row['slug'] as String,
+        'title': row['title'] as String,
+        'description': row['description'] as String,
+        'updated_at': now,
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
+    }
+  }
+
+  static void seedUser(Batch batch, String now) {
+    batch.insert('users', {
+      'id': 1,
+      'display_name': 'Manohar',
+      'learner_level': 'Intermediate B1',
+      'preferred_language': 'English',
+      'created_at': now,
+      'updated_at': now,
+    }, conflictAlgorithm: ConflictAlgorithm.ignore);
+  }
+
+  static void seedContentPack(Batch batch, String now) {
+    batch.insert('lesson_packs', {
+      'id': 1,
+      'slug': 'core-offline-english',
+      'title': 'Core Offline English',
+      'description': 'Real-life speaking lessons, review cards, and drills.',
+      'version': '1.0.0',
+      'locale': 'en',
+      'status': 'installed',
+      'installed_at': now,
+      'updated_at': now,
+    }, conflictAlgorithm: ConflictAlgorithm.ignore);
+
+    batch.insert('content_pack_versions', {
+      'pack_slug': 'core-offline-english',
+      'current_version': '1.0.0',
+      'available_version': null,
+      'checksum': 'local-seed-v1',
+      'updated_at': now,
+    }, conflictAlgorithm: ConflictAlgorithm.replace);
+
+    for (var lessonId = 1; lessonId <= 5; lessonId++) {
+      batch.insert('lesson_pack_items', {
+        'lesson_id': lessonId,
+        'pack_id': 1,
+        'sort_order': lessonId,
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
+    }
+  }
+
+  static void seedLessonDepth(
+    Batch batch,
+    String now, {
+    required OfflineContentBundle content,
+  }) {
+    final orderingCoffeeId = 1;
+    batch.insert('lesson_summaries', {
+      'lesson_id': orderingCoffeeId,
+      'learning_goal': 'Order a drink politely and answer follow-up questions.',
+      'scenario': 'You are in a coffee shop speaking with a barista.',
+      'grammar_focus': 'Polite requests with would like and could I have.',
+      'tutor_opening_script':
+          'Hello! Welcome to our coffee shop. What would you like to order?',
+      'completion_summary':
+          'You practiced ordering, choosing a size, and confirming the order.',
+      'updated_at': now,
+    }, conflictAlgorithm: ConflictAlgorithm.replace);
+
+    final steps = [
+      (
+        1,
+        'warmup',
+        'Greeting',
+        'Say hello and ask for the menu.',
+        'Hello, could I see the menu please?',
+      ),
+      (
+        2,
+        'dialogue',
+        'Order',
+        'Order a cappuccino politely.',
+        'I would like a cappuccino, please.',
+      ),
+      (
+        3,
+        'follow_up',
+        'Size',
+        'Choose a size and confirm hot or iced.',
+        'A medium hot cappuccino, please.',
+      ),
+      (
+        4,
+        'review',
+        'Summary',
+        'Repeat the full order in one sentence.',
+        'I would like a medium hot cappuccino to go, please.',
+      ),
+    ];
+    for (final step in steps) {
+      batch.insert('lesson_steps', {
+        'lesson_id': orderingCoffeeId,
+        'step_order': step.$1,
+        'step_type': step.$2,
+        'title': step.$3,
+        'prompt': step.$4,
+        'expected_response': step.$5,
+        'metadata_json': jsonEncode({'skill': 'speaking'}),
+        'updated_at': now,
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
+    }
+
+    for (final turn in content.dialogues) {
+      batch.insert('lesson_dialogues', {
+        'id': turn['id'] as int,
+        'lesson_id': turn['lesson_id'] as int,
+        'turn_order': turn['turn_order'] as int,
+        'speaker': turn['speaker'] as String,
+        'text': turn['text'] as String,
+        'intent': turn['intent'] as String,
+        'updated_at': now,
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
+    }
+
+    final examples = [
+      ('polite_request', 'Could I have a cappuccino, please?', null),
+      ('confirmation', 'That is all, thank you.', null),
+      ('clarification', 'Sorry, could you repeat that?', null),
+    ];
+    for (final example in examples) {
+      batch.insert('lesson_examples', {
+        'lesson_id': orderingCoffeeId,
+        'example_type': example.$1,
+        'text': example.$2,
+        'translation': example.$3,
+        'updated_at': now,
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
+    }
+
+    for (final phrase in content.commonPhrases) {
+      batch.insert('phrase_variants', {
+        'id': phrase['id'] as int,
+        'lesson_id': phrase['lesson_id'] as int,
+        'phrase': phrase['phrase'] as String,
+        'formality': phrase['formality'] as String,
+        'usage_note': phrase['usage_note'] as String,
+        'updated_at': now,
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
+    }
+
+    for (final exercise in content.exercises) {
+      batch.insert('exercise_items', {
+        'id': exercise['id'] as int,
+        'lesson_id': exercise['lesson_id'] as int,
+        'exercise_type': exercise['exercise_type'] as String,
+        'prompt': exercise['prompt'] as String,
+        'answer': exercise['answer'] as String,
+        'hint': exercise['hint'] as String,
+        'difficulty': exercise['difficulty'] as String,
+        'updated_at': now,
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
+    }
+
+    for (final drill in content.pronunciationDrills) {
+      batch.insert('pronunciation_drills', {
+        'id': drill['id'] as int,
+        'lesson_id': drill['lesson_id'] as int,
+        'phrase': drill['phrase'] as String,
+        'phonetic_hint': drill['phonetic_hint'] as String,
+        'target_sound': drill['target_sound'] as String,
+        'updated_at': now,
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
+    }
+
+    for (final correction in content.grammarPatterns) {
+      batch.insert('correction_templates', {
+        'id': correction['id'] as int,
+        'mistake_type': correction['mistake_type'] as String,
+        'pattern': correction['pattern'] as String,
+        'correction': correction['correction'] as String,
+        'explanation': correction['explanation'] as String,
+        'updated_at': now,
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
+    }
+
+    for (final card in content.reviewCards) {
+      final cardId = card['id'] as int;
+      batch.insert('review_cards', {
+        'id': cardId,
+        'lesson_id': card['lesson_id'] as int,
+        'front': card['front'] as String,
+        'back': card['back'] as String,
+        'card_type': card['card_type'] as String,
+        'updated_at': now,
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
+      batch.insert('review_schedule', {
+        'card_id': cardId,
+        'due_at': now,
+        'interval_days': 1,
+        'ease_factor': 2.5,
+        'repetitions': 0,
+        'updated_at': now,
+      }, conflictAlgorithm: ConflictAlgorithm.replace);
+    }
+
+    batch.insert('mastery_scores', {
+      'entity_type': 'lesson',
+      'entity_id': orderingCoffeeId,
+      'score': 0.85,
+      'updated_at': now,
+    }, conflictAlgorithm: ConflictAlgorithm.replace);
+  }
+
+  static void seedOperationalState(Batch batch, String now) {
+    batch.insert('model_assets', {
+      'id': 'gemma-3-1b-fast',
+      'title': 'AiVerse Speaker Fast',
+      'tier': 'fast',
+      'status': 'available',
+      'local_path': null,
+      'version': '1.0',
+      'size_bytes': 0,
+      'checksum': null,
+      'updated_at': now,
+    }, conflictAlgorithm: ConflictAlgorithm.replace);
+
+    batch.insert('voice_assets', {
+      'id': 'mano-male-en',
+      'name': 'Mano (Male)',
+      'locale': 'en',
+      'status': 'system',
+      'local_path': null,
+      'updated_at': now,
+    }, conflictAlgorithm: ConflictAlgorithm.replace);
+
+    batch.insert('sync_state', {
+      'key': 'mode',
+      'value': 'offline_first',
+      'updated_at': now,
+    }, conflictAlgorithm: ConflictAlgorithm.replace);
+  }
+
+  static void seedSearchIndexes(
+    Batch batch, {
+    required OfflineContentBundle content,
+  }) {
+    for (final row in content.lessons) {
+      batch.insert('lessons_fts', {
+        'rowid': row['id'] as int,
+        'title': row['title'] as String,
+        'category': row['category'] as String,
+        'description': row['description'] as String,
+      }, conflictAlgorithm: ConflictAlgorithm.replace);
+    }
+
+    for (final row in content.dialogues) {
+      batch.insert('dialogues_fts', {
+        'rowid': row['id'] as int,
+        'text': row['text'] as String,
+        'intent': row['intent'] as String,
+      }, conflictAlgorithm: ConflictAlgorithm.replace);
+    }
+
+    for (final row in content.vocabulary) {
+      batch.insert('vocabulary_fts', {
+        'rowid': row['id'] as int,
+        'word': row['word'] as String,
+        'topic': row['topic'] as String,
+      }, conflictAlgorithm: ConflictAlgorithm.replace);
+    }
+
+    for (final row in content.exercises) {
+      batch.insert('exercise_fts', {
+        'rowid': row['id'] as int,
+        'prompt': row['prompt'] as String,
+        'answer': row['answer'] as String,
+        'hint': row['hint'] as String,
+      }, conflictAlgorithm: ConflictAlgorithm.replace);
     }
   }
 

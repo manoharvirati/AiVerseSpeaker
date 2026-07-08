@@ -1,0 +1,3502 @@
+[
+  {
+    "id": 1,
+    "mistake_type": "politeness",
+    "pattern": "I want cappuccino",
+    "correction": "I would like a cappuccino, please.",
+    "explanation": "Use an article before singular countable nouns."
+  },
+  {
+    "id": 2,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 2",
+    "correction": "Correction 2",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 3,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 3",
+    "correction": "Correction 3",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 4,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 4",
+    "correction": "Correction 4",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 5,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 5",
+    "correction": "Correction 5",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 6,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 6",
+    "correction": "Correction 6",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 7,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 7",
+    "correction": "Correction 7",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 8,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 8",
+    "correction": "Correction 8",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 9,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 9",
+    "correction": "Correction 9",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 10,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 10",
+    "correction": "Correction 10",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 11,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 11",
+    "correction": "Correction 11",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 12,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 12",
+    "correction": "Correction 12",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 13,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 13",
+    "correction": "Correction 13",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 14,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 14",
+    "correction": "Correction 14",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 15,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 15",
+    "correction": "Correction 15",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 16,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 16",
+    "correction": "Correction 16",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 17,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 17",
+    "correction": "Correction 17",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 18,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 18",
+    "correction": "Correction 18",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 19,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 19",
+    "correction": "Correction 19",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 20,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 20",
+    "correction": "Correction 20",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 21,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 21",
+    "correction": "Correction 21",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 22,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 22",
+    "correction": "Correction 22",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 23,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 23",
+    "correction": "Correction 23",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 24,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 24",
+    "correction": "Correction 24",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 25,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 25",
+    "correction": "Correction 25",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 26,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 26",
+    "correction": "Correction 26",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 27,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 27",
+    "correction": "Correction 27",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 28,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 28",
+    "correction": "Correction 28",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 29,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 29",
+    "correction": "Correction 29",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 30,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 30",
+    "correction": "Correction 30",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 31,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 31",
+    "correction": "Correction 31",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 32,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 32",
+    "correction": "Correction 32",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 33,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 33",
+    "correction": "Correction 33",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 34,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 34",
+    "correction": "Correction 34",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 35,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 35",
+    "correction": "Correction 35",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 36,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 36",
+    "correction": "Correction 36",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 37,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 37",
+    "correction": "Correction 37",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 38,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 38",
+    "correction": "Correction 38",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 39,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 39",
+    "correction": "Correction 39",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 40,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 40",
+    "correction": "Correction 40",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 41,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 41",
+    "correction": "Correction 41",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 42,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 42",
+    "correction": "Correction 42",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 43,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 43",
+    "correction": "Correction 43",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 44,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 44",
+    "correction": "Correction 44",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 45,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 45",
+    "correction": "Correction 45",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 46,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 46",
+    "correction": "Correction 46",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 47,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 47",
+    "correction": "Correction 47",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 48,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 48",
+    "correction": "Correction 48",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 49,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 49",
+    "correction": "Correction 49",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 50,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 50",
+    "correction": "Correction 50",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 51,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 51",
+    "correction": "Correction 51",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 52,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 52",
+    "correction": "Correction 52",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 53,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 53",
+    "correction": "Correction 53",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 54,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 54",
+    "correction": "Correction 54",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 55,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 55",
+    "correction": "Correction 55",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 56,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 56",
+    "correction": "Correction 56",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 57,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 57",
+    "correction": "Correction 57",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 58,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 58",
+    "correction": "Correction 58",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 59,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 59",
+    "correction": "Correction 59",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 60,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 60",
+    "correction": "Correction 60",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 61,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 61",
+    "correction": "Correction 61",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 62,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 62",
+    "correction": "Correction 62",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 63,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 63",
+    "correction": "Correction 63",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 64,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 64",
+    "correction": "Correction 64",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 65,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 65",
+    "correction": "Correction 65",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 66,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 66",
+    "correction": "Correction 66",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 67,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 67",
+    "correction": "Correction 67",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 68,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 68",
+    "correction": "Correction 68",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 69,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 69",
+    "correction": "Correction 69",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 70,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 70",
+    "correction": "Correction 70",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 71,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 71",
+    "correction": "Correction 71",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 72,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 72",
+    "correction": "Correction 72",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 73,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 73",
+    "correction": "Correction 73",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 74,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 74",
+    "correction": "Correction 74",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 75,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 75",
+    "correction": "Correction 75",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 76,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 76",
+    "correction": "Correction 76",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 77,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 77",
+    "correction": "Correction 77",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 78,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 78",
+    "correction": "Correction 78",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 79,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 79",
+    "correction": "Correction 79",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 80,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 80",
+    "correction": "Correction 80",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 81,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 81",
+    "correction": "Correction 81",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 82,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 82",
+    "correction": "Correction 82",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 83,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 83",
+    "correction": "Correction 83",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 84,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 84",
+    "correction": "Correction 84",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 85,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 85",
+    "correction": "Correction 85",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 86,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 86",
+    "correction": "Correction 86",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 87,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 87",
+    "correction": "Correction 87",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 88,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 88",
+    "correction": "Correction 88",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 89,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 89",
+    "correction": "Correction 89",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 90,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 90",
+    "correction": "Correction 90",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 91,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 91",
+    "correction": "Correction 91",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 92,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 92",
+    "correction": "Correction 92",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 93,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 93",
+    "correction": "Correction 93",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 94,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 94",
+    "correction": "Correction 94",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 95,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 95",
+    "correction": "Correction 95",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 96,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 96",
+    "correction": "Correction 96",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 97,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 97",
+    "correction": "Correction 97",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 98,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 98",
+    "correction": "Correction 98",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 99,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 99",
+    "correction": "Correction 99",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 100,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 100",
+    "correction": "Correction 100",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 101,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 101",
+    "correction": "Correction 101",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 102,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 102",
+    "correction": "Correction 102",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 103,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 103",
+    "correction": "Correction 103",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 104,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 104",
+    "correction": "Correction 104",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 105,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 105",
+    "correction": "Correction 105",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 106,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 106",
+    "correction": "Correction 106",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 107,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 107",
+    "correction": "Correction 107",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 108,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 108",
+    "correction": "Correction 108",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 109,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 109",
+    "correction": "Correction 109",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 110,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 110",
+    "correction": "Correction 110",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 111,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 111",
+    "correction": "Correction 111",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 112,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 112",
+    "correction": "Correction 112",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 113,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 113",
+    "correction": "Correction 113",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 114,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 114",
+    "correction": "Correction 114",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 115,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 115",
+    "correction": "Correction 115",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 116,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 116",
+    "correction": "Correction 116",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 117,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 117",
+    "correction": "Correction 117",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 118,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 118",
+    "correction": "Correction 118",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 119,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 119",
+    "correction": "Correction 119",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 120,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 120",
+    "correction": "Correction 120",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 121,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 121",
+    "correction": "Correction 121",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 122,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 122",
+    "correction": "Correction 122",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 123,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 123",
+    "correction": "Correction 123",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 124,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 124",
+    "correction": "Correction 124",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 125,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 125",
+    "correction": "Correction 125",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 126,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 126",
+    "correction": "Correction 126",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 127,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 127",
+    "correction": "Correction 127",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 128,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 128",
+    "correction": "Correction 128",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 129,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 129",
+    "correction": "Correction 129",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 130,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 130",
+    "correction": "Correction 130",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 131,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 131",
+    "correction": "Correction 131",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 132,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 132",
+    "correction": "Correction 132",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 133,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 133",
+    "correction": "Correction 133",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 134,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 134",
+    "correction": "Correction 134",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 135,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 135",
+    "correction": "Correction 135",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 136,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 136",
+    "correction": "Correction 136",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 137,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 137",
+    "correction": "Correction 137",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 138,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 138",
+    "correction": "Correction 138",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 139,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 139",
+    "correction": "Correction 139",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 140,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 140",
+    "correction": "Correction 140",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 141,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 141",
+    "correction": "Correction 141",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 142,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 142",
+    "correction": "Correction 142",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 143,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 143",
+    "correction": "Correction 143",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 144,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 144",
+    "correction": "Correction 144",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 145,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 145",
+    "correction": "Correction 145",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 146,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 146",
+    "correction": "Correction 146",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 147,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 147",
+    "correction": "Correction 147",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 148,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 148",
+    "correction": "Correction 148",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 149,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 149",
+    "correction": "Correction 149",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 150,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 150",
+    "correction": "Correction 150",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 151,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 151",
+    "correction": "Correction 151",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 152,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 152",
+    "correction": "Correction 152",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 153,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 153",
+    "correction": "Correction 153",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 154,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 154",
+    "correction": "Correction 154",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 155,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 155",
+    "correction": "Correction 155",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 156,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 156",
+    "correction": "Correction 156",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 157,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 157",
+    "correction": "Correction 157",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 158,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 158",
+    "correction": "Correction 158",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 159,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 159",
+    "correction": "Correction 159",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 160,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 160",
+    "correction": "Correction 160",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 161,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 161",
+    "correction": "Correction 161",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 162,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 162",
+    "correction": "Correction 162",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 163,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 163",
+    "correction": "Correction 163",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 164,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 164",
+    "correction": "Correction 164",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 165,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 165",
+    "correction": "Correction 165",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 166,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 166",
+    "correction": "Correction 166",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 167,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 167",
+    "correction": "Correction 167",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 168,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 168",
+    "correction": "Correction 168",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 169,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 169",
+    "correction": "Correction 169",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 170,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 170",
+    "correction": "Correction 170",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 171,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 171",
+    "correction": "Correction 171",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 172,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 172",
+    "correction": "Correction 172",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 173,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 173",
+    "correction": "Correction 173",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 174,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 174",
+    "correction": "Correction 174",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 175,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 175",
+    "correction": "Correction 175",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 176,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 176",
+    "correction": "Correction 176",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 177,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 177",
+    "correction": "Correction 177",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 178,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 178",
+    "correction": "Correction 178",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 179,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 179",
+    "correction": "Correction 179",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 180,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 180",
+    "correction": "Correction 180",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 181,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 181",
+    "correction": "Correction 181",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 182,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 182",
+    "correction": "Correction 182",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 183,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 183",
+    "correction": "Correction 183",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 184,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 184",
+    "correction": "Correction 184",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 185,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 185",
+    "correction": "Correction 185",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 186,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 186",
+    "correction": "Correction 186",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 187,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 187",
+    "correction": "Correction 187",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 188,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 188",
+    "correction": "Correction 188",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 189,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 189",
+    "correction": "Correction 189",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 190,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 190",
+    "correction": "Correction 190",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 191,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 191",
+    "correction": "Correction 191",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 192,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 192",
+    "correction": "Correction 192",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 193,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 193",
+    "correction": "Correction 193",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 194,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 194",
+    "correction": "Correction 194",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 195,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 195",
+    "correction": "Correction 195",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 196,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 196",
+    "correction": "Correction 196",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 197,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 197",
+    "correction": "Correction 197",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 198,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 198",
+    "correction": "Correction 198",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 199,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 199",
+    "correction": "Correction 199",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 200,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 200",
+    "correction": "Correction 200",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 201,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 201",
+    "correction": "Correction 201",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 202,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 202",
+    "correction": "Correction 202",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 203,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 203",
+    "correction": "Correction 203",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 204,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 204",
+    "correction": "Correction 204",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 205,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 205",
+    "correction": "Correction 205",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 206,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 206",
+    "correction": "Correction 206",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 207,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 207",
+    "correction": "Correction 207",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 208,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 208",
+    "correction": "Correction 208",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 209,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 209",
+    "correction": "Correction 209",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 210,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 210",
+    "correction": "Correction 210",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 211,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 211",
+    "correction": "Correction 211",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 212,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 212",
+    "correction": "Correction 212",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 213,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 213",
+    "correction": "Correction 213",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 214,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 214",
+    "correction": "Correction 214",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 215,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 215",
+    "correction": "Correction 215",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 216,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 216",
+    "correction": "Correction 216",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 217,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 217",
+    "correction": "Correction 217",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 218,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 218",
+    "correction": "Correction 218",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 219,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 219",
+    "correction": "Correction 219",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 220,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 220",
+    "correction": "Correction 220",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 221,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 221",
+    "correction": "Correction 221",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 222,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 222",
+    "correction": "Correction 222",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 223,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 223",
+    "correction": "Correction 223",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 224,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 224",
+    "correction": "Correction 224",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 225,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 225",
+    "correction": "Correction 225",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 226,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 226",
+    "correction": "Correction 226",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 227,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 227",
+    "correction": "Correction 227",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 228,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 228",
+    "correction": "Correction 228",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 229,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 229",
+    "correction": "Correction 229",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 230,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 230",
+    "correction": "Correction 230",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 231,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 231",
+    "correction": "Correction 231",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 232,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 232",
+    "correction": "Correction 232",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 233,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 233",
+    "correction": "Correction 233",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 234,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 234",
+    "correction": "Correction 234",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 235,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 235",
+    "correction": "Correction 235",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 236,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 236",
+    "correction": "Correction 236",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 237,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 237",
+    "correction": "Correction 237",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 238,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 238",
+    "correction": "Correction 238",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 239,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 239",
+    "correction": "Correction 239",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 240,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 240",
+    "correction": "Correction 240",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 241,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 241",
+    "correction": "Correction 241",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 242,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 242",
+    "correction": "Correction 242",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 243,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 243",
+    "correction": "Correction 243",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 244,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 244",
+    "correction": "Correction 244",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 245,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 245",
+    "correction": "Correction 245",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 246,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 246",
+    "correction": "Correction 246",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 247,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 247",
+    "correction": "Correction 247",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 248,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 248",
+    "correction": "Correction 248",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 249,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 249",
+    "correction": "Correction 249",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 250,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 250",
+    "correction": "Correction 250",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 251,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 251",
+    "correction": "Correction 251",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 252,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 252",
+    "correction": "Correction 252",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 253,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 253",
+    "correction": "Correction 253",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 254,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 254",
+    "correction": "Correction 254",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 255,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 255",
+    "correction": "Correction 255",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 256,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 256",
+    "correction": "Correction 256",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 257,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 257",
+    "correction": "Correction 257",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 258,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 258",
+    "correction": "Correction 258",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 259,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 259",
+    "correction": "Correction 259",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 260,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 260",
+    "correction": "Correction 260",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 261,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 261",
+    "correction": "Correction 261",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 262,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 262",
+    "correction": "Correction 262",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 263,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 263",
+    "correction": "Correction 263",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 264,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 264",
+    "correction": "Correction 264",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 265,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 265",
+    "correction": "Correction 265",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 266,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 266",
+    "correction": "Correction 266",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 267,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 267",
+    "correction": "Correction 267",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 268,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 268",
+    "correction": "Correction 268",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 269,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 269",
+    "correction": "Correction 269",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 270,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 270",
+    "correction": "Correction 270",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 271,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 271",
+    "correction": "Correction 271",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 272,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 272",
+    "correction": "Correction 272",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 273,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 273",
+    "correction": "Correction 273",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 274,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 274",
+    "correction": "Correction 274",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 275,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 275",
+    "correction": "Correction 275",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 276,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 276",
+    "correction": "Correction 276",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 277,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 277",
+    "correction": "Correction 277",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 278,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 278",
+    "correction": "Correction 278",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 279,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 279",
+    "correction": "Correction 279",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 280,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 280",
+    "correction": "Correction 280",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 281,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 281",
+    "correction": "Correction 281",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 282,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 282",
+    "correction": "Correction 282",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 283,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 283",
+    "correction": "Correction 283",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 284,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 284",
+    "correction": "Correction 284",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 285,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 285",
+    "correction": "Correction 285",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 286,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 286",
+    "correction": "Correction 286",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 287,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 287",
+    "correction": "Correction 287",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 288,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 288",
+    "correction": "Correction 288",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 289,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 289",
+    "correction": "Correction 289",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 290,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 290",
+    "correction": "Correction 290",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 291,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 291",
+    "correction": "Correction 291",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 292,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 292",
+    "correction": "Correction 292",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 293,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 293",
+    "correction": "Correction 293",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 294,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 294",
+    "correction": "Correction 294",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 295,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 295",
+    "correction": "Correction 295",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 296,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 296",
+    "correction": "Correction 296",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 297,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 297",
+    "correction": "Correction 297",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 298,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 298",
+    "correction": "Correction 298",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 299,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 299",
+    "correction": "Correction 299",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 300,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 300",
+    "correction": "Correction 300",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 301,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 301",
+    "correction": "Correction 301",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 302,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 302",
+    "correction": "Correction 302",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 303,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 303",
+    "correction": "Correction 303",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 304,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 304",
+    "correction": "Correction 304",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 305,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 305",
+    "correction": "Correction 305",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 306,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 306",
+    "correction": "Correction 306",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 307,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 307",
+    "correction": "Correction 307",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 308,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 308",
+    "correction": "Correction 308",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 309,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 309",
+    "correction": "Correction 309",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 310,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 310",
+    "correction": "Correction 310",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 311,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 311",
+    "correction": "Correction 311",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 312,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 312",
+    "correction": "Correction 312",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 313,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 313",
+    "correction": "Correction 313",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 314,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 314",
+    "correction": "Correction 314",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 315,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 315",
+    "correction": "Correction 315",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 316,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 316",
+    "correction": "Correction 316",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 317,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 317",
+    "correction": "Correction 317",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 318,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 318",
+    "correction": "Correction 318",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 319,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 319",
+    "correction": "Correction 319",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 320,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 320",
+    "correction": "Correction 320",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 321,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 321",
+    "correction": "Correction 321",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 322,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 322",
+    "correction": "Correction 322",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 323,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 323",
+    "correction": "Correction 323",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 324,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 324",
+    "correction": "Correction 324",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 325,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 325",
+    "correction": "Correction 325",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 326,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 326",
+    "correction": "Correction 326",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 327,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 327",
+    "correction": "Correction 327",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 328,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 328",
+    "correction": "Correction 328",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 329,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 329",
+    "correction": "Correction 329",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 330,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 330",
+    "correction": "Correction 330",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 331,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 331",
+    "correction": "Correction 331",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 332,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 332",
+    "correction": "Correction 332",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 333,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 333",
+    "correction": "Correction 333",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 334,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 334",
+    "correction": "Correction 334",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 335,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 335",
+    "correction": "Correction 335",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 336,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 336",
+    "correction": "Correction 336",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 337,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 337",
+    "correction": "Correction 337",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 338,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 338",
+    "correction": "Correction 338",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 339,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 339",
+    "correction": "Correction 339",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 340,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 340",
+    "correction": "Correction 340",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 341,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 341",
+    "correction": "Correction 341",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 342,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 342",
+    "correction": "Correction 342",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 343,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 343",
+    "correction": "Correction 343",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 344,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 344",
+    "correction": "Correction 344",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 345,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 345",
+    "correction": "Correction 345",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 346,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 346",
+    "correction": "Correction 346",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 347,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 347",
+    "correction": "Correction 347",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 348,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 348",
+    "correction": "Correction 348",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 349,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 349",
+    "correction": "Correction 349",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 350,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 350",
+    "correction": "Correction 350",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 351,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 351",
+    "correction": "Correction 351",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 352,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 352",
+    "correction": "Correction 352",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 353,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 353",
+    "correction": "Correction 353",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 354,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 354",
+    "correction": "Correction 354",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 355,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 355",
+    "correction": "Correction 355",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 356,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 356",
+    "correction": "Correction 356",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 357,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 357",
+    "correction": "Correction 357",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 358,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 358",
+    "correction": "Correction 358",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 359,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 359",
+    "correction": "Correction 359",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 360,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 360",
+    "correction": "Correction 360",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 361,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 361",
+    "correction": "Correction 361",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 362,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 362",
+    "correction": "Correction 362",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 363,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 363",
+    "correction": "Correction 363",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 364,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 364",
+    "correction": "Correction 364",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 365,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 365",
+    "correction": "Correction 365",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 366,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 366",
+    "correction": "Correction 366",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 367,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 367",
+    "correction": "Correction 367",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 368,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 368",
+    "correction": "Correction 368",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 369,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 369",
+    "correction": "Correction 369",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 370,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 370",
+    "correction": "Correction 370",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 371,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 371",
+    "correction": "Correction 371",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 372,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 372",
+    "correction": "Correction 372",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 373,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 373",
+    "correction": "Correction 373",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 374,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 374",
+    "correction": "Correction 374",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 375,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 375",
+    "correction": "Correction 375",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 376,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 376",
+    "correction": "Correction 376",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 377,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 377",
+    "correction": "Correction 377",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 378,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 378",
+    "correction": "Correction 378",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 379,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 379",
+    "correction": "Correction 379",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 380,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 380",
+    "correction": "Correction 380",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 381,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 381",
+    "correction": "Correction 381",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 382,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 382",
+    "correction": "Correction 382",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 383,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 383",
+    "correction": "Correction 383",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 384,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 384",
+    "correction": "Correction 384",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 385,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 385",
+    "correction": "Correction 385",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 386,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 386",
+    "correction": "Correction 386",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 387,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 387",
+    "correction": "Correction 387",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 388,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 388",
+    "correction": "Correction 388",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 389,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 389",
+    "correction": "Correction 389",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 390,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 390",
+    "correction": "Correction 390",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 391,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 391",
+    "correction": "Correction 391",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 392,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 392",
+    "correction": "Correction 392",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 393,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 393",
+    "correction": "Correction 393",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 394,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 394",
+    "correction": "Correction 394",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 395,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 395",
+    "correction": "Correction 395",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 396,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 396",
+    "correction": "Correction 396",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 397,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 397",
+    "correction": "Correction 397",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 398,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 398",
+    "correction": "Correction 398",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 399,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 399",
+    "correction": "Correction 399",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 400,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 400",
+    "correction": "Correction 400",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 401,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 401",
+    "correction": "Correction 401",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 402,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 402",
+    "correction": "Correction 402",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 403,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 403",
+    "correction": "Correction 403",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 404,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 404",
+    "correction": "Correction 404",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 405,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 405",
+    "correction": "Correction 405",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 406,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 406",
+    "correction": "Correction 406",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 407,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 407",
+    "correction": "Correction 407",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 408,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 408",
+    "correction": "Correction 408",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 409,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 409",
+    "correction": "Correction 409",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 410,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 410",
+    "correction": "Correction 410",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 411,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 411",
+    "correction": "Correction 411",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 412,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 412",
+    "correction": "Correction 412",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 413,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 413",
+    "correction": "Correction 413",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 414,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 414",
+    "correction": "Correction 414",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 415,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 415",
+    "correction": "Correction 415",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 416,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 416",
+    "correction": "Correction 416",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 417,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 417",
+    "correction": "Correction 417",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 418,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 418",
+    "correction": "Correction 418",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 419,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 419",
+    "correction": "Correction 419",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 420,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 420",
+    "correction": "Correction 420",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 421,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 421",
+    "correction": "Correction 421",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 422,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 422",
+    "correction": "Correction 422",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 423,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 423",
+    "correction": "Correction 423",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 424,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 424",
+    "correction": "Correction 424",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 425,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 425",
+    "correction": "Correction 425",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 426,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 426",
+    "correction": "Correction 426",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 427,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 427",
+    "correction": "Correction 427",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 428,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 428",
+    "correction": "Correction 428",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 429,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 429",
+    "correction": "Correction 429",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 430,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 430",
+    "correction": "Correction 430",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 431,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 431",
+    "correction": "Correction 431",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 432,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 432",
+    "correction": "Correction 432",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 433,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 433",
+    "correction": "Correction 433",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 434,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 434",
+    "correction": "Correction 434",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 435,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 435",
+    "correction": "Correction 435",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 436,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 436",
+    "correction": "Correction 436",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 437,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 437",
+    "correction": "Correction 437",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 438,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 438",
+    "correction": "Correction 438",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 439,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 439",
+    "correction": "Correction 439",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 440,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 440",
+    "correction": "Correction 440",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 441,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 441",
+    "correction": "Correction 441",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 442,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 442",
+    "correction": "Correction 442",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 443,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 443",
+    "correction": "Correction 443",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 444,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 444",
+    "correction": "Correction 444",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 445,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 445",
+    "correction": "Correction 445",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 446,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 446",
+    "correction": "Correction 446",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 447,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 447",
+    "correction": "Correction 447",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 448,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 448",
+    "correction": "Correction 448",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 449,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 449",
+    "correction": "Correction 449",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 450,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 450",
+    "correction": "Correction 450",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 451,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 451",
+    "correction": "Correction 451",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 452,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 452",
+    "correction": "Correction 452",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 453,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 453",
+    "correction": "Correction 453",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 454,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 454",
+    "correction": "Correction 454",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 455,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 455",
+    "correction": "Correction 455",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 456,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 456",
+    "correction": "Correction 456",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 457,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 457",
+    "correction": "Correction 457",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 458,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 458",
+    "correction": "Correction 458",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 459,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 459",
+    "correction": "Correction 459",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 460,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 460",
+    "correction": "Correction 460",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 461,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 461",
+    "correction": "Correction 461",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 462,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 462",
+    "correction": "Correction 462",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 463,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 463",
+    "correction": "Correction 463",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 464,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 464",
+    "correction": "Correction 464",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 465,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 465",
+    "correction": "Correction 465",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 466,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 466",
+    "correction": "Correction 466",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 467,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 467",
+    "correction": "Correction 467",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 468,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 468",
+    "correction": "Correction 468",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 469,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 469",
+    "correction": "Correction 469",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 470,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 470",
+    "correction": "Correction 470",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 471,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 471",
+    "correction": "Correction 471",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 472,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 472",
+    "correction": "Correction 472",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 473,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 473",
+    "correction": "Correction 473",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 474,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 474",
+    "correction": "Correction 474",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 475,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 475",
+    "correction": "Correction 475",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 476,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 476",
+    "correction": "Correction 476",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 477,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 477",
+    "correction": "Correction 477",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 478,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 478",
+    "correction": "Correction 478",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 479,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 479",
+    "correction": "Correction 479",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 480,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 480",
+    "correction": "Correction 480",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 481,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 481",
+    "correction": "Correction 481",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 482,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 482",
+    "correction": "Correction 482",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 483,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 483",
+    "correction": "Correction 483",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 484,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 484",
+    "correction": "Correction 484",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 485,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 485",
+    "correction": "Correction 485",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 486,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 486",
+    "correction": "Correction 486",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 487,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 487",
+    "correction": "Correction 487",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 488,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 488",
+    "correction": "Correction 488",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 489,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 489",
+    "correction": "Correction 489",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 490,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 490",
+    "correction": "Correction 490",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 491,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 491",
+    "correction": "Correction 491",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 492,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 492",
+    "correction": "Correction 492",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 493,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 493",
+    "correction": "Correction 493",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 494,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 494",
+    "correction": "Correction 494",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 495,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 495",
+    "correction": "Correction 495",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 496,
+    "mistake_type": "politeness",
+    "pattern": "Pattern 496",
+    "correction": "Correction 496",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 497,
+    "mistake_type": "past_tense",
+    "pattern": "Pattern 497",
+    "correction": "Correction 497",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 498,
+    "mistake_type": "word_order",
+    "pattern": "Pattern 498",
+    "correction": "Correction 498",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 499,
+    "mistake_type": "prepositions",
+    "pattern": "Pattern 499",
+    "correction": "Correction 499",
+    "explanation": "Use the clearer natural English pattern."
+  },
+  {
+    "id": 500,
+    "mistake_type": "article_usage",
+    "pattern": "Pattern 500",
+    "correction": "Correction 500",
+    "explanation": "Use the clearer natural English pattern."
+  }
+]

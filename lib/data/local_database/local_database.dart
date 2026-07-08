@@ -32,7 +32,7 @@ class LocalDatabase {
     final path = p.join(dbPath, 'ai_verse_speaker.db');
     return openDatabase(
       path,
-      version: 6,
+      version: 7,
       onConfigure: (db) async {
         await db.execute('PRAGMA foreign_keys = ON');
       },
@@ -56,7 +56,7 @@ class LocalDatabase {
   Future<void> _createSchema(Database db, int version) async {
     final batch = db.batch();
     DatabaseSchema.createAll(batch);
-    DatabaseSeedData.seedAll(batch);
+    await DatabaseSeedData.seedAll(batch);
     await batch.commit(noResult: true);
   }
 
@@ -103,11 +103,15 @@ class LocalDatabase {
     if (oldVersion < 6) {
       final batch = db.batch();
       DatabaseSchema.createSavedTopicsTable(batch);
-      DatabaseSeedData.seedMissingLessons(
-        batch,
-        DateTime.now().toIso8601String(),
-      );
-      DatabaseSeedData.seedAppPreferences(
+      final now = DateTime.now().toIso8601String();
+      DatabaseSeedData.seedMissingLessons(batch, now);
+      DatabaseSeedData.seedAppPreferences(batch, now);
+      await batch.commit(noResult: true);
+    }
+    if (oldVersion < 7) {
+      final batch = db.batch();
+      DatabaseSchema.createEnterpriseTables(batch);
+      await DatabaseSeedData.seedEnterpriseContent(
         batch,
         DateTime.now().toIso8601String(),
       );

@@ -1,6 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="additionalArgs" value="--dart-define=AIVERSE_R2_BASE_URL=https://pub-b84b87050cd944009432bcca23dd48ec.r2.dev" />
     <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
-    <method />
+    <method v="2" />
   </configuration>
 </component>

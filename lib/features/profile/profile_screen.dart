@@ -170,7 +170,7 @@ class ModelMappingCard extends StatelessWidget {
                           style: Theme.of(context).textTheme.titleMedium,
                         ),
                         Text(
-                          option.repositoryId,
+                          option.sourceLabel,
                           overflow: TextOverflow.ellipsis,
                           style: Theme.of(context).textTheme.bodyMedium,
                         ),
@@ -658,9 +658,9 @@ class AchievementsStrip extends StatelessWidget {
                   minChildSize: 0.38,
                   maxChildSize: 0.86,
                   builder: (context, controller) => Container(
-                    decoration: const BoxDecoration(
-                      color: AppTheme.navy,
-                      borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+                    decoration: BoxDecoration(
+                      color: AppTheme.sheetColor(context),
+                      borderRadius: const BorderRadius.vertical(top: Radius.circular(28)),
                     ),
                     child: ListView(
                       controller: controller,
@@ -1075,6 +1075,7 @@ class _SettingsDetailSheetState extends State<SettingsDetailSheet> {
   late Future<List<LessonSummary>> _savedFuture;
   bool _notifications = true;
   double _speechSpeed = 0.46;
+  ThemeMode _themeMode = ThemeMode.system;
 
   @override
   void initState() {
@@ -1090,11 +1091,17 @@ class _SettingsDetailSheetState extends State<SettingsDetailSheet> {
     setState(() {
       _notifications = settings['notifications'] != 'false';
       _speechSpeed = double.tryParse(settings['speech_speed'] ?? '') ?? 0.46;
+      _themeMode = themeModeFromSetting(settings['theme_mode']);
     });
   }
 
   Future<void> _writeSetting(String key, String value) async {
     await LocalDatabase.instance.writeSetting(key, value);
+    await _loadSettings();
+  }
+
+  Future<void> _setThemeMode(ThemeMode mode) async {
+    await appThemeController.setThemeMode(mode);
     await _loadSettings();
   }
 
@@ -1106,9 +1113,9 @@ class _SettingsDetailSheetState extends State<SettingsDetailSheet> {
       maxChildSize: 0.9,
       builder: (context, controller) {
         return Container(
-          decoration: const BoxDecoration(
-            color: AppTheme.navy,
-            borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+          decoration: BoxDecoration(
+            color: AppTheme.sheetColor(context),
+            borderRadius: const BorderRadius.vertical(top: Radius.circular(28)),
           ),
           child: ListView(
             controller: controller,
@@ -1119,7 +1126,9 @@ class _SettingsDetailSheetState extends State<SettingsDetailSheet> {
                   width: 46,
                   height: 5,
                   decoration: BoxDecoration(
-                    color: Colors.white24,
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.onSurface.withValues(alpha: 0.24),
                     borderRadius: BorderRadius.circular(99),
                   ),
                 ),
@@ -1180,6 +1189,7 @@ class _SettingsDetailSheetState extends State<SettingsDetailSheet> {
                   value: widget.value,
                   notifications: _notifications,
                   speechSpeed: _speechSpeed,
+                  themeMode: _themeMode,
                   memory: widget.memory,
                   onNotificationsChanged: (value) => _writeSetting(
                     'notifications',
@@ -1189,6 +1199,7 @@ class _SettingsDetailSheetState extends State<SettingsDetailSheet> {
                     'speech_speed',
                     value.toStringAsFixed(2),
                   ),
+                  onThemeModeChanged: _setThemeMode,
                 ),
             ],
           ),
@@ -1238,7 +1249,7 @@ class _DownloadManagerContent extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(option.title, style: Theme.of(context).textTheme.titleMedium),
-                        Text(option.repositoryId, overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.bodyMedium),
+                        Text(option.sourceLabel, overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.bodyMedium),
                       ],
                     ),
                   ),
@@ -1259,18 +1270,22 @@ class _SettingsControls extends StatelessWidget {
     required this.value,
     required this.notifications,
     required this.speechSpeed,
+    required this.themeMode,
     required this.memory,
     required this.onNotificationsChanged,
     required this.onSpeechSpeedChanged,
+    required this.onThemeModeChanged,
   });
 
   final String title;
   final String value;
   final bool notifications;
   final double speechSpeed;
+  final ThemeMode themeMode;
   final LearnerMemory memory;
   final ValueChanged<bool> onNotificationsChanged;
   final ValueChanged<double> onSpeechSpeedChanged;
+  final ValueChanged<ThemeMode> onThemeModeChanged;
 
   @override
   Widget build(BuildContext context) {
@@ -1286,7 +1301,28 @@ class _SettingsControls extends StatelessWidget {
             title: const Text('Practice reminders'),
             subtitle: const Text('Daily offline practice notification'),
           ),
-          const Divider(color: Colors.white12),
+          Divider(color: AppTheme.borderColor(context)),
+          Text('Appearance', style: Theme.of(context).textTheme.titleMedium),
+          const SizedBox(height: 10),
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: [
+              for (final option in const [
+                (ThemeMode.system, Icons.phone_android_rounded),
+                (ThemeMode.light, Icons.light_mode_rounded),
+                (ThemeMode.dark, Icons.dark_mode_rounded),
+              ])
+                ChoiceChip(
+                  avatar: Icon(option.$2, size: 18),
+                  label: Text(themeModeLabel(option.$1)),
+                  selected: themeMode == option.$1,
+                  onSelected: (_) => onThemeModeChanged(option.$1),
+                ),
+            ],
+          ),
+          const SizedBox(height: 14),
+          Divider(color: AppTheme.borderColor(context)),
           Text('Speech speed', style: Theme.of(context).textTheme.titleMedium),
           Slider(
             value: speechSpeed.clamp(0.2, 0.8),
@@ -1296,10 +1332,10 @@ class _SettingsControls extends StatelessWidget {
             label: speechSpeed.toStringAsFixed(2),
             onChanged: onSpeechSpeedChanged,
           ),
-          const Divider(color: Colors.white12),
+          Divider(color: AppTheme.borderColor(context)),
           InsightRow(text: 'Language: ${memory.accentPreference}'),
           const InsightRow(text: 'Privacy: all learning data remains local in SQLite.'),
-          const InsightRow(text: 'Theme: premium dark mode.'),
+          InsightRow(text: 'Theme: ${themeModeLabel(themeMode)} mode.'),
         ],
       ),
     );
@@ -1521,17 +1557,20 @@ class GlassCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final dark = Theme.of(context).brightness == Brightness.dark;
     return Container(
       padding: padding ?? const EdgeInsets.all(18),
       decoration: BoxDecoration(
-        color: AppTheme.card.withValues(alpha: 0.76),
+        color: AppTheme.cardColor(context),
         borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: Colors.white.withValues(alpha: 0.08)),
+        border: Border.all(color: AppTheme.borderColor(context)),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.28),
-            blurRadius: 28,
-            offset: const Offset(0, 16),
+            color: dark
+                ? Colors.black.withValues(alpha: 0.28)
+                : Colors.black.withValues(alpha: 0.08),
+            blurRadius: dark ? 28 : 18,
+            offset: Offset(0, dark ? 16 : 8),
           ),
         ],
       ),
@@ -1784,9 +1823,9 @@ class SpeakFlowBottomNav extends StatelessWidget {
         child: Container(
           height: 82,
           decoration: BoxDecoration(
-            color: AppTheme.card.withValues(alpha: 0.96),
+            color: AppTheme.cardColor(context, alpha: 0.96),
             borderRadius: BorderRadius.circular(24),
-            border: Border.all(color: Colors.white.withValues(alpha: 0.08)),
+            border: Border.all(color: AppTheme.borderColor(context)),
           ),
           child: Row(
             children: List.generate(items.length, (index) {

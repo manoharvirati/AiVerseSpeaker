@@ -9,8 +9,7 @@ class AiModelOption {
     required this.subtitle,
     required this.downloadSizeGb,
     required this.internalModelId,
-    required this.repositoryId,
-    required this.requiresAuthToken,
+    required this.archivePath,
     required this.recommended,
   });
 
@@ -19,9 +18,10 @@ class AiModelOption {
   final String subtitle;
   final double downloadSizeGb;
   final String internalModelId;
-  final String repositoryId;
-  final bool requiresAuthToken;
+  final String archivePath;
   final bool recommended;
+
+  String get sourceLabel => archivePath;
 }
 
 class ModelCatalog {
@@ -47,32 +47,29 @@ class ModelCatalog {
         tier: ModelTier.fast,
         title: 'Fast',
         subtitle: 'Gemma 3 1B. Quick responses with lower battery usage.',
-        downloadSizeGb: 1.5,
-        internalModelId: 'google/gemma-3-1b-it',
-        repositoryId: 'google/gemma-3-1b-it',
-        requiresAuthToken: true,
+        downloadSizeGb: 1.2,
+        internalModelId: 'aiverseworld-model-fast',
+        archivePath: 'fast/speaker-gemma3-1b-it-q4.zip',
         recommended: recommendFast,
       ),
       AiModelOption(
         tier: ModelTier.balanced,
         title: 'Medium',
-        subtitle: 'Gemma 3 4B. Better quality for everyday lessons.',
+        subtitle: 'Cloud model package. Better quality for everyday lessons.',
         downloadSizeGb: 2,
-        internalModelId: 'google/gemma-3-4b-it',
-        repositoryId: 'google/gemma-3-4b-it',
-        requiresAuthToken: true,
+        internalModelId: 'aiverseworld-model-medium',
+        archivePath: 'aiverseworld-model/medium/model.zip',
         recommended: !recommendFast,
       ),
       AiModelOption(
         tier: ModelTier.advanced,
         title: 'Best',
         subtitle: advancedAllowed
-            ? 'Gemma 3 12B. Highest quality for powerful devices.'
+            ? 'Cloud model package. Highest quality for powerful devices.'
             : 'Available later on stronger devices.',
         downloadSizeGb: 3.8,
-        internalModelId: 'google/gemma-3-12b-it',
-        repositoryId: 'google/gemma-3-12b-it',
-        requiresAuthToken: true,
+        internalModelId: 'aiverseworld-model-best',
+        archivePath: 'aiverseworld-model/best/model.zip',
         recommended: false,
       ),
     ];

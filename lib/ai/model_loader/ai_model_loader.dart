@@ -1,7 +1,7 @@
 import 'dart:async';
-import 'dart:convert';
 import 'dart:io';
 
+import 'package:archive/archive_io.dart';
 import 'package:http/http.dart' as http;
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
@@ -13,6 +13,7 @@ enum ModelInstallStatus {
   downloading,
   paused,
   verifying,
+  extracting,
   loaded,
   failed,
 }
@@ -24,6 +25,8 @@ class ModelInstallSnapshot {
     required this.message,
     this.localPath,
     this.error,
+    this.downloadProgress,
+    this.extractProgress,
   });
 
   final ModelInstallStatus status;
@@ -31,10 +34,13 @@ class ModelInstallSnapshot {
   final String message;
   final String? localPath;
   final String? error;
+  final double? downloadProgress;
+  final double? extractProgress;
 }
 
 class AiModelLoader {
   static const bool performsRealDownload = true;
+  static const _r2BaseUrl = String.fromEnvironment('AIVERSE_R2_BASE_URL');
 
   Future<bool> hasInstalledModel(AiModelOption option) async {
     final directory = await _modelDirectory(option);
@@ -46,57 +52,66 @@ class AiModelLoader {
     AiModelOption option, {
     required String? authToken,
   }) async* {
-    if (option.requiresAuthToken &&
-        (authToken == null || authToken.trim().isEmpty)) {
-      yield const ModelInstallSnapshot(
-        status: ModelInstallStatus.failed,
-        progress: 0,
-        message: 'Hugging Face token is required for this gated Gemma model.',
-        error: 'missing_auth_token',
-      );
-      return;
-    }
-
     final directory = await _modelDirectory(option);
     await directory.create(recursive: true);
 
     try {
+      final archiveUri = _archiveUri(option);
+      final archiveFile = File(p.join(directory.path, 'model.zip'));
+
       yield ModelInstallSnapshot(
         status: ModelInstallStatus.downloading,
         progress: 0,
-        message: 'Reading ${option.repositoryId} file list...',
+        message: 'Downloading ${option.title} AI package...',
         localPath: directory.path,
+        downloadProgress: 0,
+        extractProgress: 0,
       );
 
-      final files = await _loadRepositoryFiles(option, authToken);
-      final selectedFiles = files.where(_shouldDownloadFile).toList();
-      if (selectedFiles.isEmpty) {
-        throw const FormatException('No downloadable model files were found.');
+      await for (final downloadProgress in _downloadArchive(
+        archiveUri: archiveUri,
+        target: archiveFile,
+      )) {
+        yield ModelInstallSnapshot(
+          status: ModelInstallStatus.downloading,
+          progress: (downloadProgress * 0.72).clamp(0, 0.72),
+          message: 'Downloading model ZIP',
+          localPath: directory.path,
+          downloadProgress: downloadProgress,
+          extractProgress: 0,
+        );
       }
 
-      for (var index = 0; index < selectedFiles.length; index++) {
-        final fileName = selectedFiles[index];
-        await for (final fileProgress in _downloadFile(
-          option: option,
-          fileName: fileName,
-          directory: directory,
-          authToken: authToken,
-        )) {
-          final overall = (index + fileProgress) / selectedFiles.length;
-          yield ModelInstallSnapshot(
-            status: ModelInstallStatus.downloading,
-            progress: overall.clamp(0, 0.98),
-            message: 'Downloading $fileName',
-            localPath: directory.path,
-          );
-        }
+      yield ModelInstallSnapshot(
+        status: ModelInstallStatus.extracting,
+        progress: 0.74,
+        message: 'Extracting model files...',
+        localPath: directory.path,
+        downloadProgress: 1,
+        extractProgress: 0,
+      );
+
+      await for (final extractProgress in _extractArchive(
+        archiveFile: archiveFile,
+        targetDirectory: directory,
+      )) {
+        yield ModelInstallSnapshot(
+          status: ModelInstallStatus.extracting,
+          progress: (0.74 + extractProgress * 0.24).clamp(0.74, 0.98),
+          message: 'Extracting model files',
+          localPath: directory.path,
+          downloadProgress: 1,
+          extractProgress: extractProgress,
+        );
       }
 
       yield ModelInstallSnapshot(
         status: ModelInstallStatus.verifying,
         progress: 0.99,
-        message: 'Verifying Gemma files...',
+        message: 'Verifying model package...',
         localPath: directory.path,
+        downloadProgress: 1,
+        extractProgress: 1,
       );
 
       await File(
@@ -106,87 +121,61 @@ class AiModelLoader {
       yield ModelInstallSnapshot(
         status: ModelInstallStatus.loaded,
         progress: 1,
-        message: 'Gemma Fast is downloaded',
+        message: '${option.title} AI is ready',
         localPath: directory.path,
+        downloadProgress: 1,
+        extractProgress: 1,
       );
     } catch (error) {
       yield ModelInstallSnapshot(
         status: ModelInstallStatus.failed,
         progress: 0,
-        message: 'Could not download ${option.repositoryId}',
+        message: 'Could not download ${option.title} AI',
         localPath: directory.path,
         error: '$error',
       );
     }
   }
 
-  Future<List<String>> _loadRepositoryFiles(
-    AiModelOption option,
-    String? authToken,
-  ) async {
-    final uri = Uri.https(
-      'huggingface.co',
-      '/api/models/${option.repositoryId}',
-    );
-    final response = await http.get(uri, headers: _headers(authToken));
-    if (response.statusCode == 401 || response.statusCode == 403) {
-      throw const HttpException(
-        'Access denied. Check that your token has accepted Gemma terms.',
+  Uri _archiveUri(AiModelOption option) {
+    if (option.archivePath.startsWith('http://') ||
+        option.archivePath.startsWith('https://')) {
+      return Uri.parse(option.archivePath);
+    }
+
+    final base = _r2BaseUrl.trim();
+    if (base.isEmpty) {
+      throw const FormatException(
+        'Missing AIVERSE_R2_BASE_URL. Build with --dart-define=AIVERSE_R2_BASE_URL=https://your-r2-domain',
       );
     }
-    if (response.statusCode >= 400) {
-      throw HttpException('Hugging Face API failed: ${response.statusCode}');
-    }
 
-    final json = jsonDecode(response.body) as Map<String, dynamic>;
-    final siblings = (json['siblings'] as List<dynamic>? ?? const []);
-    return siblings
-        .map((item) => (item as Map<String, dynamic>)['rfilename'] as String?)
-        .whereType<String>()
-        .toList();
+    final normalizedBase = base.endsWith('/')
+        ? base.substring(0, base.length - 1)
+        : base;
+    final normalizedPath = option.archivePath.startsWith('/')
+        ? option.archivePath.substring(1)
+        : option.archivePath;
+    return Uri.parse('$normalizedBase/$normalizedPath');
   }
 
-  bool _shouldDownloadFile(String fileName) {
-    if (fileName.startsWith('.')) return false;
-    if (fileName.endsWith('.md')) return false;
-    if (fileName.endsWith('.txt')) return false;
-    return fileName == 'config.json' ||
-        fileName == 'generation_config.json' ||
-        fileName == 'added_tokens.json' ||
-        fileName == 'special_tokens_map.json' ||
-        fileName == 'tokenizer.json' ||
-        fileName == 'tokenizer.model' ||
-        fileName == 'tokenizer_config.json' ||
-        fileName.endsWith('.safetensors') ||
-        fileName.endsWith('.bin');
-  }
-
-  Stream<double> _downloadFile({
-    required AiModelOption option,
-    required String fileName,
-    required Directory directory,
-    required String? authToken,
+  Stream<double> _downloadArchive({
+    required Uri archiveUri,
+    required File target,
   }) async* {
-    final uri = Uri.https(
-      'huggingface.co',
-      '/${option.repositoryId}/resolve/main/$fileName',
-      {'download': 'true'},
-    );
-    final request = http.Request('GET', uri)
-      ..headers.addAll(_headers(authToken));
+    final request = http.Request('GET', archiveUri);
     final response = await request.send();
-    if (response.statusCode == 401 || response.statusCode == 403) {
-      throw const HttpException(
-        'Access denied while downloading file. Check your Hugging Face token.',
+    if (response.statusCode == 404) {
+      throw HttpException(
+        'Cloudflare R2 object not found: ${archiveUri.path}. Check the bucket key and filename.',
       );
     }
     if (response.statusCode >= 400) {
       throw HttpException(
-        'Download failed for $fileName: ${response.statusCode}',
+        'R2 download failed: ${response.statusCode} for $archiveUri',
       );
     }
 
-    final target = File(p.join(directory.path, fileName));
     await target.parent.create(recursive: true);
 
     final total = response.contentLength ?? 0;
@@ -206,18 +195,52 @@ class AiModelLoader {
     yield 1;
   }
 
-  Future<Directory> _modelDirectory(AiModelOption option) async {
-    final root = await getApplicationSupportDirectory();
-    final safeName = option.repositoryId.replaceAll('/', '_');
-    return Directory(p.join(root.path, 'models', safeName));
+  Stream<double> _extractArchive({
+    required File archiveFile,
+    required Directory targetDirectory,
+  }) async* {
+    final inputStream = InputFileStream(archiveFile.path);
+    final archive = ZipDecoder().decodeStream(inputStream);
+    final files = archive.files.where((file) => file.isFile).toList();
+    if (files.isEmpty) {
+      throw const FormatException('Model ZIP did not contain any files.');
+    }
+
+    for (var index = 0; index < files.length; index++) {
+      final file = files[index];
+      final targetPath = _safeExtractPath(targetDirectory, file.name);
+      await Directory(p.dirname(targetPath)).create(recursive: true);
+
+      final outputStream = OutputFileStream(targetPath);
+      try {
+        file.writeContent(outputStream);
+      } finally {
+        await outputStream.close();
+      }
+
+      yield (index + 1) / files.length;
+    }
   }
 
-  Map<String, String> _headers(String? authToken) {
-    final headers = {'Accept': 'application/json'};
-    final token = authToken?.trim();
-    if (token != null && token.isNotEmpty) {
-      headers['Authorization'] = 'Bearer $token';
+  String _safeExtractPath(Directory targetDirectory, String archivePath) {
+    final normalizedName = p.normalize(archivePath).replaceAll('\\', '/');
+    if (normalizedName.startsWith('../') ||
+        normalizedName == '..' ||
+        p.isAbsolute(normalizedName)) {
+      throw FormatException('Unsafe ZIP entry path: $archivePath');
     }
-    return headers;
+
+    final targetPath = p.normalize(p.join(targetDirectory.path, normalizedName));
+    final root = p.normalize(targetDirectory.path);
+    if (!p.isWithin(root, targetPath) && targetPath != root) {
+      throw FormatException('Unsafe ZIP entry path: $archivePath');
+    }
+    return targetPath;
+  }
+
+  Future<Directory> _modelDirectory(AiModelOption option) async {
+    final root = await getApplicationSupportDirectory();
+    final safeName = option.internalModelId.replaceAll('/', '_');
+    return Directory(p.join(root.path, 'models', safeName));
   }
 }

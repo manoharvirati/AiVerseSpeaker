@@ -18,11 +18,32 @@ class _CoachShellState extends State<CoachShell> {
     });
   }
 
+  void _openAiSetup() {
+    showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+      builder: (context) => DraggableScrollableSheet(
+        expand: false,
+        initialChildSize: 0.92,
+        minChildSize: 0.72,
+        maxChildSize: 0.96,
+        builder: (context, scrollController) => AiSetupWizard(
+          onReady: () {
+            Navigator.of(context).maybePop();
+            setState(() {});
+          },
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final pages = [
       HomeScreen(
         onStartSpeaking: _openPractice,
+        onStartAiSetup: _openAiSetup,
         onOpenTopics: () => setState(() => _index = 1),
       ),
       ExploreScreen(onStartPractice: _openPractice),

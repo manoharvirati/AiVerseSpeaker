@@ -4,10 +4,12 @@ class HomeScreen extends StatefulWidget {
   const HomeScreen({
     super.key,
     required this.onStartSpeaking,
+    required this.onStartAiSetup,
     required this.onOpenTopics,
   });
 
   final ValueChanged<LessonSummary?> onStartSpeaking;
+  final VoidCallback onStartAiSetup;
   final VoidCallback onOpenTopics;
 
   @override
@@ -40,6 +42,23 @@ class _HomeScreenState extends State<HomeScreen> {
               SpeakFlowHomeHeader(data: data),
               const SizedBox(height: 18),
               HomeHeroCard(data: data),
+              const SizedBox(height: 14),
+              FilledButton.icon(
+                onPressed: data.modelInstall?.status == ModelInstallStatus.loaded
+                    ? () => widget.onStartSpeaking(data.recommendedLesson)
+                    : widget.onStartAiSetup,
+                icon: Icon(
+                  data.modelInstall?.status == ModelInstallStatus.loaded
+                      ? Icons.mic_rounded
+                      : Icons.auto_awesome_rounded,
+                ),
+                label: const Text('Start AI Speaking'),
+                style: FilledButton.styleFrom(
+                  minimumSize: const Size.fromHeight(56),
+                  backgroundColor: AppTheme.purple,
+                  foregroundColor: Colors.white,
+                ),
+              ),
               const SizedBox(height: 18),
               StatsStrip(data: data),
               const SizedBox(height: 18),
@@ -62,13 +81,27 @@ class _HomeScreenState extends State<HomeScreen> {
                 onSelected: (lesson) => widget.onStartSpeaking(lesson),
               ),
               const SizedBox(height: 20),
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Expanded(child: TodaysGoalCard(data: data)),
-                  const SizedBox(width: 14),
-                  Expanded(child: HomeSkillsCard(data: data)),
-                ],
+              LayoutBuilder(
+                builder: (context, constraints) {
+                  final narrow = constraints.maxWidth < 430;
+                  if (narrow) {
+                    return Column(
+                      children: [
+                        TodaysGoalCard(data: data),
+                        const SizedBox(height: 14),
+                        HomeSkillsCard(data: data),
+                      ],
+                    );
+                  }
+                  return Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(child: TodaysGoalCard(data: data)),
+                      const SizedBox(width: 14),
+                      Expanded(child: HomeSkillsCard(data: data)),
+                    ],
+                  );
+                },
               ),
               const SizedBox(height: 20),
               OfflineBenefitsCard(modelInstall: data.modelInstall),
@@ -135,54 +168,66 @@ class HomeHeroCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GlassCard(
-      padding: const EdgeInsets.fromLTRB(22, 24, 18, 18),
-      child: Stack(
-        children: [
-          Positioned(
-            right: 0,
-            top: 4,
-            bottom: 0,
-            child: TutorIllustration(
-              label: 'Let\'s speak!',
-              color: colorFromHex(data.activeTutor?.colorHex ?? '7C3AED'),
-            ),
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final compact = constraints.maxWidth < 360;
+        final artWidth = compact ? 96.0 : constraints.maxWidth * 0.34;
+        return GlassCard(
+          padding: const EdgeInsets.fromLTRB(18, 22, 16, 18),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      'AI TUTOR',
+                      style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                        color: AppTheme.violet,
+                        letterSpacing: 0,
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    FittedBox(
+                      fit: BoxFit.scaleDown,
+                      alignment: Alignment.centerLeft,
+                      child: Text(
+                        'Practice English\nAnytime, Anywhere',
+                        style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                          color: Colors.white,
+                          height: 1.12,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 12),
+                    Text(
+                      'All conversations, feedback and analysis happen on your device.',
+                      maxLines: 3,
+                      overflow: TextOverflow.ellipsis,
+                      style: Theme.of(context).textTheme.bodyMedium,
+                    ),
+                    const SizedBox(height: 18),
+                    const CompactPill(
+                      icon: Icons.wifi_off_rounded,
+                      label: 'No Internet Required',
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(width: 8),
+              SizedBox(
+                width: artWidth.clamp(86.0, 150.0),
+                child: TutorIllustration(
+                  label: 'Let\'s speak!',
+                  color: colorFromHex(data.activeTutor?.colorHex ?? '7C3AED'),
+                ),
+              ),
+            ],
           ),
-          SizedBox(
-            width: MediaQuery.sizeOf(context).width * 0.56,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'AI TUTOR',
-                  style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                    color: AppTheme.violet,
-                    letterSpacing: 0,
-                  ),
-                ),
-                const SizedBox(height: 10),
-                Text(
-                  'Practice English\nAnytime, Anywhere',
-                  style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                    color: Colors.white,
-                    height: 1.12,
-                  ),
-                ),
-                const SizedBox(height: 12),
-                Text(
-                  'All conversations, feedback and analysis happen on your device.',
-                  style: Theme.of(context).textTheme.bodyMedium,
-                ),
-                const SizedBox(height: 18),
-                const CompactPill(
-                  icon: Icons.wifi_off_rounded,
-                  label: 'No Internet Required',
-                ),
-              ],
-            ),
-          ),
-        ],
-      ),
+        );
+      },
     );
   }
 }
@@ -208,40 +253,47 @@ class StatsStrip extends StatelessWidget {
               .map((item) => item.score)
               .reduce((a, b) => a > b ? a : b);
 
-    return GridView.count(
-      crossAxisCount: 4,
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      mainAxisSpacing: 12,
-      crossAxisSpacing: 12,
-      childAspectRatio: 0.68,
-      children: [
-        StatPill(
-          icon: Icons.track_changes_rounded,
-          color: AppTheme.purple,
-          value: '$todayMinutes',
-          suffix: 'min',
-          label: 'Today\'s Practice',
-        ),
-        StatPill(
-          icon: Icons.local_fire_department_rounded,
-          color: AppTheme.sky,
-          value: '${data.streakDays}',
-          label: 'Day Streak',
-        ),
-        StatPill(
-          icon: Icons.trending_up_rounded,
-          color: AppTheme.emerald,
-          value: '$topicsCompleted',
-          label: 'Topics Completed',
-        ),
-        StatPill(
-          icon: Icons.star_rounded,
-          color: AppTheme.orange,
-          value: '$bestScore',
-          label: 'Best Score',
-        ),
-      ],
+    final pills = [
+      StatPill(
+        icon: Icons.track_changes_rounded,
+        color: AppTheme.purple,
+        value: '$todayMinutes',
+        suffix: 'min',
+        label: 'Today\'s Practice',
+      ),
+      StatPill(
+        icon: Icons.local_fire_department_rounded,
+        color: AppTheme.sky,
+        value: '${data.streakDays}',
+        label: 'Day Streak',
+      ),
+      StatPill(
+        icon: Icons.trending_up_rounded,
+        color: AppTheme.emerald,
+        value: '$topicsCompleted',
+        label: 'Topics Completed',
+      ),
+      StatPill(
+        icon: Icons.star_rounded,
+        color: AppTheme.orange,
+        value: '$bestScore',
+        label: 'Best Score',
+      ),
+    ];
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final columns = constraints.maxWidth < 360 ? 2 : 4;
+        final spacing = constraints.maxWidth < 360 ? 10.0 : 12.0;
+        final width = (constraints.maxWidth - spacing * (columns - 1)) / columns;
+        return Wrap(
+          spacing: spacing,
+          runSpacing: spacing,
+          children: [
+            for (final pill in pills)
+              SizedBox(width: width, child: pill),
+          ],
+        );
+      },
     );
   }
 }
@@ -265,13 +317,20 @@ class ContinueLessonCard extends StatelessWidget {
         ? 'Download a model for full offline AI'
         : '${modelInstall!.title} model: ${modelInstall!.status.name}';
     return GlassCard(
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          TopicArt(category: lesson.category, title: lesson.title, size: 112),
-          const SizedBox(width: 16),
-          Expanded(
-            child: Column(
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          final compact = constraints.maxWidth < 360;
+          return Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              TopicArt(
+                category: lesson.category,
+                title: lesson.title,
+                size: compact ? 82 : 104,
+              ),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
@@ -321,24 +380,26 @@ class ContinueLessonCard extends StatelessWidget {
                   ),
                 ),
               ],
-            ),
-          ),
-          const SizedBox(width: 12),
-          SizedBox(
-            width: 72,
-            height: 72,
-            child: FilledButton(
-              onPressed: onStartSpeaking,
-              style: FilledButton.styleFrom(
-                padding: EdgeInsets.zero,
-                shape: const CircleBorder(),
-                backgroundColor: AppTheme.purple,
-                foregroundColor: Colors.white,
+                ),
               ),
-              child: const Icon(Icons.play_arrow_rounded, size: 38),
-            ),
-          ),
-        ],
+              const SizedBox(width: 10),
+              SizedBox(
+                width: compact ? 52 : 66,
+                height: compact ? 52 : 66,
+                child: FilledButton(
+                  onPressed: onStartSpeaking,
+                  style: FilledButton.styleFrom(
+                    padding: EdgeInsets.zero,
+                    shape: const CircleBorder(),
+                    backgroundColor: AppTheme.purple,
+                    foregroundColor: Colors.white,
+                  ),
+                  child: Icon(Icons.play_arrow_rounded, size: compact ? 30 : 36),
+                ),
+              ),
+            ],
+          );
+        },
       ),
     );
   }

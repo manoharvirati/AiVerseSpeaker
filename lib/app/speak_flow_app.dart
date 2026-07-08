@@ -32,29 +32,87 @@ part '../features/practice/practice_screen.dart';
 part '../features/progress/progress_screen.dart';
 part '../features/topics/topics_screen.dart';
 part '../features/profile/profile_screen.dart';
-class EnglishCoachApp extends StatelessWidget {
+
+final appThemeController = AppThemeController(LocalDatabase.instance);
+
+class EnglishCoachApp extends StatefulWidget {
   const EnglishCoachApp({super.key});
 
   @override
+  State<EnglishCoachApp> createState() => _EnglishCoachAppState();
+}
+
+class _EnglishCoachAppState extends State<EnglishCoachApp> {
+  @override
+  void initState() {
+    super.initState();
+    unawaited(appThemeController.load());
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'SpeakFlow AI',
-      debugShowCheckedModeBanner: false,
-      theme: AppTheme.light(),
-      darkTheme: AppTheme.dark(),
-      themeMode: ThemeMode.dark,
-      home: const AppLaunchFlow(),
+    return ValueListenableBuilder<ThemeMode>(
+      valueListenable: appThemeController.themeMode,
+      builder: (context, themeMode, _) {
+        return MaterialApp(
+          title: 'AiVerse Speaker',
+          debugShowCheckedModeBanner: false,
+          theme: AppTheme.light(),
+          darkTheme: AppTheme.dark(),
+          themeMode: themeMode,
+          home: const AppLaunchFlow(),
+        );
+      },
     );
   }
 }
 
+class AppThemeController {
+  AppThemeController(this._database);
+
+  final LocalDatabase _database;
+  final themeMode = ValueNotifier<ThemeMode>(ThemeMode.system);
+
+  Future<void> load() async {
+    final value = await _database.readSetting('theme_mode');
+    themeMode.value = themeModeFromSetting(value);
+  }
+
+  Future<void> setThemeMode(ThemeMode mode) async {
+    themeMode.value = mode;
+    await _database.writeSetting('theme_mode', themeModeToSetting(mode));
+  }
+}
+
+ThemeMode themeModeFromSetting(String? value) {
+  return switch (value) {
+    'light' => ThemeMode.light,
+    'dark' => ThemeMode.dark,
+    _ => ThemeMode.system,
+  };
+}
+
+String themeModeToSetting(ThemeMode mode) {
+  return switch (mode) {
+    ThemeMode.light => 'light',
+    ThemeMode.dark => 'dark',
+    ThemeMode.system => 'system',
+  };
+}
+
+String themeModeLabel(ThemeMode mode) {
+  return switch (mode) {
+    ThemeMode.system => 'System',
+    ThemeMode.light => 'Light',
+    ThemeMode.dark => 'Dark',
+  };
+}
+
 enum LaunchStep {
   welcome,
-  permissions,
-  deviceCheck,
-  modelRecommendation,
-  modelDownload,
-  modelInitialization,
+  signIn,
+  chooseLevel,
+  chooseGoal,
   ready,
 }
 
@@ -66,33 +124,20 @@ class AppLaunchFlow extends StatefulWidget {
 }
 
 class _AppLaunchFlowState extends State<AppLaunchFlow> {
-  static const _hfTokenFromEnvironment = String.fromEnvironment('HF_TOKEN');
-
-  final _permissionService = AppPermissionService();
-  final _deviceService = DeviceCompatibilityService();
-  final _modelCatalog = ModelCatalog();
-  final _modelLoader = AiModelLoader();
   final _database = LocalDatabase.instance;
-  final _hfTokenController = TextEditingController(
-    text: _hfTokenFromEnvironment,
-  );
 
   LaunchStep _step = LaunchStep.welcome;
-  PermissionSnapshot? _permissions;
-  DeviceProfile? _device;
-  AiModelOption? _selectedModel;
-  ModelInstallSnapshot? _installSnapshot;
-  StreamSubscription<ModelInstallSnapshot>? _installSubscription;
-  int _initializationStep = 0;
+  String _selectedLevel = 'Intermediate B1';
+  String _selectedGoal = 'Speaking Practice';
 
   late final SetupRepository _setupRepository;
-  late final ModelInstallRepository _modelInstallRepository;
+  late final LearnerRepository _learnerRepository;
 
   @override
   void initState() {
     super.initState();
     _setupRepository = SetupRepository(_database);
-    _modelInstallRepository = ModelInstallRepository(_database);
+    _learnerRepository = LearnerRepository(_database);
     _restoreSetupState();
   }
 
@@ -102,92 +147,52 @@ class _AppLaunchFlowState extends State<AppLaunchFlow> {
     setState(() => _step = LaunchStep.ready);
   }
 
-  @override
-  void dispose() {
-    _installSubscription?.cancel();
-    _hfTokenController.dispose();
-    super.dispose();
+  void _continueFromWelcome() {
+    setState(() => _step = LaunchStep.signIn);
   }
 
-  Future<void> _requestPermissions() async {
-    setState(() => _step = LaunchStep.permissions);
-    final permissions = await _permissionService.requestRequired();
+  Future<void> _continueAsGuest() async {
+    await _database.writeSetting('auth_mode', 'guest');
     if (!mounted) return;
-    setState(() {
-      _permissions = permissions;
-      _step = LaunchStep.deviceCheck;
-    });
-    await _runDeviceCheck();
+    setState(() => _step = LaunchStep.chooseLevel);
   }
 
-  Future<void> _runDeviceCheck() async {
-    final device = await _deviceService.check();
-    if (!mounted) return;
-    setState(() {
-      _device = device;
-      _selectedModel = _modelCatalog.recommendedFor(device);
-      _step = LaunchStep.modelRecommendation;
-    });
+  void _chooseLevel(String level) {
+    setState(() => _selectedLevel = level);
   }
 
-  Future<void> _startDownload() async {
-    final model = _selectedModel;
-    if (model == null) return;
-    setState(() {
-      _step = LaunchStep.modelDownload;
-      _installSnapshot = ModelInstallSnapshot(
-        status: ModelInstallStatus.downloading,
-        progress: 0,
-        message: 'Starting ${model.repositoryId} download...',
-      );
-    });
-    unawaited(
-      _modelInstallRepository.saveSnapshot(
-        option: model,
-        snapshot: _installSnapshot!,
-        isRealDownload: AiModelLoader.performsRealDownload,
-        localPath: _installSnapshot!.localPath,
+  void _continueFromLevel() {
+    setState(() => _step = LaunchStep.chooseGoal);
+  }
+
+  void _chooseGoal(String goal) {
+    setState(() => _selectedGoal = goal);
+  }
+
+  Future<void> _finishLightweightSetup() async {
+    final currentMemory = await _learnerRepository.loadMemory();
+    await _learnerRepository.saveMemory(
+      LearnerMemory(
+        level: _selectedLevel,
+        commonMistakes: currentMemory.commonMistakes,
+        vocabularyMastered: currentMemory.vocabularyMastered,
+        accentPreference: currentMemory.accentPreference,
+        dailyGoalMinutes: _minutesForGoal(_selectedGoal),
       ),
     );
-
-    await _installSubscription?.cancel();
-    _installSubscription = _modelLoader
-        .downloadAndPrepare(model, authToken: _hfTokenController.text)
-        .listen((snapshot) {
-          if (!mounted) return;
-          setState(() => _installSnapshot = snapshot);
-          if (snapshot.status != ModelInstallStatus.downloading) {
-            unawaited(
-              _modelInstallRepository.saveSnapshot(
-                option: model,
-                snapshot: snapshot,
-                isRealDownload: AiModelLoader.performsRealDownload,
-                localPath: snapshot.localPath,
-              ),
-            );
-          }
-          if (snapshot.status == ModelInstallStatus.loaded) {
-            _runInitialization();
-          }
-        });
-  }
-
-  Future<void> _runInitialization() async {
-    setState(() {
-      _step = LaunchStep.modelInitialization;
-      _initializationStep = 0;
-    });
-
-    for (var index = 1; index <= 3; index++) {
-      await Future<void>.delayed(const Duration(milliseconds: 520));
-      if (!mounted) return;
-      setState(() => _initializationStep = index);
-    }
-
-    if (!mounted) return;
+    await _database.writeSetting('learning_goal', _selectedGoal);
     await _setupRepository.markSetupCompleted();
     if (!mounted) return;
     setState(() => _step = LaunchStep.ready);
+  }
+
+  int _minutesForGoal(String goal) {
+    return switch (goal) {
+      'Grammar Coaching' => 20,
+      'Pronunciation' => 10,
+      'Vocabulary' => 15,
+      _ => 15,
+    };
   }
 
   @override
@@ -214,31 +219,178 @@ class _AppLaunchFlowState extends State<AppLaunchFlow> {
         _SetupHeader(step: _step),
         const SizedBox(height: 24),
         switch (_step) {
-          LaunchStep.welcome => _WelcomeSetup(onContinue: _requestPermissions),
-          LaunchStep.permissions => _PermissionSetup(
+          LaunchStep.welcome => _WelcomeSetup(onContinue: _continueFromWelcome),
+          LaunchStep.signIn => _SignInSetup(
+            onContinueAsGuest: _continueAsGuest,
+            onSignIn: _continueAsGuest,
+          ),
+          LaunchStep.chooseLevel => _ChooseLevelSetup(
+            selectedLevel: _selectedLevel,
+            onSelected: _chooseLevel,
+            onContinue: _continueFromLevel,
+          ),
+          LaunchStep.chooseGoal => _ChooseGoalSetup(
+            selectedGoal: _selectedGoal,
+            onSelected: _chooseGoal,
+            onContinue: _finishLightweightSetup,
+          ),
+          LaunchStep.ready => const SizedBox.shrink(),
+        },
+      ],
+    );
+  }
+}
+
+enum AiSetupStep {
+  permissions,
+  deviceCheck,
+  modelRecommendation,
+  modelDownload,
+  modelInitialization,
+  ready,
+}
+
+class AiSetupWizard extends StatefulWidget {
+  const AiSetupWizard({super.key, required this.onReady});
+
+  final VoidCallback onReady;
+
+  @override
+  State<AiSetupWizard> createState() => _AiSetupWizardState();
+}
+
+class _AiSetupWizardState extends State<AiSetupWizard> {
+  final _permissionService = AppPermissionService();
+  final _deviceService = DeviceCompatibilityService();
+  final _modelCatalog = ModelCatalog();
+  final _modelLoader = AiModelLoader();
+  final _modelInstallRepository = ModelInstallRepository(LocalDatabase.instance);
+
+  AiSetupStep _step = AiSetupStep.permissions;
+  PermissionSnapshot? _permissions;
+  DeviceProfile? _device;
+  AiModelOption? _selectedModel;
+  ModelInstallSnapshot? _installSnapshot;
+  StreamSubscription<ModelInstallSnapshot>? _installSubscription;
+  int _initializationStep = 0;
+
+  @override
+  void dispose() {
+    _installSubscription?.cancel();
+    super.dispose();
+  }
+
+  Future<void> _requestPermissions() async {
+    setState(() => _step = AiSetupStep.permissions);
+    final permissions = await _permissionService.requestRequired();
+    if (!mounted) return;
+    setState(() {
+      _permissions = permissions;
+      _step = AiSetupStep.deviceCheck;
+    });
+    await _runDeviceCheck();
+  }
+
+  Future<void> _runDeviceCheck() async {
+    final device = await _deviceService.check();
+    if (!mounted) return;
+    setState(() {
+      _device = device;
+      _selectedModel = _modelCatalog.recommendedFor(device);
+      _step = AiSetupStep.modelRecommendation;
+    });
+  }
+
+  Future<void> _startDownload() async {
+    final model = _selectedModel;
+    if (model == null) return;
+    setState(() {
+      _step = AiSetupStep.modelDownload;
+      _installSnapshot = ModelInstallSnapshot(
+        status: ModelInstallStatus.downloading,
+        progress: 0,
+        message: 'Starting ${model.title} AI download...',
+      );
+    });
+    unawaited(
+      _modelInstallRepository.saveSnapshot(
+        option: model,
+        snapshot: _installSnapshot!,
+        isRealDownload: AiModelLoader.performsRealDownload,
+        localPath: _installSnapshot!.localPath,
+      ),
+    );
+
+    await _installSubscription?.cancel();
+    _installSubscription = _modelLoader
+        .downloadAndPrepare(model, authToken: null)
+        .listen((snapshot) {
+          if (!mounted) return;
+          setState(() => _installSnapshot = snapshot);
+          if (snapshot.status != ModelInstallStatus.downloading) {
+            unawaited(
+              _modelInstallRepository.saveSnapshot(
+                option: model,
+                snapshot: snapshot,
+                isRealDownload: AiModelLoader.performsRealDownload,
+                localPath: snapshot.localPath,
+              ),
+            );
+          }
+          if (snapshot.status == ModelInstallStatus.loaded) {
+            _runInitialization();
+          }
+        });
+  }
+
+  Future<void> _runInitialization() async {
+    setState(() {
+      _step = AiSetupStep.modelInitialization;
+      _initializationStep = 0;
+    });
+
+    for (var index = 1; index <= 3; index++) {
+      await Future<void>.delayed(const Duration(milliseconds: 520));
+      if (!mounted) return;
+      setState(() => _initializationStep = index);
+    }
+
+    if (!mounted) return;
+    setState(() => _step = AiSetupStep.ready);
+    widget.onReady();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(20, 24, 20, 28),
+      children: [
+        _AiSetupHeader(step: _step),
+        const SizedBox(height: 24),
+        switch (_step) {
+          AiSetupStep.permissions => _PermissionSetup(
             permissions: _permissions,
             onContinue: _requestPermissions,
           ),
-          LaunchStep.deviceCheck => const _LoadingSetupCard(
+          AiSetupStep.deviceCheck => const _LoadingSetupCard(
             title: 'Checking your device',
             subtitle: 'Measuring RAM, storage, CPU class, and OS readiness.',
           ),
-          LaunchStep.modelRecommendation => _ModelRecommendationSetup(
+          AiSetupStep.modelRecommendation => _ModelRecommendationSetup(
             device: _device!,
             options: _modelCatalog.optionsFor(_device!),
             selectedModel: _selectedModel!,
             onSelected: (option) => setState(() => _selectedModel = option),
-            tokenController: _hfTokenController,
             onContinue: _startDownload,
           ),
-          LaunchStep.modelDownload => _ModelDownloadSetup(
+          AiSetupStep.modelDownload => _ModelDownloadSetup(
             model: _selectedModel!,
             snapshot: _installSnapshot,
           ),
-          LaunchStep.modelInitialization => _InitializationSetup(
+          AiSetupStep.modelInitialization => _InitializationSetup(
             completedSteps: _initializationStep,
           ),
-          LaunchStep.ready => const SizedBox.shrink(),
+          AiSetupStep.ready => const _ReadySetup(),
         },
       ],
     );
@@ -276,13 +428,65 @@ class _SetupHeader extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'SpeakFlow AI',
+                    'AiVerse Speaker',
                     style: Theme.of(context).textTheme.titleLarge,
                   ),
                   Text(
                     'Offline tutor setup',
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
+                ],
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 20),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(99),
+          child: LinearProgressIndicator(
+            value: current / total,
+            minHeight: 9,
+            backgroundColor: AppTheme.royalBlue.withValues(alpha: 0.12),
+            color: AppTheme.royalBlue,
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _AiSetupHeader extends StatelessWidget {
+  const _AiSetupHeader({required this.step});
+
+  final AiSetupStep step;
+
+  @override
+  Widget build(BuildContext context) {
+    final current = step.index + 1;
+    final total = AiSetupStep.ready.index;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          children: [
+            Container(
+              width: 48,
+              height: 48,
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(
+                  colors: [AppTheme.royalBlue, AppTheme.purple],
+                ),
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: const Icon(Icons.auto_awesome_rounded, color: Colors.white),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('AI Setup Wizard', style: Theme.of(context).textTheme.titleLarge),
+                  Text('Download your offline tutor', style: Theme.of(context).textTheme.bodyMedium),
                 ],
               ),
             ),
@@ -314,21 +518,22 @@ class _WelcomeSetup extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Meet your AI English Tutor',
+          'Welcome 👋',
           style: Theme.of(context).textTheme.displaySmall,
         ),
         const SizedBox(height: 12),
         Text(
-          'Set up once, then practice private, natural conversations even offline.',
+          'Learn English naturally with your AI tutor.',
           style: Theme.of(context).textTheme.bodyLarge,
         ),
         const SizedBox(height: 22),
         const AppCard(
           child: Column(
             children: [
-              InsightRow(text: 'Works offline after model setup'),
-              InsightRow(text: 'Private conversations stay on your device'),
-              InsightRow(text: 'Natural voice practice with instant coaching'),
+              InsightRow(text: 'Speaking Practice'),
+              InsightRow(text: 'Grammar Coaching'),
+              InsightRow(text: 'Vocabulary'),
+              InsightRow(text: 'Pronunciation'),
             ],
           ),
         ),
@@ -340,6 +545,191 @@ class _WelcomeSetup extends StatelessWidget {
           style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(54)),
         ),
       ],
+    );
+  }
+}
+
+class _SignInSetup extends StatelessWidget {
+  const _SignInSetup({required this.onSignIn, required this.onContinueAsGuest});
+
+  final VoidCallback onSignIn;
+  final VoidCallback onContinueAsGuest;
+
+  @override
+  Widget build(BuildContext context) {
+    return AppCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('Sign in or skip', style: Theme.of(context).textTheme.titleLarge),
+          const SizedBox(height: 8),
+          Text(
+            'Start now as a guest. You can sign in later to sync progress.',
+            style: Theme.of(context).textTheme.bodyMedium,
+          ),
+          const SizedBox(height: 20),
+          FilledButton.icon(
+            onPressed: onSignIn,
+            icon: const Icon(Icons.person_rounded),
+            label: const Text('Sign In'),
+            style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(52)),
+          ),
+          const SizedBox(height: 10),
+          OutlinedButton.icon(
+            onPressed: onContinueAsGuest,
+            icon: const Icon(Icons.arrow_forward_rounded),
+            label: const Text('Skip for now'),
+            style: OutlinedButton.styleFrom(minimumSize: const Size.fromHeight(52)),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _ChooseLevelSetup extends StatelessWidget {
+  const _ChooseLevelSetup({
+    required this.selectedLevel,
+    required this.onSelected,
+    required this.onContinue,
+  });
+
+  final String selectedLevel;
+  final ValueChanged<String> onSelected;
+  final VoidCallback onContinue;
+
+  @override
+  Widget build(BuildContext context) {
+    const levels = [
+      'Beginner A1',
+      'Elementary A2',
+      'Intermediate B1',
+      'Upper Intermediate B2',
+      'Advanced C1',
+    ];
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text('Choose English level', style: Theme.of(context).textTheme.titleLarge),
+        const SizedBox(height: 12),
+        ...levels.map(
+          (level) => Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: _ChoiceCard(
+              title: level,
+              selected: selectedLevel == level,
+              icon: Icons.signal_cellular_alt_rounded,
+              onTap: () => onSelected(level),
+            ),
+          ),
+        ),
+        const SizedBox(height: 8),
+        FilledButton.icon(
+          onPressed: onContinue,
+          icon: const Icon(Icons.arrow_forward_rounded),
+          label: const Text('Continue'),
+          style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(54)),
+        ),
+      ],
+    );
+  }
+}
+
+class _ChooseGoalSetup extends StatelessWidget {
+  const _ChooseGoalSetup({
+    required this.selectedGoal,
+    required this.onSelected,
+    required this.onContinue,
+  });
+
+  final String selectedGoal;
+  final ValueChanged<String> onSelected;
+  final VoidCallback onContinue;
+
+  @override
+  Widget build(BuildContext context) {
+    const goals = [
+      (title: 'Speaking Practice', icon: Icons.record_voice_over_rounded),
+      (title: 'Grammar Coaching', icon: Icons.edit_note_rounded),
+      (title: 'Vocabulary', icon: Icons.menu_book_rounded),
+      (title: 'Pronunciation', icon: Icons.hearing_rounded),
+    ];
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text('Choose goal', style: Theme.of(context).textTheme.titleLarge),
+        const SizedBox(height: 12),
+        ...goals.map(
+          (goal) => Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: _ChoiceCard(
+              title: goal.title,
+              selected: selectedGoal == goal.title,
+              icon: goal.icon,
+              onTap: () => onSelected(goal.title),
+            ),
+          ),
+        ),
+        const SizedBox(height: 8),
+        FilledButton.icon(
+          onPressed: onContinue,
+          icon: const Icon(Icons.home_rounded),
+          label: const Text('Go to Home'),
+          style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(54)),
+        ),
+      ],
+    );
+  }
+}
+
+class _ChoiceCard extends StatelessWidget {
+  const _ChoiceCard({
+    required this.title,
+    required this.selected,
+    required this.icon,
+    required this.onTap,
+  });
+
+  final String title;
+  final bool selected;
+  final IconData icon;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(24),
+      child: AppCard(
+        child: Row(
+          children: [
+            Icon(icon, color: selected ? AppTheme.royalBlue : AppTheme.muted),
+            const SizedBox(width: 14),
+            Expanded(child: Text(title, style: Theme.of(context).textTheme.titleMedium)),
+            Icon(
+              selected ? Icons.radio_button_checked_rounded : Icons.radio_button_unchecked_rounded,
+              color: selected ? AppTheme.royalBlue : AppTheme.muted,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _ReadySetup extends StatelessWidget {
+  const _ReadySetup();
+
+  @override
+  Widget build(BuildContext context) {
+    return const AppCard(
+      child: Column(
+        children: [
+          Icon(Icons.check_circle_rounded, color: AppTheme.emerald, size: 56),
+          SizedBox(height: 14),
+          Text('Ready'),
+        ],
+      ),
     );
   }
 }
@@ -428,7 +818,6 @@ class _ModelRecommendationSetup extends StatelessWidget {
     required this.options,
     required this.selectedModel,
     required this.onSelected,
-    required this.tokenController,
     required this.onContinue,
   });
 
@@ -436,7 +825,6 @@ class _ModelRecommendationSetup extends StatelessWidget {
   final List<AiModelOption> options;
   final AiModelOption selectedModel;
   final ValueChanged<AiModelOption> onSelected;
-  final TextEditingController tokenController;
   final VoidCallback onContinue;
 
   @override
@@ -491,35 +879,6 @@ class _ModelRecommendationSetup extends StatelessWidget {
             ),
           ),
         ),
-        if (selectedModel.requiresAuthToken) ...[
-          const SizedBox(height: 8),
-          AppCard(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Hugging Face Access',
-                  style: Theme.of(context).textTheme.titleMedium,
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  '${selectedModel.repositoryId} is gated. Paste a Hugging Face token from an account with Gemma access.',
-                  style: Theme.of(context).textTheme.bodyMedium,
-                ),
-                const SizedBox(height: 14),
-                TextField(
-                  controller: tokenController,
-                  obscureText: true,
-                  decoration: const InputDecoration(
-                    prefixIcon: Icon(Icons.key_rounded),
-                    labelText: 'HF token',
-                    border: OutlineInputBorder(),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ],
         const SizedBox(height: 10),
         FilledButton.icon(
           onPressed: onContinue,
@@ -541,6 +900,8 @@ class _ModelDownloadSetup extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final progress = snapshot?.progress ?? 0;
+    final downloadProgress = snapshot?.downloadProgress ?? 0;
+    final extractProgress = snapshot?.extractProgress ?? 0;
     return AppCard(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -551,7 +912,7 @@ class _ModelDownloadSetup extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           Text(
-            'Downloading from ${model.repositoryId}. Keep the app open.',
+            'Downloading ${model.archivePath} from Cloudflare R2. Keep the app open.',
             style: Theme.of(context).textTheme.bodyMedium,
           ),
           if (snapshot?.error != null) ...[
@@ -564,6 +925,18 @@ class _ModelDownloadSetup extends StatelessWidget {
             ),
           ],
           const SizedBox(height: 24),
+          _ProgressRow(
+            label: 'Download',
+            progress: downloadProgress,
+            active: snapshot?.status == ModelInstallStatus.downloading,
+          ),
+          const SizedBox(height: 14),
+          _ProgressRow(
+            label: 'Extract',
+            progress: extractProgress,
+            active: snapshot?.status == ModelInstallStatus.extracting,
+          ),
+          const SizedBox(height: 18),
           ClipRRect(
             borderRadius: BorderRadius.circular(99),
             child: LinearProgressIndicator(value: progress, minHeight: 14),
@@ -595,6 +968,46 @@ class _ModelDownloadSetup extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+class _ProgressRow extends StatelessWidget {
+  const _ProgressRow({
+    required this.label,
+    required this.progress,
+    required this.active,
+  });
+
+  final String label;
+  final double progress;
+  final bool active;
+
+  @override
+  Widget build(BuildContext context) {
+    final percent = (progress.clamp(0, 1) * 100).round();
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          children: [
+            Expanded(
+              child: Text(label, style: Theme.of(context).textTheme.labelLarge),
+            ),
+            Text(
+              '$percent%',
+              style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                color: active ? AppTheme.royalBlue : AppTheme.muted,
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 6),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(99),
+          child: LinearProgressIndicator(value: progress.clamp(0, 1), minHeight: 8),
+        ),
+      ],
     );
   }
 }
@@ -741,10 +1154,10 @@ class ModelOptionCard extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 4),
-                  Text(
-                    option.subtitle,
-                    style: Theme.of(context).textTheme.bodyMedium,
-                  ),
+                      Text(
+                        option.subtitle,
+                        style: Theme.of(context).textTheme.bodyMedium,
+                      ),
                 ],
               ),
             ),

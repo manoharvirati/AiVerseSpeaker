@@ -14,6 +14,9 @@ class AppTheme {
   static const surface = Color(0xFF18181B);
   static const card = Color(0xFF111327);
   static const ink = Color(0xFFFFFFFF);
+  static const lightInk = Color(0xFF111827);
+  static const lightMuted = Color(0xFF64748B);
+  static const lightCard = Color(0xFFFFFFFF);
   static const muted = Color(0xFFA1A1AA);
 
   static ThemeData light() {
@@ -58,7 +61,8 @@ class AppTheme {
   }
 
   static TextTheme _textTheme(Brightness brightness) {
-    final color = brightness == Brightness.dark ? Colors.white : ink;
+    final color = brightness == Brightness.dark ? Colors.white : lightInk;
+    final mutedColor = brightness == Brightness.dark ? muted : lightMuted;
     return GoogleFonts.poppinsTextTheme(
       TextTheme(
       displaySmall: TextStyle(
@@ -83,10 +87,27 @@ class AppTheme {
         fontWeight: FontWeight.w700,
       ),
       bodyLarge: TextStyle(color: color, fontSize: 16, height: 1.45),
-      bodyMedium: const TextStyle(color: muted, fontSize: 14, height: 1.45),
+      bodyMedium: TextStyle(color: mutedColor, fontSize: 14, height: 1.45),
       labelLarge: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800),
     ),
     );
+  }
+
+  static Color cardColor(BuildContext context, {double alpha = 0.76}) {
+    final dark = Theme.of(context).brightness == Brightness.dark;
+    return (dark ? card : lightCard).withValues(alpha: dark ? alpha : 0.92);
+  }
+
+  static Color sheetColor(BuildContext context) {
+    return Theme.of(context).brightness == Brightness.dark
+        ? navy
+        : const Color(0xFFF8FAFC);
+  }
+
+  static Color borderColor(BuildContext context) {
+    return Theme.of(context).brightness == Brightness.dark
+        ? Colors.white.withValues(alpha: 0.08)
+        : const Color(0xFFE2E8F0);
   }
 
   static NavigationBarThemeData _navigationBarTheme(ColorScheme scheme) {

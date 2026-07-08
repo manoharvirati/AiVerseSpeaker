@@ -11,6 +11,7 @@ import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 void main() {
   setUpAll(() {
+    TestWidgetsFlutterBinding.ensureInitialized();
     sqfliteFfiInit();
     databaseFactory = databaseFactoryFfi;
   });
@@ -37,6 +38,35 @@ void main() {
     expect(initialLessons.first.progress, 0.85);
     expect(initialLessons.first.description, isNotEmpty);
     expect(initialLessons.first.saved, isFalse);
+    expect(await database.readSetting('theme_mode'), 'system');
+    final db = await database.database;
+    final packRows = await db.query('lesson_packs');
+    final categoryRows = await db.rawQuery('SELECT count(*) AS total FROM categories');
+    final vocabularyRows = await db.rawQuery('SELECT count(*) AS total FROM vocabulary');
+    final exerciseRows = await db.rawQuery('SELECT count(*) AS total FROM exercise_items');
+    final stepRows = await db.query(
+      'lesson_steps',
+      where: 'lesson_id = ?',
+      whereArgs: [initialLessons.first.id],
+    );
+    final dialogueMatches = await db.rawQuery(
+      'SELECT rowid FROM dialogues_fts WHERE text LIKE ?',
+      ['%cappuccino%'],
+    );
+    final lessonSearchRows = await db.rawQuery('SELECT count(*) AS total FROM lessons_fts');
+    final reviewRows = await db.query(
+      'review_cards',
+      where: 'lesson_id = ?',
+      whereArgs: [initialLessons.first.id],
+    );
+    expect(packRows.first['slug'], 'core-offline-english');
+    expect(categoryRows.first['total'], 12);
+    expect(vocabularyRows.first['total'], 10000);
+    expect(exerciseRows.first['total'], 20000);
+    expect(stepRows.length, greaterThanOrEqualTo(4));
+    expect(dialogueMatches, isNotEmpty);
+    expect(lessonSearchRows.first['total'], greaterThanOrEqualTo(500));
+    expect(reviewRows.length, greaterThanOrEqualTo(3));
     expect(
       initialProgress.dailyActivity.every((day) => day.practiceMinutes == 0),
       isTrue,

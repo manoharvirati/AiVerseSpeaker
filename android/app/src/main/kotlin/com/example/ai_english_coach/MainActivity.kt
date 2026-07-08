@@ -1,4 +1,4 @@
-package com.example.speakflowai
+package com.aiverse.speaker
 
 import io.flutter.embedding.android.FlutterActivity
 
