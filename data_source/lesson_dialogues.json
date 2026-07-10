@@ -1,0 +1,4002 @@
+[
+  {
+    "lesson_id": 1,
+    "dialogue_id": 5001
+  },
+  {
+    "lesson_id": 2,
+    "dialogue_id": 5002
+  },
+  {
+    "lesson_id": 3,
+    "dialogue_id": 5003
+  },
+  {
+    "lesson_id": 4,
+    "dialogue_id": 5004
+  },
+  {
+    "lesson_id": 5,
+    "dialogue_id": 5005
+  },
+  {
+    "lesson_id": 6,
+    "dialogue_id": 5006
+  },
+  {
+    "lesson_id": 7,
+    "dialogue_id": 5007
+  },
+  {
+    "lesson_id": 8,
+    "dialogue_id": 5008
+  },
+  {
+    "lesson_id": 9,
+    "dialogue_id": 5009
+  },
+  {
+    "lesson_id": 10,
+    "dialogue_id": 5010
+  },
+  {
+    "lesson_id": 11,
+    "dialogue_id": 5011
+  },
+  {
+    "lesson_id": 12,
+    "dialogue_id": 5012
+  },
+  {
+    "lesson_id": 13,
+    "dialogue_id": 5013
+  },
+  {
+    "lesson_id": 14,
+    "dialogue_id": 5014
+  },
+  {
+    "lesson_id": 15,
+    "dialogue_id": 5015
+  },
+  {
+    "lesson_id": 16,
+    "dialogue_id": 5016
+  },
+  {
+    "lesson_id": 17,
+    "dialogue_id": 5017
+  },
+  {
+    "lesson_id": 18,
+    "dialogue_id": 5018
+  },
+  {
+    "lesson_id": 19,
+    "dialogue_id": 5019
+  },
+  {
+    "lesson_id": 20,
+    "dialogue_id": 5020
+  },
+  {
+    "lesson_id": 21,
+    "dialogue_id": 5021
+  },
+  {
+    "lesson_id": 22,
+    "dialogue_id": 5022
+  },
+  {
+    "lesson_id": 23,
+    "dialogue_id": 5023
+  },
+  {
+    "lesson_id": 24,
+    "dialogue_id": 5024
+  },
+  {
+    "lesson_id": 25,
+    "dialogue_id": 5025
+  },
+  {
+    "lesson_id": 26,
+    "dialogue_id": 5026
+  },
+  {
+    "lesson_id": 27,
+    "dialogue_id": 5027
+  },
+  {
+    "lesson_id": 28,
+    "dialogue_id": 5028
+  },
+  {
+    "lesson_id": 29,
+    "dialogue_id": 5029
+  },
+  {
+    "lesson_id": 30,
+    "dialogue_id": 5030
+  },
+  {
+    "lesson_id": 31,
+    "dialogue_id": 5031
+  },
+  {
+    "lesson_id": 32,
+    "dialogue_id": 5032
+  },
+  {
+    "lesson_id": 33,
+    "dialogue_id": 5033
+  },
+  {
+    "lesson_id": 34,
+    "dialogue_id": 5034
+  },
+  {
+    "lesson_id": 35,
+    "dialogue_id": 5035
+  },
+  {
+    "lesson_id": 36,
+    "dialogue_id": 5036
+  },
+  {
+    "lesson_id": 37,
+    "dialogue_id": 5037
+  },
+  {
+    "lesson_id": 38,
+    "dialogue_id": 5038
+  },
+  {
+    "lesson_id": 39,
+    "dialogue_id": 5039
+  },
+  {
+    "lesson_id": 40,
+    "dialogue_id": 5040
+  },
+  {
+    "lesson_id": 41,
+    "dialogue_id": 5041
+  },
+  {
+    "lesson_id": 42,
+    "dialogue_id": 5042
+  },
+  {
+    "lesson_id": 43,
+    "dialogue_id": 5043
+  },
+  {
+    "lesson_id": 44,
+    "dialogue_id": 5044
+  },
+  {
+    "lesson_id": 45,
+    "dialogue_id": 5045
+  },
+  {
+    "lesson_id": 46,
+    "dialogue_id": 5046
+  },
+  {
+    "lesson_id": 47,
+    "dialogue_id": 5047
+  },
+  {
+    "lesson_id": 48,
+    "dialogue_id": 5048
+  },
+  {
+    "lesson_id": 49,
+    "dialogue_id": 5049
+  },
+  {
+    "lesson_id": 50,
+    "dialogue_id": 5050
+  },
+  {
+    "lesson_id": 51,
+    "dialogue_id": 5051
+  },
+  {
+    "lesson_id": 52,
+    "dialogue_id": 5052
+  },
+  {
+    "lesson_id": 53,
+    "dialogue_id": 5053
+  },
+  {
+    "lesson_id": 54,
+    "dialogue_id": 5054
+  },
+  {
+    "lesson_id": 55,
+    "dialogue_id": 5055
+  },
+  {
+    "lesson_id": 56,
+    "dialogue_id": 5056
+  },
+  {
+    "lesson_id": 57,
+    "dialogue_id": 5057
+  },
+  {
+    "lesson_id": 58,
+    "dialogue_id": 5058
+  },
+  {
+    "lesson_id": 59,
+    "dialogue_id": 5059
+  },
+  {
+    "lesson_id": 60,
+    "dialogue_id": 5060
+  },
+  {
+    "lesson_id": 61,
+    "dialogue_id": 5061
+  },
+  {
+    "lesson_id": 62,
+    "dialogue_id": 5062
+  },
+  {
+    "lesson_id": 63,
+    "dialogue_id": 5063
+  },
+  {
+    "lesson_id": 64,
+    "dialogue_id": 5064
+  },
+  {
+    "lesson_id": 65,
+    "dialogue_id": 5065
+  },
+  {
+    "lesson_id": 66,
+    "dialogue_id": 5066
+  },
+  {
+    "lesson_id": 67,
+    "dialogue_id": 5067
+  },
+  {
+    "lesson_id": 68,
+    "dialogue_id": 5068
+  },
+  {
+    "lesson_id": 69,
+    "dialogue_id": 5069
+  },
+  {
+    "lesson_id": 70,
+    "dialogue_id": 5070
+  },
+  {
+    "lesson_id": 71,
+    "dialogue_id": 5071
+  },
+  {
+    "lesson_id": 72,
+    "dialogue_id": 5072
+  },
+  {
+    "lesson_id": 73,
+    "dialogue_id": 5073
+  },
+  {
+    "lesson_id": 74,
+    "dialogue_id": 5074
+  },
+  {
+    "lesson_id": 75,
+    "dialogue_id": 5075
+  },
+  {
+    "lesson_id": 76,
+    "dialogue_id": 5076
+  },
+  {
+    "lesson_id": 77,
+    "dialogue_id": 5077
+  },
+  {
+    "lesson_id": 78,
+    "dialogue_id": 5078
+  },
+  {
+    "lesson_id": 79,
+    "dialogue_id": 5079
+  },
+  {
+    "lesson_id": 80,
+    "dialogue_id": 5080
+  },
+  {
+    "lesson_id": 81,
+    "dialogue_id": 5081
+  },
+  {
+    "lesson_id": 82,
+    "dialogue_id": 5082
+  },
+  {
+    "lesson_id": 83,
+    "dialogue_id": 5083
+  },
+  {
+    "lesson_id": 84,
+    "dialogue_id": 5084
+  },
+  {
+    "lesson_id": 85,
+    "dialogue_id": 5085
+  },
+  {
+    "lesson_id": 86,
+    "dialogue_id": 5086
+  },
+  {
+    "lesson_id": 87,
+    "dialogue_id": 5087
+  },
+  {
+    "lesson_id": 88,
+    "dialogue_id": 5088
+  },
+  {
+    "lesson_id": 89,
+    "dialogue_id": 5089
+  },
+  {
+    "lesson_id": 90,
+    "dialogue_id": 5090
+  },
+  {
+    "lesson_id": 91,
+    "dialogue_id": 5091
+  },
+  {
+    "lesson_id": 92,
+    "dialogue_id": 5092
+  },
+  {
+    "lesson_id": 93,
+    "dialogue_id": 5093
+  },
+  {
+    "lesson_id": 94,
+    "dialogue_id": 5094
+  },
+  {
+    "lesson_id": 95,
+    "dialogue_id": 5095
+  },
+  {
+    "lesson_id": 96,
+    "dialogue_id": 5096
+  },
+  {
+    "lesson_id": 97,
+    "dialogue_id": 5097
+  },
+  {
+    "lesson_id": 98,
+    "dialogue_id": 5098
+  },
+  {
+    "lesson_id": 99,
+    "dialogue_id": 5099
+  },
+  {
+    "lesson_id": 100,
+    "dialogue_id": 5100
+  },
+  {
+    "lesson_id": 101,
+    "dialogue_id": 5101
+  },
+  {
+    "lesson_id": 102,
+    "dialogue_id": 5102
+  },
+  {
+    "lesson_id": 103,
+    "dialogue_id": 5103
+  },
+  {
+    "lesson_id": 104,
+    "dialogue_id": 5104
+  },
+  {
+    "lesson_id": 105,
+    "dialogue_id": 5105
+  },
+  {
+    "lesson_id": 106,
+    "dialogue_id": 5106
+  },
+  {
+    "lesson_id": 107,
+    "dialogue_id": 5107
+  },
+  {
+    "lesson_id": 108,
+    "dialogue_id": 5108
+  },
+  {
+    "lesson_id": 109,
+    "dialogue_id": 5109
+  },
+  {
+    "lesson_id": 110,
+    "dialogue_id": 5110
+  },
+  {
+    "lesson_id": 111,
+    "dialogue_id": 5111
+  },
+  {
+    "lesson_id": 112,
+    "dialogue_id": 5112
+  },
+  {
+    "lesson_id": 113,
+    "dialogue_id": 5113
+  },
+  {
+    "lesson_id": 114,
+    "dialogue_id": 5114
+  },
+  {
+    "lesson_id": 115,
+    "dialogue_id": 5115
+  },
+  {
+    "lesson_id": 116,
+    "dialogue_id": 5116
+  },
+  {
+    "lesson_id": 117,
+    "dialogue_id": 5117
+  },
+  {
+    "lesson_id": 118,
+    "dialogue_id": 5118
+  },
+  {
+    "lesson_id": 119,
+    "dialogue_id": 5119
+  },
+  {
+    "lesson_id": 120,
+    "dialogue_id": 5120
+  },
+  {
+    "lesson_id": 121,
+    "dialogue_id": 5121
+  },
+  {
+    "lesson_id": 122,
+    "dialogue_id": 5122
+  },
+  {
+    "lesson_id": 123,
+    "dialogue_id": 5123
+  },
+  {
+    "lesson_id": 124,
+    "dialogue_id": 5124
+  },
+  {
+    "lesson_id": 125,
+    "dialogue_id": 5125
+  },
+  {
+    "lesson_id": 126,
+    "dialogue_id": 5126
+  },
+  {
+    "lesson_id": 127,
+    "dialogue_id": 5127
+  },
+  {
+    "lesson_id": 128,
+    "dialogue_id": 5128
+  },
+  {
+    "lesson_id": 129,
+    "dialogue_id": 5129
+  },
+  {
+    "lesson_id": 130,
+    "dialogue_id": 5130
+  },
+  {
+    "lesson_id": 131,
+    "dialogue_id": 5131
+  },
+  {
+    "lesson_id": 132,
+    "dialogue_id": 5132
+  },
+  {
+    "lesson_id": 133,
+    "dialogue_id": 5133
+  },
+  {
+    "lesson_id": 134,
+    "dialogue_id": 5134
+  },
+  {
+    "lesson_id": 135,
+    "dialogue_id": 5135
+  },
+  {
+    "lesson_id": 136,
+    "dialogue_id": 5136
+  },
+  {
+    "lesson_id": 137,
+    "dialogue_id": 5137
+  },
+  {
+    "lesson_id": 138,
+    "dialogue_id": 5138
+  },
+  {
+    "lesson_id": 139,
+    "dialogue_id": 5139
+  },
+  {
+    "lesson_id": 140,
+    "dialogue_id": 5140
+  },
+  {
+    "lesson_id": 141,
+    "dialogue_id": 5141
+  },
+  {
+    "lesson_id": 142,
+    "dialogue_id": 5142
+  },
+  {
+    "lesson_id": 143,
+    "dialogue_id": 5143
+  },
+  {
+    "lesson_id": 144,
+    "dialogue_id": 5144
+  },
+  {
+    "lesson_id": 145,
+    "dialogue_id": 5145
+  },
+  {
+    "lesson_id": 146,
+    "dialogue_id": 5146
+  },
+  {
+    "lesson_id": 147,
+    "dialogue_id": 5147
+  },
+  {
+    "lesson_id": 148,
+    "dialogue_id": 5148
+  },
+  {
+    "lesson_id": 149,
+    "dialogue_id": 5149
+  },
+  {
+    "lesson_id": 150,
+    "dialogue_id": 5150
+  },
+  {
+    "lesson_id": 151,
+    "dialogue_id": 5151
+  },
+  {
+    "lesson_id": 152,
+    "dialogue_id": 5152
+  },
+  {
+    "lesson_id": 153,
+    "dialogue_id": 5153
+  },
+  {
+    "lesson_id": 154,
+    "dialogue_id": 5154
+  },
+  {
+    "lesson_id": 155,
+    "dialogue_id": 5155
+  },
+  {
+    "lesson_id": 156,
+    "dialogue_id": 5156
+  },
+  {
+    "lesson_id": 157,
+    "dialogue_id": 5157
+  },
+  {
+    "lesson_id": 158,
+    "dialogue_id": 5158
+  },
+  {
+    "lesson_id": 159,
+    "dialogue_id": 5159
+  },
+  {
+    "lesson_id": 160,
+    "dialogue_id": 5160
+  },
+  {
+    "lesson_id": 161,
+    "dialogue_id": 5161
+  },
+  {
+    "lesson_id": 162,
+    "dialogue_id": 5162
+  },
+  {
+    "lesson_id": 163,
+    "dialogue_id": 5163
+  },
+  {
+    "lesson_id": 164,
+    "dialogue_id": 5164
+  },
+  {
+    "lesson_id": 165,
+    "dialogue_id": 5165
+  },
+  {
+    "lesson_id": 166,
+    "dialogue_id": 5166
+  },
+  {
+    "lesson_id": 167,
+    "dialogue_id": 5167
+  },
+  {
+    "lesson_id": 168,
+    "dialogue_id": 5168
+  },
+  {
+    "lesson_id": 169,
+    "dialogue_id": 5169
+  },
+  {
+    "lesson_id": 170,
+    "dialogue_id": 5170
+  },
+  {
+    "lesson_id": 171,
+    "dialogue_id": 5171
+  },
+  {
+    "lesson_id": 172,
+    "dialogue_id": 5172
+  },
+  {
+    "lesson_id": 173,
+    "dialogue_id": 5173
+  },
+  {
+    "lesson_id": 174,
+    "dialogue_id": 5174
+  },
+  {
+    "lesson_id": 175,
+    "dialogue_id": 5175
+  },
+  {
+    "lesson_id": 176,
+    "dialogue_id": 5176
+  },
+  {
+    "lesson_id": 177,
+    "dialogue_id": 5177
+  },
+  {
+    "lesson_id": 178,
+    "dialogue_id": 5178
+  },
+  {
+    "lesson_id": 179,
+    "dialogue_id": 5179
+  },
+  {
+    "lesson_id": 180,
+    "dialogue_id": 5180
+  },
+  {
+    "lesson_id": 181,
+    "dialogue_id": 5181
+  },
+  {
+    "lesson_id": 182,
+    "dialogue_id": 5182
+  },
+  {
+    "lesson_id": 183,
+    "dialogue_id": 5183
+  },
+  {
+    "lesson_id": 184,
+    "dialogue_id": 5184
+  },
+  {
+    "lesson_id": 185,
+    "dialogue_id": 5185
+  },
+  {
+    "lesson_id": 186,
+    "dialogue_id": 5186
+  },
+  {
+    "lesson_id": 187,
+    "dialogue_id": 5187
+  },
+  {
+    "lesson_id": 188,
+    "dialogue_id": 5188
+  },
+  {
+    "lesson_id": 189,
+    "dialogue_id": 5189
+  },
+  {
+    "lesson_id": 190,
+    "dialogue_id": 5190
+  },
+  {
+    "lesson_id": 191,
+    "dialogue_id": 5191
+  },
+  {
+    "lesson_id": 192,
+    "dialogue_id": 5192
+  },
+  {
+    "lesson_id": 193,
+    "dialogue_id": 5193
+  },
+  {
+    "lesson_id": 194,
+    "dialogue_id": 5194
+  },
+  {
+    "lesson_id": 195,
+    "dialogue_id": 5195
+  },
+  {
+    "lesson_id": 196,
+    "dialogue_id": 5196
+  },
+  {
+    "lesson_id": 197,
+    "dialogue_id": 5197
+  },
+  {
+    "lesson_id": 198,
+    "dialogue_id": 5198
+  },
+  {
+    "lesson_id": 199,
+    "dialogue_id": 5199
+  },
+  {
+    "lesson_id": 200,
+    "dialogue_id": 5200
+  },
+  {
+    "lesson_id": 201,
+    "dialogue_id": 5201
+  },
+  {
+    "lesson_id": 202,
+    "dialogue_id": 5202
+  },
+  {
+    "lesson_id": 203,
+    "dialogue_id": 5203
+  },
+  {
+    "lesson_id": 204,
+    "dialogue_id": 5204
+  },
+  {
+    "lesson_id": 205,
+    "dialogue_id": 5205
+  },
+  {
+    "lesson_id": 206,
+    "dialogue_id": 5206
+  },
+  {
+    "lesson_id": 207,
+    "dialogue_id": 5207
+  },
+  {
+    "lesson_id": 208,
+    "dialogue_id": 5208
+  },
+  {
+    "lesson_id": 209,
+    "dialogue_id": 5209
+  },
+  {
+    "lesson_id": 210,
+    "dialogue_id": 5210
+  },
+  {
+    "lesson_id": 211,
+    "dialogue_id": 5211
+  },
+  {
+    "lesson_id": 212,
+    "dialogue_id": 5212
+  },
+  {
+    "lesson_id": 213,
+    "dialogue_id": 5213
+  },
+  {
+    "lesson_id": 214,
+    "dialogue_id": 5214
+  },
+  {
+    "lesson_id": 215,
+    "dialogue_id": 5215
+  },
+  {
+    "lesson_id": 216,
+    "dialogue_id": 5216
+  },
+  {
+    "lesson_id": 217,
+    "dialogue_id": 5217
+  },
+  {
+    "lesson_id": 218,
+    "dialogue_id": 5218
+  },
+  {
+    "lesson_id": 219,
+    "dialogue_id": 5219
+  },
+  {
+    "lesson_id": 220,
+    "dialogue_id": 5220
+  },
+  {
+    "lesson_id": 221,
+    "dialogue_id": 5221
+  },
+  {
+    "lesson_id": 222,
+    "dialogue_id": 5222
+  },
+  {
+    "lesson_id": 223,
+    "dialogue_id": 5223
+  },
+  {
+    "lesson_id": 224,
+    "dialogue_id": 5224
+  },
+  {
+    "lesson_id": 225,
+    "dialogue_id": 5225
+  },
+  {
+    "lesson_id": 226,
+    "dialogue_id": 5226
+  },
+  {
+    "lesson_id": 227,
+    "dialogue_id": 5227
+  },
+  {
+    "lesson_id": 228,
+    "dialogue_id": 5228
+  },
+  {
+    "lesson_id": 229,
+    "dialogue_id": 5229
+  },
+  {
+    "lesson_id": 230,
+    "dialogue_id": 5230
+  },
+  {
+    "lesson_id": 231,
+    "dialogue_id": 5231
+  },
+  {
+    "lesson_id": 232,
+    "dialogue_id": 5232
+  },
+  {
+    "lesson_id": 233,
+    "dialogue_id": 5233
+  },
+  {
+    "lesson_id": 234,
+    "dialogue_id": 5234
+  },
+  {
+    "lesson_id": 235,
+    "dialogue_id": 5235
+  },
+  {
+    "lesson_id": 236,
+    "dialogue_id": 5236
+  },
+  {
+    "lesson_id": 237,
+    "dialogue_id": 5237
+  },
+  {
+    "lesson_id": 238,
+    "dialogue_id": 5238
+  },
+  {
+    "lesson_id": 239,
+    "dialogue_id": 5239
+  },
+  {
+    "lesson_id": 240,
+    "dialogue_id": 5240
+  },
+  {
+    "lesson_id": 241,
+    "dialogue_id": 5241
+  },
+  {
+    "lesson_id": 242,
+    "dialogue_id": 5242
+  },
+  {
+    "lesson_id": 243,
+    "dialogue_id": 5243
+  },
+  {
+    "lesson_id": 244,
+    "dialogue_id": 5244
+  },
+  {
+    "lesson_id": 245,
+    "dialogue_id": 5245
+  },
+  {
+    "lesson_id": 246,
+    "dialogue_id": 5246
+  },
+  {
+    "lesson_id": 247,
+    "dialogue_id": 5247
+  },
+  {
+    "lesson_id": 248,
+    "dialogue_id": 5248
+  },
+  {
+    "lesson_id": 249,
+    "dialogue_id": 5249
+  },
+  {
+    "lesson_id": 250,
+    "dialogue_id": 5250
+  },
+  {
+    "lesson_id": 251,
+    "dialogue_id": 5251
+  },
+  {
+    "lesson_id": 252,
+    "dialogue_id": 5252
+  },
+  {
+    "lesson_id": 253,
+    "dialogue_id": 5253
+  },
+  {
+    "lesson_id": 254,
+    "dialogue_id": 5254
+  },
+  {
+    "lesson_id": 255,
+    "dialogue_id": 5255
+  },
+  {
+    "lesson_id": 256,
+    "dialogue_id": 5256
+  },
+  {
+    "lesson_id": 257,
+    "dialogue_id": 5257
+  },
+  {
+    "lesson_id": 258,
+    "dialogue_id": 5258
+  },
+  {
+    "lesson_id": 259,
+    "dialogue_id": 5259
+  },
+  {
+    "lesson_id": 260,
+    "dialogue_id": 5260
+  },
+  {
+    "lesson_id": 261,
+    "dialogue_id": 5261
+  },
+  {
+    "lesson_id": 262,
+    "dialogue_id": 5262
+  },
+  {
+    "lesson_id": 263,
+    "dialogue_id": 5263
+  },
+  {
+    "lesson_id": 264,
+    "dialogue_id": 5264
+  },
+  {
+    "lesson_id": 265,
+    "dialogue_id": 5265
+  },
+  {
+    "lesson_id": 266,
+    "dialogue_id": 5266
+  },
+  {
+    "lesson_id": 267,
+    "dialogue_id": 5267
+  },
+  {
+    "lesson_id": 268,
+    "dialogue_id": 5268
+  },
+  {
+    "lesson_id": 269,
+    "dialogue_id": 5269
+  },
+  {
+    "lesson_id": 270,
+    "dialogue_id": 5270
+  },
+  {
+    "lesson_id": 271,
+    "dialogue_id": 5271
+  },
+  {
+    "lesson_id": 272,
+    "dialogue_id": 5272
+  },
+  {
+    "lesson_id": 273,
+    "dialogue_id": 5273
+  },
+  {
+    "lesson_id": 274,
+    "dialogue_id": 5274
+  },
+  {
+    "lesson_id": 275,
+    "dialogue_id": 5275
+  },
+  {
+    "lesson_id": 276,
+    "dialogue_id": 5276
+  },
+  {
+    "lesson_id": 277,
+    "dialogue_id": 5277
+  },
+  {
+    "lesson_id": 278,
+    "dialogue_id": 5278
+  },
+  {
+    "lesson_id": 279,
+    "dialogue_id": 5279
+  },
+  {
+    "lesson_id": 280,
+    "dialogue_id": 5280
+  },
+  {
+    "lesson_id": 281,
+    "dialogue_id": 5281
+  },
+  {
+    "lesson_id": 282,
+    "dialogue_id": 5282
+  },
+  {
+    "lesson_id": 283,
+    "dialogue_id": 5283
+  },
+  {
+    "lesson_id": 284,
+    "dialogue_id": 5284
+  },
+  {
+    "lesson_id": 285,
+    "dialogue_id": 5285
+  },
+  {
+    "lesson_id": 286,
+    "dialogue_id": 5286
+  },
+  {
+    "lesson_id": 287,
+    "dialogue_id": 5287
+  },
+  {
+    "lesson_id": 288,
+    "dialogue_id": 5288
+  },
+  {
+    "lesson_id": 289,
+    "dialogue_id": 5289
+  },
+  {
+    "lesson_id": 290,
+    "dialogue_id": 5290
+  },
+  {
+    "lesson_id": 291,
+    "dialogue_id": 5291
+  },
+  {
+    "lesson_id": 292,
+    "dialogue_id": 5292
+  },
+  {
+    "lesson_id": 293,
+    "dialogue_id": 5293
+  },
+  {
+    "lesson_id": 294,
+    "dialogue_id": 5294
+  },
+  {
+    "lesson_id": 295,
+    "dialogue_id": 5295
+  },
+  {
+    "lesson_id": 296,
+    "dialogue_id": 5296
+  },
+  {
+    "lesson_id": 297,
+    "dialogue_id": 5297
+  },
+  {
+    "lesson_id": 298,
+    "dialogue_id": 5298
+  },
+  {
+    "lesson_id": 299,
+    "dialogue_id": 5299
+  },
+  {
+    "lesson_id": 300,
+    "dialogue_id": 5300
+  },
+  {
+    "lesson_id": 301,
+    "dialogue_id": 5301
+  },
+  {
+    "lesson_id": 302,
+    "dialogue_id": 5302
+  },
+  {
+    "lesson_id": 303,
+    "dialogue_id": 5303
+  },
+  {
+    "lesson_id": 304,
+    "dialogue_id": 5304
+  },
+  {
+    "lesson_id": 305,
+    "dialogue_id": 5305
+  },
+  {
+    "lesson_id": 306,
+    "dialogue_id": 5306
+  },
+  {
+    "lesson_id": 307,
+    "dialogue_id": 5307
+  },
+  {
+    "lesson_id": 308,
+    "dialogue_id": 5308
+  },
+  {
+    "lesson_id": 309,
+    "dialogue_id": 5309
+  },
+  {
+    "lesson_id": 310,
+    "dialogue_id": 5310
+  },
+  {
+    "lesson_id": 311,
+    "dialogue_id": 5311
+  },
+  {
+    "lesson_id": 312,
+    "dialogue_id": 5312
+  },
+  {
+    "lesson_id": 313,
+    "dialogue_id": 5313
+  },
+  {
+    "lesson_id": 314,
+    "dialogue_id": 5314
+  },
+  {
+    "lesson_id": 315,
+    "dialogue_id": 5315
+  },
+  {
+    "lesson_id": 316,
+    "dialogue_id": 5316
+  },
+  {
+    "lesson_id": 317,
+    "dialogue_id": 5317
+  },
+  {
+    "lesson_id": 318,
+    "dialogue_id": 5318
+  },
+  {
+    "lesson_id": 319,
+    "dialogue_id": 5319
+  },
+  {
+    "lesson_id": 320,
+    "dialogue_id": 5320
+  },
+  {
+    "lesson_id": 321,
+    "dialogue_id": 5321
+  },
+  {
+    "lesson_id": 322,
+    "dialogue_id": 5322
+  },
+  {
+    "lesson_id": 323,
+    "dialogue_id": 5323
+  },
+  {
+    "lesson_id": 324,
+    "dialogue_id": 5324
+  },
+  {
+    "lesson_id": 325,
+    "dialogue_id": 5325
+  },
+  {
+    "lesson_id": 326,
+    "dialogue_id": 5326
+  },
+  {
+    "lesson_id": 327,
+    "dialogue_id": 5327
+  },
+  {
+    "lesson_id": 328,
+    "dialogue_id": 5328
+  },
+  {
+    "lesson_id": 329,
+    "dialogue_id": 5329
+  },
+  {
+    "lesson_id": 330,
+    "dialogue_id": 5330
+  },
+  {
+    "lesson_id": 331,
+    "dialogue_id": 5331
+  },
+  {
+    "lesson_id": 332,
+    "dialogue_id": 5332
+  },
+  {
+    "lesson_id": 333,
+    "dialogue_id": 5333
+  },
+  {
+    "lesson_id": 334,
+    "dialogue_id": 5334
+  },
+  {
+    "lesson_id": 335,
+    "dialogue_id": 5335
+  },
+  {
+    "lesson_id": 336,
+    "dialogue_id": 5336
+  },
+  {
+    "lesson_id": 337,
+    "dialogue_id": 5337
+  },
+  {
+    "lesson_id": 338,
+    "dialogue_id": 5338
+  },
+  {
+    "lesson_id": 339,
+    "dialogue_id": 5339
+  },
+  {
+    "lesson_id": 340,
+    "dialogue_id": 5340
+  },
+  {
+    "lesson_id": 341,
+    "dialogue_id": 5341
+  },
+  {
+    "lesson_id": 342,
+    "dialogue_id": 5342
+  },
+  {
+    "lesson_id": 343,
+    "dialogue_id": 5343
+  },
+  {
+    "lesson_id": 344,
+    "dialogue_id": 5344
+  },
+  {
+    "lesson_id": 345,
+    "dialogue_id": 5345
+  },
+  {
+    "lesson_id": 346,
+    "dialogue_id": 5346
+  },
+  {
+    "lesson_id": 347,
+    "dialogue_id": 5347
+  },
+  {
+    "lesson_id": 348,
+    "dialogue_id": 5348
+  },
+  {
+    "lesson_id": 349,
+    "dialogue_id": 5349
+  },
+  {
+    "lesson_id": 350,
+    "dialogue_id": 5350
+  },
+  {
+    "lesson_id": 351,
+    "dialogue_id": 5351
+  },
+  {
+    "lesson_id": 352,
+    "dialogue_id": 5352
+  },
+  {
+    "lesson_id": 353,
+    "dialogue_id": 5353
+  },
+  {
+    "lesson_id": 354,
+    "dialogue_id": 5354
+  },
+  {
+    "lesson_id": 355,
+    "dialogue_id": 5355
+  },
+  {
+    "lesson_id": 356,
+    "dialogue_id": 5356
+  },
+  {
+    "lesson_id": 357,
+    "dialogue_id": 5357
+  },
+  {
+    "lesson_id": 358,
+    "dialogue_id": 5358
+  },
+  {
+    "lesson_id": 359,
+    "dialogue_id": 5359
+  },
+  {
+    "lesson_id": 360,
+    "dialogue_id": 5360
+  },
+  {
+    "lesson_id": 361,
+    "dialogue_id": 5361
+  },
+  {
+    "lesson_id": 362,
+    "dialogue_id": 5362
+  },
+  {
+    "lesson_id": 363,
+    "dialogue_id": 5363
+  },
+  {
+    "lesson_id": 364,
+    "dialogue_id": 5364
+  },
+  {
+    "lesson_id": 365,
+    "dialogue_id": 5365
+  },
+  {
+    "lesson_id": 366,
+    "dialogue_id": 5366
+  },
+  {
+    "lesson_id": 367,
+    "dialogue_id": 5367
+  },
+  {
+    "lesson_id": 368,
+    "dialogue_id": 5368
+  },
+  {
+    "lesson_id": 369,
+    "dialogue_id": 5369
+  },
+  {
+    "lesson_id": 370,
+    "dialogue_id": 5370
+  },
+  {
+    "lesson_id": 371,
+    "dialogue_id": 5371
+  },
+  {
+    "lesson_id": 372,
+    "dialogue_id": 5372
+  },
+  {
+    "lesson_id": 373,
+    "dialogue_id": 5373
+  },
+  {
+    "lesson_id": 374,
+    "dialogue_id": 5374
+  },
+  {
+    "lesson_id": 375,
+    "dialogue_id": 5375
+  },
+  {
+    "lesson_id": 376,
+    "dialogue_id": 5376
+  },
+  {
+    "lesson_id": 377,
+    "dialogue_id": 5377
+  },
+  {
+    "lesson_id": 378,
+    "dialogue_id": 5378
+  },
+  {
+    "lesson_id": 379,
+    "dialogue_id": 5379
+  },
+  {
+    "lesson_id": 380,
+    "dialogue_id": 5380
+  },
+  {
+    "lesson_id": 381,
+    "dialogue_id": 5381
+  },
+  {
+    "lesson_id": 382,
+    "dialogue_id": 5382
+  },
+  {
+    "lesson_id": 383,
+    "dialogue_id": 5383
+  },
+  {
+    "lesson_id": 384,
+    "dialogue_id": 5384
+  },
+  {
+    "lesson_id": 385,
+    "dialogue_id": 5385
+  },
+  {
+    "lesson_id": 386,
+    "dialogue_id": 5386
+  },
+  {
+    "lesson_id": 387,
+    "dialogue_id": 5387
+  },
+  {
+    "lesson_id": 388,
+    "dialogue_id": 5388
+  },
+  {
+    "lesson_id": 389,
+    "dialogue_id": 5389
+  },
+  {
+    "lesson_id": 390,
+    "dialogue_id": 5390
+  },
+  {
+    "lesson_id": 391,
+    "dialogue_id": 5391
+  },
+  {
+    "lesson_id": 392,
+    "dialogue_id": 5392
+  },
+  {
+    "lesson_id": 393,
+    "dialogue_id": 5393
+  },
+  {
+    "lesson_id": 394,
+    "dialogue_id": 5394
+  },
+  {
+    "lesson_id": 395,
+    "dialogue_id": 5395
+  },
+  {
+    "lesson_id": 396,
+    "dialogue_id": 5396
+  },
+  {
+    "lesson_id": 397,
+    "dialogue_id": 5397
+  },
+  {
+    "lesson_id": 398,
+    "dialogue_id": 5398
+  },
+  {
+    "lesson_id": 399,
+    "dialogue_id": 5399
+  },
+  {
+    "lesson_id": 400,
+    "dialogue_id": 5400
+  },
+  {
+    "lesson_id": 401,
+    "dialogue_id": 5401
+  },
+  {
+    "lesson_id": 402,
+    "dialogue_id": 5402
+  },
+  {
+    "lesson_id": 403,
+    "dialogue_id": 5403
+  },
+  {
+    "lesson_id": 404,
+    "dialogue_id": 5404
+  },
+  {
+    "lesson_id": 405,
+    "dialogue_id": 5405
+  },
+  {
+    "lesson_id": 406,
+    "dialogue_id": 5406
+  },
+  {
+    "lesson_id": 407,
+    "dialogue_id": 5407
+  },
+  {
+    "lesson_id": 408,
+    "dialogue_id": 5408
+  },
+  {
+    "lesson_id": 409,
+    "dialogue_id": 5409
+  },
+  {
+    "lesson_id": 410,
+    "dialogue_id": 5410
+  },
+  {
+    "lesson_id": 411,
+    "dialogue_id": 5411
+  },
+  {
+    "lesson_id": 412,
+    "dialogue_id": 5412
+  },
+  {
+    "lesson_id": 413,
+    "dialogue_id": 5413
+  },
+  {
+    "lesson_id": 414,
+    "dialogue_id": 5414
+  },
+  {
+    "lesson_id": 415,
+    "dialogue_id": 5415
+  },
+  {
+    "lesson_id": 416,
+    "dialogue_id": 5416
+  },
+  {
+    "lesson_id": 417,
+    "dialogue_id": 5417
+  },
+  {
+    "lesson_id": 418,
+    "dialogue_id": 5418
+  },
+  {
+    "lesson_id": 419,
+    "dialogue_id": 5419
+  },
+  {
+    "lesson_id": 420,
+    "dialogue_id": 5420
+  },
+  {
+    "lesson_id": 421,
+    "dialogue_id": 5421
+  },
+  {
+    "lesson_id": 422,
+    "dialogue_id": 5422
+  },
+  {
+    "lesson_id": 423,
+    "dialogue_id": 5423
+  },
+  {
+    "lesson_id": 424,
+    "dialogue_id": 5424
+  },
+  {
+    "lesson_id": 425,
+    "dialogue_id": 5425
+  },
+  {
+    "lesson_id": 426,
+    "dialogue_id": 5426
+  },
+  {
+    "lesson_id": 427,
+    "dialogue_id": 5427
+  },
+  {
+    "lesson_id": 428,
+    "dialogue_id": 5428
+  },
+  {
+    "lesson_id": 429,
+    "dialogue_id": 5429
+  },
+  {
+    "lesson_id": 430,
+    "dialogue_id": 5430
+  },
+  {
+    "lesson_id": 431,
+    "dialogue_id": 5431
+  },
+  {
+    "lesson_id": 432,
+    "dialogue_id": 5432
+  },
+  {
+    "lesson_id": 433,
+    "dialogue_id": 5433
+  },
+  {
+    "lesson_id": 434,
+    "dialogue_id": 5434
+  },
+  {
+    "lesson_id": 435,
+    "dialogue_id": 5435
+  },
+  {
+    "lesson_id": 436,
+    "dialogue_id": 5436
+  },
+  {
+    "lesson_id": 437,
+    "dialogue_id": 5437
+  },
+  {
+    "lesson_id": 438,
+    "dialogue_id": 5438
+  },
+  {
+    "lesson_id": 439,
+    "dialogue_id": 5439
+  },
+  {
+    "lesson_id": 440,
+    "dialogue_id": 5440
+  },
+  {
+    "lesson_id": 441,
+    "dialogue_id": 5441
+  },
+  {
+    "lesson_id": 442,
+    "dialogue_id": 5442
+  },
+  {
+    "lesson_id": 443,
+    "dialogue_id": 5443
+  },
+  {
+    "lesson_id": 444,
+    "dialogue_id": 5444
+  },
+  {
+    "lesson_id": 445,
+    "dialogue_id": 5445
+  },
+  {
+    "lesson_id": 446,
+    "dialogue_id": 5446
+  },
+  {
+    "lesson_id": 447,
+    "dialogue_id": 5447
+  },
+  {
+    "lesson_id": 448,
+    "dialogue_id": 5448
+  },
+  {
+    "lesson_id": 449,
+    "dialogue_id": 5449
+  },
+  {
+    "lesson_id": 450,
+    "dialogue_id": 5450
+  },
+  {
+    "lesson_id": 451,
+    "dialogue_id": 5451
+  },
+  {
+    "lesson_id": 452,
+    "dialogue_id": 5452
+  },
+  {
+    "lesson_id": 453,
+    "dialogue_id": 5453
+  },
+  {
+    "lesson_id": 454,
+    "dialogue_id": 5454
+  },
+  {
+    "lesson_id": 455,
+    "dialogue_id": 5455
+  },
+  {
+    "lesson_id": 456,
+    "dialogue_id": 5456
+  },
+  {
+    "lesson_id": 457,
+    "dialogue_id": 5457
+  },
+  {
+    "lesson_id": 458,
+    "dialogue_id": 5458
+  },
+  {
+    "lesson_id": 459,
+    "dialogue_id": 5459
+  },
+  {
+    "lesson_id": 460,
+    "dialogue_id": 5460
+  },
+  {
+    "lesson_id": 461,
+    "dialogue_id": 5461
+  },
+  {
+    "lesson_id": 462,
+    "dialogue_id": 5462
+  },
+  {
+    "lesson_id": 463,
+    "dialogue_id": 5463
+  },
+  {
+    "lesson_id": 464,
+    "dialogue_id": 5464
+  },
+  {
+    "lesson_id": 465,
+    "dialogue_id": 5465
+  },
+  {
+    "lesson_id": 466,
+    "dialogue_id": 5466
+  },
+  {
+    "lesson_id": 467,
+    "dialogue_id": 5467
+  },
+  {
+    "lesson_id": 468,
+    "dialogue_id": 5468
+  },
+  {
+    "lesson_id": 469,
+    "dialogue_id": 5469
+  },
+  {
+    "lesson_id": 470,
+    "dialogue_id": 5470
+  },
+  {
+    "lesson_id": 471,
+    "dialogue_id": 5471
+  },
+  {
+    "lesson_id": 472,
+    "dialogue_id": 5472
+  },
+  {
+    "lesson_id": 473,
+    "dialogue_id": 5473
+  },
+  {
+    "lesson_id": 474,
+    "dialogue_id": 5474
+  },
+  {
+    "lesson_id": 475,
+    "dialogue_id": 5475
+  },
+  {
+    "lesson_id": 476,
+    "dialogue_id": 5476
+  },
+  {
+    "lesson_id": 477,
+    "dialogue_id": 5477
+  },
+  {
+    "lesson_id": 478,
+    "dialogue_id": 5478
+  },
+  {
+    "lesson_id": 479,
+    "dialogue_id": 5479
+  },
+  {
+    "lesson_id": 480,
+    "dialogue_id": 5480
+  },
+  {
+    "lesson_id": 481,
+    "dialogue_id": 5481
+  },
+  {
+    "lesson_id": 482,
+    "dialogue_id": 5482
+  },
+  {
+    "lesson_id": 483,
+    "dialogue_id": 5483
+  },
+  {
+    "lesson_id": 484,
+    "dialogue_id": 5484
+  },
+  {
+    "lesson_id": 485,
+    "dialogue_id": 5485
+  },
+  {
+    "lesson_id": 486,
+    "dialogue_id": 5486
+  },
+  {
+    "lesson_id": 487,
+    "dialogue_id": 5487
+  },
+  {
+    "lesson_id": 488,
+    "dialogue_id": 5488
+  },
+  {
+    "lesson_id": 489,
+    "dialogue_id": 5489
+  },
+  {
+    "lesson_id": 490,
+    "dialogue_id": 5490
+  },
+  {
+    "lesson_id": 491,
+    "dialogue_id": 5491
+  },
+  {
+    "lesson_id": 492,
+    "dialogue_id": 5492
+  },
+  {
+    "lesson_id": 493,
+    "dialogue_id": 5493
+  },
+  {
+    "lesson_id": 494,
+    "dialogue_id": 5494
+  },
+  {
+    "lesson_id": 495,
+    "dialogue_id": 5495
+  },
+  {
+    "lesson_id": 496,
+    "dialogue_id": 5496
+  },
+  {
+    "lesson_id": 497,
+    "dialogue_id": 5497
+  },
+  {
+    "lesson_id": 498,
+    "dialogue_id": 5498
+  },
+  {
+    "lesson_id": 499,
+    "dialogue_id": 5499
+  },
+  {
+    "lesson_id": 500,
+    "dialogue_id": 5500
+  },
+  {
+    "lesson_id": 501,
+    "dialogue_id": 5501
+  },
+  {
+    "lesson_id": 502,
+    "dialogue_id": 5502
+  },
+  {
+    "lesson_id": 503,
+    "dialogue_id": 5503
+  },
+  {
+    "lesson_id": 504,
+    "dialogue_id": 5504
+  },
+  {
+    "lesson_id": 505,
+    "dialogue_id": 5505
+  },
+  {
+    "lesson_id": 506,
+    "dialogue_id": 5506
+  },
+  {
+    "lesson_id": 507,
+    "dialogue_id": 5507
+  },
+  {
+    "lesson_id": 508,
+    "dialogue_id": 5508
+  },
+  {
+    "lesson_id": 509,
+    "dialogue_id": 5509
+  },
+  {
+    "lesson_id": 510,
+    "dialogue_id": 5510
+  },
+  {
+    "lesson_id": 511,
+    "dialogue_id": 5511
+  },
+  {
+    "lesson_id": 512,
+    "dialogue_id": 5512
+  },
+  {
+    "lesson_id": 513,
+    "dialogue_id": 5513
+  },
+  {
+    "lesson_id": 514,
+    "dialogue_id": 5514
+  },
+  {
+    "lesson_id": 515,
+    "dialogue_id": 5515
+  },
+  {
+    "lesson_id": 516,
+    "dialogue_id": 5516
+  },
+  {
+    "lesson_id": 517,
+    "dialogue_id": 5517
+  },
+  {
+    "lesson_id": 518,
+    "dialogue_id": 5518
+  },
+  {
+    "lesson_id": 519,
+    "dialogue_id": 5519
+  },
+  {
+    "lesson_id": 520,
+    "dialogue_id": 5520
+  },
+  {
+    "lesson_id": 521,
+    "dialogue_id": 5521
+  },
+  {
+    "lesson_id": 522,
+    "dialogue_id": 5522
+  },
+  {
+    "lesson_id": 523,
+    "dialogue_id": 5523
+  },
+  {
+    "lesson_id": 524,
+    "dialogue_id": 5524
+  },
+  {
+    "lesson_id": 525,
+    "dialogue_id": 5525
+  },
+  {
+    "lesson_id": 526,
+    "dialogue_id": 5526
+  },
+  {
+    "lesson_id": 527,
+    "dialogue_id": 5527
+  },
+  {
+    "lesson_id": 528,
+    "dialogue_id": 5528
+  },
+  {
+    "lesson_id": 529,
+    "dialogue_id": 5529
+  },
+  {
+    "lesson_id": 530,
+    "dialogue_id": 5530
+  },
+  {
+    "lesson_id": 531,
+    "dialogue_id": 5531
+  },
+  {
+    "lesson_id": 532,
+    "dialogue_id": 5532
+  },
+  {
+    "lesson_id": 533,
+    "dialogue_id": 5533
+  },
+  {
+    "lesson_id": 534,
+    "dialogue_id": 5534
+  },
+  {
+    "lesson_id": 535,
+    "dialogue_id": 5535
+  },
+  {
+    "lesson_id": 536,
+    "dialogue_id": 5536
+  },
+  {
+    "lesson_id": 537,
+    "dialogue_id": 5537
+  },
+  {
+    "lesson_id": 538,
+    "dialogue_id": 5538
+  },
+  {
+    "lesson_id": 539,
+    "dialogue_id": 5539
+  },
+  {
+    "lesson_id": 540,
+    "dialogue_id": 5540
+  },
+  {
+    "lesson_id": 541,
+    "dialogue_id": 5541
+  },
+  {
+    "lesson_id": 542,
+    "dialogue_id": 5542
+  },
+  {
+    "lesson_id": 543,
+    "dialogue_id": 5543
+  },
+  {
+    "lesson_id": 544,
+    "dialogue_id": 5544
+  },
+  {
+    "lesson_id": 545,
+    "dialogue_id": 5545
+  },
+  {
+    "lesson_id": 546,
+    "dialogue_id": 5546
+  },
+  {
+    "lesson_id": 547,
+    "dialogue_id": 5547
+  },
+  {
+    "lesson_id": 548,
+    "dialogue_id": 5548
+  },
+  {
+    "lesson_id": 549,
+    "dialogue_id": 5549
+  },
+  {
+    "lesson_id": 550,
+    "dialogue_id": 5550
+  },
+  {
+    "lesson_id": 551,
+    "dialogue_id": 5551
+  },
+  {
+    "lesson_id": 552,
+    "dialogue_id": 5552
+  },
+  {
+    "lesson_id": 553,
+    "dialogue_id": 5553
+  },
+  {
+    "lesson_id": 554,
+    "dialogue_id": 5554
+  },
+  {
+    "lesson_id": 555,
+    "dialogue_id": 5555
+  },
+  {
+    "lesson_id": 556,
+    "dialogue_id": 5556
+  },
+  {
+    "lesson_id": 557,
+    "dialogue_id": 5557
+  },
+  {
+    "lesson_id": 558,
+    "dialogue_id": 5558
+  },
+  {
+    "lesson_id": 559,
+    "dialogue_id": 5559
+  },
+  {
+    "lesson_id": 560,
+    "dialogue_id": 5560
+  },
+  {
+    "lesson_id": 561,
+    "dialogue_id": 5561
+  },
+  {
+    "lesson_id": 562,
+    "dialogue_id": 5562
+  },
+  {
+    "lesson_id": 563,
+    "dialogue_id": 5563
+  },
+  {
+    "lesson_id": 564,
+    "dialogue_id": 5564
+  },
+  {
+    "lesson_id": 565,
+    "dialogue_id": 5565
+  },
+  {
+    "lesson_id": 566,
+    "dialogue_id": 5566
+  },
+  {
+    "lesson_id": 567,
+    "dialogue_id": 5567
+  },
+  {
+    "lesson_id": 568,
+    "dialogue_id": 5568
+  },
+  {
+    "lesson_id": 569,
+    "dialogue_id": 5569
+  },
+  {
+    "lesson_id": 570,
+    "dialogue_id": 5570
+  },
+  {
+    "lesson_id": 571,
+    "dialogue_id": 5571
+  },
+  {
+    "lesson_id": 572,
+    "dialogue_id": 5572
+  },
+  {
+    "lesson_id": 573,
+    "dialogue_id": 5573
+  },
+  {
+    "lesson_id": 574,
+    "dialogue_id": 5574
+  },
+  {
+    "lesson_id": 575,
+    "dialogue_id": 5575
+  },
+  {
+    "lesson_id": 576,
+    "dialogue_id": 5576
+  },
+  {
+    "lesson_id": 577,
+    "dialogue_id": 5577
+  },
+  {
+    "lesson_id": 578,
+    "dialogue_id": 5578
+  },
+  {
+    "lesson_id": 579,
+    "dialogue_id": 5579
+  },
+  {
+    "lesson_id": 580,
+    "dialogue_id": 5580
+  },
+  {
+    "lesson_id": 581,
+    "dialogue_id": 5581
+  },
+  {
+    "lesson_id": 582,
+    "dialogue_id": 5582
+  },
+  {
+    "lesson_id": 583,
+    "dialogue_id": 5583
+  },
+  {
+    "lesson_id": 584,
+    "dialogue_id": 5584
+  },
+  {
+    "lesson_id": 585,
+    "dialogue_id": 5585
+  },
+  {
+    "lesson_id": 586,
+    "dialogue_id": 5586
+  },
+  {
+    "lesson_id": 587,
+    "dialogue_id": 5587
+  },
+  {
+    "lesson_id": 588,
+    "dialogue_id": 5588
+  },
+  {
+    "lesson_id": 589,
+    "dialogue_id": 5589
+  },
+  {
+    "lesson_id": 590,
+    "dialogue_id": 5590
+  },
+  {
+    "lesson_id": 591,
+    "dialogue_id": 5591
+  },
+  {
+    "lesson_id": 592,
+    "dialogue_id": 5592
+  },
+  {
+    "lesson_id": 593,
+    "dialogue_id": 5593
+  },
+  {
+    "lesson_id": 594,
+    "dialogue_id": 5594
+  },
+  {
+    "lesson_id": 595,
+    "dialogue_id": 5595
+  },
+  {
+    "lesson_id": 596,
+    "dialogue_id": 5596
+  },
+  {
+    "lesson_id": 597,
+    "dialogue_id": 5597
+  },
+  {
+    "lesson_id": 598,
+    "dialogue_id": 5598
+  },
+  {
+    "lesson_id": 599,
+    "dialogue_id": 5599
+  },
+  {
+    "lesson_id": 600,
+    "dialogue_id": 5600
+  },
+  {
+    "lesson_id": 601,
+    "dialogue_id": 5601
+  },
+  {
+    "lesson_id": 602,
+    "dialogue_id": 5602
+  },
+  {
+    "lesson_id": 603,
+    "dialogue_id": 5603
+  },
+  {
+    "lesson_id": 604,
+    "dialogue_id": 5604
+  },
+  {
+    "lesson_id": 605,
+    "dialogue_id": 5605
+  },
+  {
+    "lesson_id": 606,
+    "dialogue_id": 5606
+  },
+  {
+    "lesson_id": 607,
+    "dialogue_id": 5607
+  },
+  {
+    "lesson_id": 608,
+    "dialogue_id": 5608
+  },
+  {
+    "lesson_id": 609,
+    "dialogue_id": 5609
+  },
+  {
+    "lesson_id": 610,
+    "dialogue_id": 5610
+  },
+  {
+    "lesson_id": 611,
+    "dialogue_id": 5611
+  },
+  {
+    "lesson_id": 612,
+    "dialogue_id": 5612
+  },
+  {
+    "lesson_id": 613,
+    "dialogue_id": 5613
+  },
+  {
+    "lesson_id": 614,
+    "dialogue_id": 5614
+  },
+  {
+    "lesson_id": 615,
+    "dialogue_id": 5615
+  },
+  {
+    "lesson_id": 616,
+    "dialogue_id": 5616
+  },
+  {
+    "lesson_id": 617,
+    "dialogue_id": 5617
+  },
+  {
+    "lesson_id": 618,
+    "dialogue_id": 5618
+  },
+  {
+    "lesson_id": 619,
+    "dialogue_id": 5619
+  },
+  {
+    "lesson_id": 620,
+    "dialogue_id": 5620
+  },
+  {
+    "lesson_id": 621,
+    "dialogue_id": 5621
+  },
+  {
+    "lesson_id": 622,
+    "dialogue_id": 5622
+  },
+  {
+    "lesson_id": 623,
+    "dialogue_id": 5623
+  },
+  {
+    "lesson_id": 624,
+    "dialogue_id": 5624
+  },
+  {
+    "lesson_id": 625,
+    "dialogue_id": 5625
+  },
+  {
+    "lesson_id": 626,
+    "dialogue_id": 5626
+  },
+  {
+    "lesson_id": 627,
+    "dialogue_id": 5627
+  },
+  {
+    "lesson_id": 628,
+    "dialogue_id": 5628
+  },
+  {
+    "lesson_id": 629,
+    "dialogue_id": 5629
+  },
+  {
+    "lesson_id": 630,
+    "dialogue_id": 5630
+  },
+  {
+    "lesson_id": 631,
+    "dialogue_id": 5631
+  },
+  {
+    "lesson_id": 632,
+    "dialogue_id": 5632
+  },
+  {
+    "lesson_id": 633,
+    "dialogue_id": 5633
+  },
+  {
+    "lesson_id": 634,
+    "dialogue_id": 5634
+  },
+  {
+    "lesson_id": 635,
+    "dialogue_id": 5635
+  },
+  {
+    "lesson_id": 636,
+    "dialogue_id": 5636
+  },
+  {
+    "lesson_id": 637,
+    "dialogue_id": 5637
+  },
+  {
+    "lesson_id": 638,
+    "dialogue_id": 5638
+  },
+  {
+    "lesson_id": 639,
+    "dialogue_id": 5639
+  },
+  {
+    "lesson_id": 640,
+    "dialogue_id": 5640
+  },
+  {
+    "lesson_id": 641,
+    "dialogue_id": 5641
+  },
+  {
+    "lesson_id": 642,
+    "dialogue_id": 5642
+  },
+  {
+    "lesson_id": 643,
+    "dialogue_id": 5643
+  },
+  {
+    "lesson_id": 644,
+    "dialogue_id": 5644
+  },
+  {
+    "lesson_id": 645,
+    "dialogue_id": 5645
+  },
+  {
+    "lesson_id": 646,
+    "dialogue_id": 5646
+  },
+  {
+    "lesson_id": 647,
+    "dialogue_id": 5647
+  },
+  {
+    "lesson_id": 648,
+    "dialogue_id": 5648
+  },
+  {
+    "lesson_id": 649,
+    "dialogue_id": 5649
+  },
+  {
+    "lesson_id": 650,
+    "dialogue_id": 5650
+  },
+  {
+    "lesson_id": 651,
+    "dialogue_id": 5651
+  },
+  {
+    "lesson_id": 652,
+    "dialogue_id": 5652
+  },
+  {
+    "lesson_id": 653,
+    "dialogue_id": 5653
+  },
+  {
+    "lesson_id": 654,
+    "dialogue_id": 5654
+  },
+  {
+    "lesson_id": 655,
+    "dialogue_id": 5655
+  },
+  {
+    "lesson_id": 656,
+    "dialogue_id": 5656
+  },
+  {
+    "lesson_id": 657,
+    "dialogue_id": 5657
+  },
+  {
+    "lesson_id": 658,
+    "dialogue_id": 5658
+  },
+  {
+    "lesson_id": 659,
+    "dialogue_id": 5659
+  },
+  {
+    "lesson_id": 660,
+    "dialogue_id": 5660
+  },
+  {
+    "lesson_id": 661,
+    "dialogue_id": 5661
+  },
+  {
+    "lesson_id": 662,
+    "dialogue_id": 5662
+  },
+  {
+    "lesson_id": 663,
+    "dialogue_id": 5663
+  },
+  {
+    "lesson_id": 664,
+    "dialogue_id": 5664
+  },
+  {
+    "lesson_id": 665,
+    "dialogue_id": 5665
+  },
+  {
+    "lesson_id": 666,
+    "dialogue_id": 5666
+  },
+  {
+    "lesson_id": 667,
+    "dialogue_id": 5667
+  },
+  {
+    "lesson_id": 668,
+    "dialogue_id": 5668
+  },
+  {
+    "lesson_id": 669,
+    "dialogue_id": 5669
+  },
+  {
+    "lesson_id": 670,
+    "dialogue_id": 5670
+  },
+  {
+    "lesson_id": 671,
+    "dialogue_id": 5671
+  },
+  {
+    "lesson_id": 672,
+    "dialogue_id": 5672
+  },
+  {
+    "lesson_id": 673,
+    "dialogue_id": 5673
+  },
+  {
+    "lesson_id": 674,
+    "dialogue_id": 5674
+  },
+  {
+    "lesson_id": 675,
+    "dialogue_id": 5675
+  },
+  {
+    "lesson_id": 676,
+    "dialogue_id": 5676
+  },
+  {
+    "lesson_id": 677,
+    "dialogue_id": 5677
+  },
+  {
+    "lesson_id": 678,
+    "dialogue_id": 5678
+  },
+  {
+    "lesson_id": 679,
+    "dialogue_id": 5679
+  },
+  {
+    "lesson_id": 680,
+    "dialogue_id": 5680
+  },
+  {
+    "lesson_id": 681,
+    "dialogue_id": 5681
+  },
+  {
+    "lesson_id": 682,
+    "dialogue_id": 5682
+  },
+  {
+    "lesson_id": 683,
+    "dialogue_id": 5683
+  },
+  {
+    "lesson_id": 684,
+    "dialogue_id": 5684
+  },
+  {
+    "lesson_id": 685,
+    "dialogue_id": 5685
+  },
+  {
+    "lesson_id": 686,
+    "dialogue_id": 5686
+  },
+  {
+    "lesson_id": 687,
+    "dialogue_id": 5687
+  },
+  {
+    "lesson_id": 688,
+    "dialogue_id": 5688
+  },
+  {
+    "lesson_id": 689,
+    "dialogue_id": 5689
+  },
+  {
+    "lesson_id": 690,
+    "dialogue_id": 5690
+  },
+  {
+    "lesson_id": 691,
+    "dialogue_id": 5691
+  },
+  {
+    "lesson_id": 692,
+    "dialogue_id": 5692
+  },
+  {
+    "lesson_id": 693,
+    "dialogue_id": 5693
+  },
+  {
+    "lesson_id": 694,
+    "dialogue_id": 5694
+  },
+  {
+    "lesson_id": 695,
+    "dialogue_id": 5695
+  },
+  {
+    "lesson_id": 696,
+    "dialogue_id": 5696
+  },
+  {
+    "lesson_id": 697,
+    "dialogue_id": 5697
+  },
+  {
+    "lesson_id": 698,
+    "dialogue_id": 5698
+  },
+  {
+    "lesson_id": 699,
+    "dialogue_id": 5699
+  },
+  {
+    "lesson_id": 700,
+    "dialogue_id": 5700
+  },
+  {
+    "lesson_id": 701,
+    "dialogue_id": 5701
+  },
+  {
+    "lesson_id": 702,
+    "dialogue_id": 5702
+  },
+  {
+    "lesson_id": 703,
+    "dialogue_id": 5703
+  },
+  {
+    "lesson_id": 704,
+    "dialogue_id": 5704
+  },
+  {
+    "lesson_id": 705,
+    "dialogue_id": 5705
+  },
+  {
+    "lesson_id": 706,
+    "dialogue_id": 5706
+  },
+  {
+    "lesson_id": 707,
+    "dialogue_id": 5707
+  },
+  {
+    "lesson_id": 708,
+    "dialogue_id": 5708
+  },
+  {
+    "lesson_id": 709,
+    "dialogue_id": 5709
+  },
+  {
+    "lesson_id": 710,
+    "dialogue_id": 5710
+  },
+  {
+    "lesson_id": 711,
+    "dialogue_id": 5711
+  },
+  {
+    "lesson_id": 712,
+    "dialogue_id": 5712
+  },
+  {
+    "lesson_id": 713,
+    "dialogue_id": 5713
+  },
+  {
+    "lesson_id": 714,
+    "dialogue_id": 5714
+  },
+  {
+    "lesson_id": 715,
+    "dialogue_id": 5715
+  },
+  {
+    "lesson_id": 716,
+    "dialogue_id": 5716
+  },
+  {
+    "lesson_id": 717,
+    "dialogue_id": 5717
+  },
+  {
+    "lesson_id": 718,
+    "dialogue_id": 5718
+  },
+  {
+    "lesson_id": 719,
+    "dialogue_id": 5719
+  },
+  {
+    "lesson_id": 720,
+    "dialogue_id": 5720
+  },
+  {
+    "lesson_id": 721,
+    "dialogue_id": 5721
+  },
+  {
+    "lesson_id": 722,
+    "dialogue_id": 5722
+  },
+  {
+    "lesson_id": 723,
+    "dialogue_id": 5723
+  },
+  {
+    "lesson_id": 724,
+    "dialogue_id": 5724
+  },
+  {
+    "lesson_id": 725,
+    "dialogue_id": 5725
+  },
+  {
+    "lesson_id": 726,
+    "dialogue_id": 5726
+  },
+  {
+    "lesson_id": 727,
+    "dialogue_id": 5727
+  },
+  {
+    "lesson_id": 728,
+    "dialogue_id": 5728
+  },
+  {
+    "lesson_id": 729,
+    "dialogue_id": 5729
+  },
+  {
+    "lesson_id": 730,
+    "dialogue_id": 5730
+  },
+  {
+    "lesson_id": 731,
+    "dialogue_id": 5731
+  },
+  {
+    "lesson_id": 732,
+    "dialogue_id": 5732
+  },
+  {
+    "lesson_id": 733,
+    "dialogue_id": 5733
+  },
+  {
+    "lesson_id": 734,
+    "dialogue_id": 5734
+  },
+  {
+    "lesson_id": 735,
+    "dialogue_id": 5735
+  },
+  {
+    "lesson_id": 736,
+    "dialogue_id": 5736
+  },
+  {
+    "lesson_id": 737,
+    "dialogue_id": 5737
+  },
+  {
+    "lesson_id": 738,
+    "dialogue_id": 5738
+  },
+  {
+    "lesson_id": 739,
+    "dialogue_id": 5739
+  },
+  {
+    "lesson_id": 740,
+    "dialogue_id": 5740
+  },
+  {
+    "lesson_id": 741,
+    "dialogue_id": 5741
+  },
+  {
+    "lesson_id": 742,
+    "dialogue_id": 5742
+  },
+  {
+    "lesson_id": 743,
+    "dialogue_id": 5743
+  },
+  {
+    "lesson_id": 744,
+    "dialogue_id": 5744
+  },
+  {
+    "lesson_id": 745,
+    "dialogue_id": 5745
+  },
+  {
+    "lesson_id": 746,
+    "dialogue_id": 5746
+  },
+  {
+    "lesson_id": 747,
+    "dialogue_id": 5747
+  },
+  {
+    "lesson_id": 748,
+    "dialogue_id": 5748
+  },
+  {
+    "lesson_id": 749,
+    "dialogue_id": 5749
+  },
+  {
+    "lesson_id": 750,
+    "dialogue_id": 5750
+  },
+  {
+    "lesson_id": 751,
+    "dialogue_id": 5751
+  },
+  {
+    "lesson_id": 752,
+    "dialogue_id": 5752
+  },
+  {
+    "lesson_id": 753,
+    "dialogue_id": 5753
+  },
+  {
+    "lesson_id": 754,
+    "dialogue_id": 5754
+  },
+  {
+    "lesson_id": 755,
+    "dialogue_id": 5755
+  },
+  {
+    "lesson_id": 756,
+    "dialogue_id": 5756
+  },
+  {
+    "lesson_id": 757,
+    "dialogue_id": 5757
+  },
+  {
+    "lesson_id": 758,
+    "dialogue_id": 5758
+  },
+  {
+    "lesson_id": 759,
+    "dialogue_id": 5759
+  },
+  {
+    "lesson_id": 760,
+    "dialogue_id": 5760
+  },
+  {
+    "lesson_id": 761,
+    "dialogue_id": 5761
+  },
+  {
+    "lesson_id": 762,
+    "dialogue_id": 5762
+  },
+  {
+    "lesson_id": 763,
+    "dialogue_id": 5763
+  },
+  {
+    "lesson_id": 764,
+    "dialogue_id": 5764
+  },
+  {
+    "lesson_id": 765,
+    "dialogue_id": 5765
+  },
+  {
+    "lesson_id": 766,
+    "dialogue_id": 5766
+  },
+  {
+    "lesson_id": 767,
+    "dialogue_id": 5767
+  },
+  {
+    "lesson_id": 768,
+    "dialogue_id": 5768
+  },
+  {
+    "lesson_id": 769,
+    "dialogue_id": 5769
+  },
+  {
+    "lesson_id": 770,
+    "dialogue_id": 5770
+  },
+  {
+    "lesson_id": 771,
+    "dialogue_id": 5771
+  },
+  {
+    "lesson_id": 772,
+    "dialogue_id": 5772
+  },
+  {
+    "lesson_id": 773,
+    "dialogue_id": 5773
+  },
+  {
+    "lesson_id": 774,
+    "dialogue_id": 5774
+  },
+  {
+    "lesson_id": 775,
+    "dialogue_id": 5775
+  },
+  {
+    "lesson_id": 776,
+    "dialogue_id": 5776
+  },
+  {
+    "lesson_id": 777,
+    "dialogue_id": 5777
+  },
+  {
+    "lesson_id": 778,
+    "dialogue_id": 5778
+  },
+  {
+    "lesson_id": 779,
+    "dialogue_id": 5779
+  },
+  {
+    "lesson_id": 780,
+    "dialogue_id": 5780
+  },
+  {
+    "lesson_id": 781,
+    "dialogue_id": 5781
+  },
+  {
+    "lesson_id": 782,
+    "dialogue_id": 5782
+  },
+  {
+    "lesson_id": 783,
+    "dialogue_id": 5783
+  },
+  {
+    "lesson_id": 784,
+    "dialogue_id": 5784
+  },
+  {
+    "lesson_id": 785,
+    "dialogue_id": 5785
+  },
+  {
+    "lesson_id": 786,
+    "dialogue_id": 5786
+  },
+  {
+    "lesson_id": 787,
+    "dialogue_id": 5787
+  },
+  {
+    "lesson_id": 788,
+    "dialogue_id": 5788
+  },
+  {
+    "lesson_id": 789,
+    "dialogue_id": 5789
+  },
+  {
+    "lesson_id": 790,
+    "dialogue_id": 5790
+  },
+  {
+    "lesson_id": 791,
+    "dialogue_id": 5791
+  },
+  {
+    "lesson_id": 792,
+    "dialogue_id": 5792
+  },
+  {
+    "lesson_id": 793,
+    "dialogue_id": 5793
+  },
+  {
+    "lesson_id": 794,
+    "dialogue_id": 5794
+  },
+  {
+    "lesson_id": 795,
+    "dialogue_id": 5795
+  },
+  {
+    "lesson_id": 796,
+    "dialogue_id": 5796
+  },
+  {
+    "lesson_id": 797,
+    "dialogue_id": 5797
+  },
+  {
+    "lesson_id": 798,
+    "dialogue_id": 5798
+  },
+  {
+    "lesson_id": 799,
+    "dialogue_id": 5799
+  },
+  {
+    "lesson_id": 800,
+    "dialogue_id": 5800
+  },
+  {
+    "lesson_id": 801,
+    "dialogue_id": 5801
+  },
+  {
+    "lesson_id": 802,
+    "dialogue_id": 5802
+  },
+  {
+    "lesson_id": 803,
+    "dialogue_id": 5803
+  },
+  {
+    "lesson_id": 804,
+    "dialogue_id": 5804
+  },
+  {
+    "lesson_id": 805,
+    "dialogue_id": 5805
+  },
+  {
+    "lesson_id": 806,
+    "dialogue_id": 5806
+  },
+  {
+    "lesson_id": 807,
+    "dialogue_id": 5807
+  },
+  {
+    "lesson_id": 808,
+    "dialogue_id": 5808
+  },
+  {
+    "lesson_id": 809,
+    "dialogue_id": 5809
+  },
+  {
+    "lesson_id": 810,
+    "dialogue_id": 5810
+  },
+  {
+    "lesson_id": 811,
+    "dialogue_id": 5811
+  },
+  {
+    "lesson_id": 812,
+    "dialogue_id": 5812
+  },
+  {
+    "lesson_id": 813,
+    "dialogue_id": 5813
+  },
+  {
+    "lesson_id": 814,
+    "dialogue_id": 5814
+  },
+  {
+    "lesson_id": 815,
+    "dialogue_id": 5815
+  },
+  {
+    "lesson_id": 816,
+    "dialogue_id": 5816
+  },
+  {
+    "lesson_id": 817,
+    "dialogue_id": 5817
+  },
+  {
+    "lesson_id": 818,
+    "dialogue_id": 5818
+  },
+  {
+    "lesson_id": 819,
+    "dialogue_id": 5819
+  },
+  {
+    "lesson_id": 820,
+    "dialogue_id": 5820
+  },
+  {
+    "lesson_id": 821,
+    "dialogue_id": 5821
+  },
+  {
+    "lesson_id": 822,
+    "dialogue_id": 5822
+  },
+  {
+    "lesson_id": 823,
+    "dialogue_id": 5823
+  },
+  {
+    "lesson_id": 824,
+    "dialogue_id": 5824
+  },
+  {
+    "lesson_id": 825,
+    "dialogue_id": 5825
+  },
+  {
+    "lesson_id": 826,
+    "dialogue_id": 5826
+  },
+  {
+    "lesson_id": 827,
+    "dialogue_id": 5827
+  },
+  {
+    "lesson_id": 828,
+    "dialogue_id": 5828
+  },
+  {
+    "lesson_id": 829,
+    "dialogue_id": 5829
+  },
+  {
+    "lesson_id": 830,
+    "dialogue_id": 5830
+  },
+  {
+    "lesson_id": 831,
+    "dialogue_id": 5831
+  },
+  {
+    "lesson_id": 832,
+    "dialogue_id": 5832
+  },
+  {
+    "lesson_id": 833,
+    "dialogue_id": 5833
+  },
+  {
+    "lesson_id": 834,
+    "dialogue_id": 5834
+  },
+  {
+    "lesson_id": 835,
+    "dialogue_id": 5835
+  },
+  {
+    "lesson_id": 836,
+    "dialogue_id": 5836
+  },
+  {
+    "lesson_id": 837,
+    "dialogue_id": 5837
+  },
+  {
+    "lesson_id": 838,
+    "dialogue_id": 5838
+  },
+  {
+    "lesson_id": 839,
+    "dialogue_id": 5839
+  },
+  {
+    "lesson_id": 840,
+    "dialogue_id": 5840
+  },
+  {
+    "lesson_id": 841,
+    "dialogue_id": 5841
+  },
+  {
+    "lesson_id": 842,
+    "dialogue_id": 5842
+  },
+  {
+    "lesson_id": 843,
+    "dialogue_id": 5843
+  },
+  {
+    "lesson_id": 844,
+    "dialogue_id": 5844
+  },
+  {
+    "lesson_id": 845,
+    "dialogue_id": 5845
+  },
+  {
+    "lesson_id": 846,
+    "dialogue_id": 5846
+  },
+  {
+    "lesson_id": 847,
+    "dialogue_id": 5847
+  },
+  {
+    "lesson_id": 848,
+    "dialogue_id": 5848
+  },
+  {
+    "lesson_id": 849,
+    "dialogue_id": 5849
+  },
+  {
+    "lesson_id": 850,
+    "dialogue_id": 5850
+  },
+  {
+    "lesson_id": 851,
+    "dialogue_id": 5851
+  },
+  {
+    "lesson_id": 852,
+    "dialogue_id": 5852
+  },
+  {
+    "lesson_id": 853,
+    "dialogue_id": 5853
+  },
+  {
+    "lesson_id": 854,
+    "dialogue_id": 5854
+  },
+  {
+    "lesson_id": 855,
+    "dialogue_id": 5855
+  },
+  {
+    "lesson_id": 856,
+    "dialogue_id": 5856
+  },
+  {
+    "lesson_id": 857,
+    "dialogue_id": 5857
+  },
+  {
+    "lesson_id": 858,
+    "dialogue_id": 5858
+  },
+  {
+    "lesson_id": 859,
+    "dialogue_id": 5859
+  },
+  {
+    "lesson_id": 860,
+    "dialogue_id": 5860
+  },
+  {
+    "lesson_id": 861,
+    "dialogue_id": 5861
+  },
+  {
+    "lesson_id": 862,
+    "dialogue_id": 5862
+  },
+  {
+    "lesson_id": 863,
+    "dialogue_id": 5863
+  },
+  {
+    "lesson_id": 864,
+    "dialogue_id": 5864
+  },
+  {
+    "lesson_id": 865,
+    "dialogue_id": 5865
+  },
+  {
+    "lesson_id": 866,
+    "dialogue_id": 5866
+  },
+  {
+    "lesson_id": 867,
+    "dialogue_id": 5867
+  },
+  {
+    "lesson_id": 868,
+    "dialogue_id": 5868
+  },
+  {
+    "lesson_id": 869,
+    "dialogue_id": 5869
+  },
+  {
+    "lesson_id": 870,
+    "dialogue_id": 5870
+  },
+  {
+    "lesson_id": 871,
+    "dialogue_id": 5871
+  },
+  {
+    "lesson_id": 872,
+    "dialogue_id": 5872
+  },
+  {
+    "lesson_id": 873,
+    "dialogue_id": 5873
+  },
+  {
+    "lesson_id": 874,
+    "dialogue_id": 5874
+  },
+  {
+    "lesson_id": 875,
+    "dialogue_id": 5875
+  },
+  {
+    "lesson_id": 876,
+    "dialogue_id": 5876
+  },
+  {
+    "lesson_id": 877,
+    "dialogue_id": 5877
+  },
+  {
+    "lesson_id": 878,
+    "dialogue_id": 5878
+  },
+  {
+    "lesson_id": 879,
+    "dialogue_id": 5879
+  },
+  {
+    "lesson_id": 880,
+    "dialogue_id": 5880
+  },
+  {
+    "lesson_id": 881,
+    "dialogue_id": 5881
+  },
+  {
+    "lesson_id": 882,
+    "dialogue_id": 5882
+  },
+  {
+    "lesson_id": 883,
+    "dialogue_id": 5883
+  },
+  {
+    "lesson_id": 884,
+    "dialogue_id": 5884
+  },
+  {
+    "lesson_id": 885,
+    "dialogue_id": 5885
+  },
+  {
+    "lesson_id": 886,
+    "dialogue_id": 5886
+  },
+  {
+    "lesson_id": 887,
+    "dialogue_id": 5887
+  },
+  {
+    "lesson_id": 888,
+    "dialogue_id": 5888
+  },
+  {
+    "lesson_id": 889,
+    "dialogue_id": 5889
+  },
+  {
+    "lesson_id": 890,
+    "dialogue_id": 5890
+  },
+  {
+    "lesson_id": 891,
+    "dialogue_id": 5891
+  },
+  {
+    "lesson_id": 892,
+    "dialogue_id": 5892
+  },
+  {
+    "lesson_id": 893,
+    "dialogue_id": 5893
+  },
+  {
+    "lesson_id": 894,
+    "dialogue_id": 5894
+  },
+  {
+    "lesson_id": 895,
+    "dialogue_id": 5895
+  },
+  {
+    "lesson_id": 896,
+    "dialogue_id": 5896
+  },
+  {
+    "lesson_id": 897,
+    "dialogue_id": 5897
+  },
+  {
+    "lesson_id": 898,
+    "dialogue_id": 5898
+  },
+  {
+    "lesson_id": 899,
+    "dialogue_id": 5899
+  },
+  {
+    "lesson_id": 900,
+    "dialogue_id": 5900
+  },
+  {
+    "lesson_id": 901,
+    "dialogue_id": 5901
+  },
+  {
+    "lesson_id": 902,
+    "dialogue_id": 5902
+  },
+  {
+    "lesson_id": 903,
+    "dialogue_id": 5903
+  },
+  {
+    "lesson_id": 904,
+    "dialogue_id": 5904
+  },
+  {
+    "lesson_id": 905,
+    "dialogue_id": 5905
+  },
+  {
+    "lesson_id": 906,
+    "dialogue_id": 5906
+  },
+  {
+    "lesson_id": 907,
+    "dialogue_id": 5907
+  },
+  {
+    "lesson_id": 908,
+    "dialogue_id": 5908
+  },
+  {
+    "lesson_id": 909,
+    "dialogue_id": 5909
+  },
+  {
+    "lesson_id": 910,
+    "dialogue_id": 5910
+  },
+  {
+    "lesson_id": 911,
+    "dialogue_id": 5911
+  },
+  {
+    "lesson_id": 912,
+    "dialogue_id": 5912
+  },
+  {
+    "lesson_id": 913,
+    "dialogue_id": 5913
+  },
+  {
+    "lesson_id": 914,
+    "dialogue_id": 5914
+  },
+  {
+    "lesson_id": 915,
+    "dialogue_id": 5915
+  },
+  {
+    "lesson_id": 916,
+    "dialogue_id": 5916
+  },
+  {
+    "lesson_id": 917,
+    "dialogue_id": 5917
+  },
+  {
+    "lesson_id": 918,
+    "dialogue_id": 5918
+  },
+  {
+    "lesson_id": 919,
+    "dialogue_id": 5919
+  },
+  {
+    "lesson_id": 920,
+    "dialogue_id": 5920
+  },
+  {
+    "lesson_id": 921,
+    "dialogue_id": 5921
+  },
+  {
+    "lesson_id": 922,
+    "dialogue_id": 5922
+  },
+  {
+    "lesson_id": 923,
+    "dialogue_id": 5923
+  },
+  {
+    "lesson_id": 924,
+    "dialogue_id": 5924
+  },
+  {
+    "lesson_id": 925,
+    "dialogue_id": 5925
+  },
+  {
+    "lesson_id": 926,
+    "dialogue_id": 5926
+  },
+  {
+    "lesson_id": 927,
+    "dialogue_id": 5927
+  },
+  {
+    "lesson_id": 928,
+    "dialogue_id": 5928
+  },
+  {
+    "lesson_id": 929,
+    "dialogue_id": 5929
+  },
+  {
+    "lesson_id": 930,
+    "dialogue_id": 5930
+  },
+  {
+    "lesson_id": 931,
+    "dialogue_id": 5931
+  },
+  {
+    "lesson_id": 932,
+    "dialogue_id": 5932
+  },
+  {
+    "lesson_id": 933,
+    "dialogue_id": 5933
+  },
+  {
+    "lesson_id": 934,
+    "dialogue_id": 5934
+  },
+  {
+    "lesson_id": 935,
+    "dialogue_id": 5935
+  },
+  {
+    "lesson_id": 936,
+    "dialogue_id": 5936
+  },
+  {
+    "lesson_id": 937,
+    "dialogue_id": 5937
+  },
+  {
+    "lesson_id": 938,
+    "dialogue_id": 5938
+  },
+  {
+    "lesson_id": 939,
+    "dialogue_id": 5939
+  },
+  {
+    "lesson_id": 940,
+    "dialogue_id": 5940
+  },
+  {
+    "lesson_id": 941,
+    "dialogue_id": 5941
+  },
+  {
+    "lesson_id": 942,
+    "dialogue_id": 5942
+  },
+  {
+    "lesson_id": 943,
+    "dialogue_id": 5943
+  },
+  {
+    "lesson_id": 944,
+    "dialogue_id": 5944
+  },
+  {
+    "lesson_id": 945,
+    "dialogue_id": 5945
+  },
+  {
+    "lesson_id": 946,
+    "dialogue_id": 5946
+  },
+  {
+    "lesson_id": 947,
+    "dialogue_id": 5947
+  },
+  {
+    "lesson_id": 948,
+    "dialogue_id": 5948
+  },
+  {
+    "lesson_id": 949,
+    "dialogue_id": 5949
+  },
+  {
+    "lesson_id": 950,
+    "dialogue_id": 5950
+  },
+  {
+    "lesson_id": 951,
+    "dialogue_id": 5951
+  },
+  {
+    "lesson_id": 952,
+    "dialogue_id": 5952
+  },
+  {
+    "lesson_id": 953,
+    "dialogue_id": 5953
+  },
+  {
+    "lesson_id": 954,
+    "dialogue_id": 5954
+  },
+  {
+    "lesson_id": 955,
+    "dialogue_id": 5955
+  },
+  {
+    "lesson_id": 956,
+    "dialogue_id": 5956
+  },
+  {
+    "lesson_id": 957,
+    "dialogue_id": 5957
+  },
+  {
+    "lesson_id": 958,
+    "dialogue_id": 5958
+  },
+  {
+    "lesson_id": 959,
+    "dialogue_id": 5959
+  },
+  {
+    "lesson_id": 960,
+    "dialogue_id": 5960
+  },
+  {
+    "lesson_id": 961,
+    "dialogue_id": 5961
+  },
+  {
+    "lesson_id": 962,
+    "dialogue_id": 5962
+  },
+  {
+    "lesson_id": 963,
+    "dialogue_id": 5963
+  },
+  {
+    "lesson_id": 964,
+    "dialogue_id": 5964
+  },
+  {
+    "lesson_id": 965,
+    "dialogue_id": 5965
+  },
+  {
+    "lesson_id": 966,
+    "dialogue_id": 5966
+  },
+  {
+    "lesson_id": 967,
+    "dialogue_id": 5967
+  },
+  {
+    "lesson_id": 968,
+    "dialogue_id": 5968
+  },
+  {
+    "lesson_id": 969,
+    "dialogue_id": 5969
+  },
+  {
+    "lesson_id": 970,
+    "dialogue_id": 5970
+  },
+  {
+    "lesson_id": 971,
+    "dialogue_id": 5971
+  },
+  {
+    "lesson_id": 972,
+    "dialogue_id": 5972
+  },
+  {
+    "lesson_id": 973,
+    "dialogue_id": 5973
+  },
+  {
+    "lesson_id": 974,
+    "dialogue_id": 5974
+  },
+  {
+    "lesson_id": 975,
+    "dialogue_id": 5975
+  },
+  {
+    "lesson_id": 976,
+    "dialogue_id": 5976
+  },
+  {
+    "lesson_id": 977,
+    "dialogue_id": 5977
+  },
+  {
+    "lesson_id": 978,
+    "dialogue_id": 5978
+  },
+  {
+    "lesson_id": 979,
+    "dialogue_id": 5979
+  },
+  {
+    "lesson_id": 980,
+    "dialogue_id": 5980
+  },
+  {
+    "lesson_id": 981,
+    "dialogue_id": 5981
+  },
+  {
+    "lesson_id": 982,
+    "dialogue_id": 5982
+  },
+  {
+    "lesson_id": 983,
+    "dialogue_id": 5983
+  },
+  {
+    "lesson_id": 984,
+    "dialogue_id": 5984
+  },
+  {
+    "lesson_id": 985,
+    "dialogue_id": 5985
+  },
+  {
+    "lesson_id": 986,
+    "dialogue_id": 5986
+  },
+  {
+    "lesson_id": 987,
+    "dialogue_id": 5987
+  },
+  {
+    "lesson_id": 988,
+    "dialogue_id": 5988
+  },
+  {
+    "lesson_id": 989,
+    "dialogue_id": 5989
+  },
+  {
+    "lesson_id": 990,
+    "dialogue_id": 5990
+  },
+  {
+    "lesson_id": 991,
+    "dialogue_id": 5991
+  },
+  {
+    "lesson_id": 992,
+    "dialogue_id": 5992
+  },
+  {
+    "lesson_id": 993,
+    "dialogue_id": 5993
+  },
+  {
+    "lesson_id": 994,
+    "dialogue_id": 5994
+  },
+  {
+    "lesson_id": 995,
+    "dialogue_id": 5995
+  },
+  {
+    "lesson_id": 996,
+    "dialogue_id": 5996
+  },
+  {
+    "lesson_id": 997,
+    "dialogue_id": 5997
+  },
+  {
+    "lesson_id": 998,
+    "dialogue_id": 5998
+  },
+  {
+    "lesson_id": 999,
+    "dialogue_id": 5999
+  },
+  {
+    "lesson_id": 1000,
+    "dialogue_id": 6000
+  }
+]

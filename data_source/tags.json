@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "restaurant"
+  },
+  {
+    "id": 2,
+    "name": "airport"
+  },
+  {
+    "id": 3,
+    "name": "business"
+  },
+  {
+    "id": 4,
+    "name": "daily-life"
+  },
+  {
+    "id": 5,
+    "name": "interview"
+  },
+  {
+    "id": 6,
+    "name": "shopping"
+  },
+  {
+    "id": 7,
+    "name": "health"
+  },
+  {
+    "id": 8,
+    "name": "travel"
+  },
+  {
+    "id": 9,
+    "name": "education"
+  },
+  {
+    "id": 10,
+    "name": "social"
+  },
+  {
+    "id": 11,
+    "name": "technology"
+  },
+  {
+    "id": 12,
+    "name": "finance"
+  }
+]

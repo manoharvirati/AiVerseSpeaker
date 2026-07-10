@@ -1,6 +1,8 @@
+import 'dart:io';
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
+import 'package:path/path.dart' as p;
 import 'package:sqflite/sqflite.dart';
 
 typedef LessonSeedRow = (
@@ -37,25 +39,129 @@ class OfflineContentBundle {
   final List<Map<String, dynamic>> grammarPatterns;
 
   static Future<OfflineContentBundle> load() async {
-    return OfflineContentBundle(
-      categories: await _loadRows('assets/content/categories.json'),
-      lessons: await _loadRows('assets/content/lessons.json'),
-      dialogues: await _loadRows('assets/content/dialogues.json'),
-      vocabulary: await _loadRows('assets/content/vocabulary.json'),
-      reviewCards: await _loadRows('assets/content/review_cards.json'),
-      pronunciationDrills: await _loadRows(
-        'assets/content/pronunciation_drills.json',
-      ),
-      exercises: await _loadRows('assets/content/exercises.json'),
-      commonPhrases: await _loadRows('assets/content/common_phrases.json'),
-      grammarPatterns: await _loadRows('assets/content/grammar_patterns.json'),
-    );
+    final db = await _openContentDatabase();
+    try {
+      final categories = await db.query('categories');
+      final categoriesById = {
+        for (final row in categories) row['id'] as int: row['title'] as String,
+      };
+      final lessons = (await db.query('lessons')).map((row) {
+        return {
+          'id': row['id'],
+          'title': row['title'],
+          'category': categoriesById[row['category_id'] as int] ?? 'General',
+          'description': row['objective'],
+          'difficulty': row['difficulty'],
+          'estimated_minutes': row['estimated_minutes'],
+          'progress': row['id'] == 1 ? 0.85 : 0.0,
+          'recommended': row['id'] == 1 ? 1 : 0,
+        };
+      }).toList();
+
+      final dialogueRows = await db.rawQuery('''
+        SELECT dialogue_turns.id,
+               dialogues.lesson_id,
+               dialogue_turns.turn_number,
+               dialogue_turns.speaker,
+               dialogue_turns.text
+        FROM dialogue_turns
+        INNER JOIN dialogues ON dialogues.id = dialogue_turns.dialogue_id
+        ORDER BY dialogue_turns.id
+      ''');
+
+      final vocabulary = (await db.query('vocabulary')).map((row) {
+        return {
+          'id': row['id'],
+          'word': row['word'],
+          'topic': row['cefr'],
+          'mastery': 0.0,
+        };
+      }).toList();
+
+      final exercises = (await db.query('exercises')).map((row) {
+        return {
+          'id': row['id'],
+          'lesson_id': row['lesson_id'],
+          'exercise_type': row['type'],
+          'prompt': row['question'],
+          'answer': 'See choices',
+          'hint': row['hint'],
+          'difficulty': row['difficulty'],
+        };
+      }).toList();
+
+      final drills = (await db.query('pronunciation_drills')).map((row) {
+        return {
+          'id': row['id'],
+          'lesson_id': row['lesson_id'],
+          'phrase': row['text'],
+          'phonetic_hint': row['stress'],
+          'target_sound': 'focus',
+        };
+      }).toList();
+
+      final phrases = (await db.query('common_phrases')).map((row) {
+        return {
+          'id': row['id'],
+          'lesson_id': ((row['id'] as int) - 1) ~/ 4 + 1,
+          'phrase': row['phrase'],
+          'formality': 'neutral',
+          'usage_note': row['meaning'],
+        };
+      }).toList();
+
+      final grammar = (await db.query('grammar_patterns')).map((row) {
+        return {
+          'id': row['id'],
+          'mistake_type': row['title'],
+          'pattern': row['formula'],
+          'correction': row['title'],
+          'explanation': row['rule'],
+        };
+      }).toList();
+
+      final reviewCards = (await db.query('flashcards')).map((row) {
+        return {
+          'id': row['id'],
+          'lesson_id': row['lesson_id'],
+          'front': row['front'],
+          'back': row['back'],
+          'card_type': row['type'],
+        };
+      }).toList();
+
+      return OfflineContentBundle(
+        categories: categories,
+        lessons: lessons,
+        dialogues: dialogueRows.map((row) {
+          return {
+            'id': row['id'],
+            'lesson_id': row['lesson_id'],
+            'turn_order': row['turn_number'],
+            'speaker': row['speaker'],
+            'text': row['text'],
+            'intent': 'conversation',
+          };
+        }).toList(),
+        vocabulary: vocabulary,
+        reviewCards: reviewCards,
+        pronunciationDrills: drills,
+        exercises: exercises,
+        commonPhrases: phrases,
+        grammarPatterns: grammar,
+      );
+    } finally {
+      await db.close();
+    }
   }
 
-  static Future<List<Map<String, dynamic>>> _loadRows(String assetPath) async {
-    final raw = await rootBundle.loadString(assetPath);
-    final decoded = jsonDecode(raw) as List<dynamic>;
-    return decoded.cast<Map<String, dynamic>>();
+  static Future<Database> _openContentDatabase() async {
+    final bytes = await rootBundle.load('assets/database/content.db');
+    final directory = await getDatabasesPath();
+    final path = p.join(directory, 'aiverse_content_seed.db');
+    final file = File(path);
+    await file.writeAsBytes(bytes.buffer.asUint8List(), flush: true);
+    return openDatabase(path, readOnly: true);
   }
 }
 

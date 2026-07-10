@@ -1,0 +1,7002 @@
+[
+  {
+    "id": 1,
+    "lesson_id": 1,
+    "text": "I would like a cappuccino.",
+    "stress": "Stress WOULD and CAP-pu-chi-no.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 2,
+    "lesson_id": 1,
+    "text": "Pronunciation phrase 2",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 3,
+    "lesson_id": 2,
+    "text": "Pronunciation phrase 3",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 4,
+    "lesson_id": 2,
+    "text": "Pronunciation phrase 4",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 5,
+    "lesson_id": 3,
+    "text": "Pronunciation phrase 5",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 6,
+    "lesson_id": 3,
+    "text": "Pronunciation phrase 6",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 7,
+    "lesson_id": 4,
+    "text": "Pronunciation phrase 7",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 8,
+    "lesson_id": 4,
+    "text": "Pronunciation phrase 8",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 9,
+    "lesson_id": 5,
+    "text": "Pronunciation phrase 9",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 10,
+    "lesson_id": 5,
+    "text": "Pronunciation phrase 10",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 11,
+    "lesson_id": 6,
+    "text": "Pronunciation phrase 11",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 12,
+    "lesson_id": 6,
+    "text": "Pronunciation phrase 12",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 13,
+    "lesson_id": 7,
+    "text": "Pronunciation phrase 13",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 14,
+    "lesson_id": 7,
+    "text": "Pronunciation phrase 14",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 15,
+    "lesson_id": 8,
+    "text": "Pronunciation phrase 15",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 16,
+    "lesson_id": 8,
+    "text": "Pronunciation phrase 16",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 17,
+    "lesson_id": 9,
+    "text": "Pronunciation phrase 17",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 18,
+    "lesson_id": 9,
+    "text": "Pronunciation phrase 18",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 19,
+    "lesson_id": 10,
+    "text": "Pronunciation phrase 19",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 20,
+    "lesson_id": 10,
+    "text": "Pronunciation phrase 20",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 21,
+    "lesson_id": 11,
+    "text": "Pronunciation phrase 21",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 22,
+    "lesson_id": 11,
+    "text": "Pronunciation phrase 22",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 23,
+    "lesson_id": 12,
+    "text": "Pronunciation phrase 23",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 24,
+    "lesson_id": 12,
+    "text": "Pronunciation phrase 24",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 25,
+    "lesson_id": 13,
+    "text": "Pronunciation phrase 25",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 26,
+    "lesson_id": 13,
+    "text": "Pronunciation phrase 26",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 27,
+    "lesson_id": 14,
+    "text": "Pronunciation phrase 27",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 28,
+    "lesson_id": 14,
+    "text": "Pronunciation phrase 28",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 29,
+    "lesson_id": 15,
+    "text": "Pronunciation phrase 29",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 30,
+    "lesson_id": 15,
+    "text": "Pronunciation phrase 30",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 31,
+    "lesson_id": 16,
+    "text": "Pronunciation phrase 31",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 32,
+    "lesson_id": 16,
+    "text": "Pronunciation phrase 32",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 33,
+    "lesson_id": 17,
+    "text": "Pronunciation phrase 33",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 34,
+    "lesson_id": 17,
+    "text": "Pronunciation phrase 34",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 35,
+    "lesson_id": 18,
+    "text": "Pronunciation phrase 35",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 36,
+    "lesson_id": 18,
+    "text": "Pronunciation phrase 36",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 37,
+    "lesson_id": 19,
+    "text": "Pronunciation phrase 37",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 38,
+    "lesson_id": 19,
+    "text": "Pronunciation phrase 38",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 39,
+    "lesson_id": 20,
+    "text": "Pronunciation phrase 39",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 40,
+    "lesson_id": 20,
+    "text": "Pronunciation phrase 40",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 41,
+    "lesson_id": 21,
+    "text": "Pronunciation phrase 41",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 42,
+    "lesson_id": 21,
+    "text": "Pronunciation phrase 42",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 43,
+    "lesson_id": 22,
+    "text": "Pronunciation phrase 43",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 44,
+    "lesson_id": 22,
+    "text": "Pronunciation phrase 44",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 45,
+    "lesson_id": 23,
+    "text": "Pronunciation phrase 45",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 46,
+    "lesson_id": 23,
+    "text": "Pronunciation phrase 46",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 47,
+    "lesson_id": 24,
+    "text": "Pronunciation phrase 47",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 48,
+    "lesson_id": 24,
+    "text": "Pronunciation phrase 48",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 49,
+    "lesson_id": 25,
+    "text": "Pronunciation phrase 49",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 50,
+    "lesson_id": 25,
+    "text": "Pronunciation phrase 50",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 51,
+    "lesson_id": 26,
+    "text": "Pronunciation phrase 51",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 52,
+    "lesson_id": 26,
+    "text": "Pronunciation phrase 52",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 53,
+    "lesson_id": 27,
+    "text": "Pronunciation phrase 53",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 54,
+    "lesson_id": 27,
+    "text": "Pronunciation phrase 54",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 55,
+    "lesson_id": 28,
+    "text": "Pronunciation phrase 55",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 56,
+    "lesson_id": 28,
+    "text": "Pronunciation phrase 56",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 57,
+    "lesson_id": 29,
+    "text": "Pronunciation phrase 57",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 58,
+    "lesson_id": 29,
+    "text": "Pronunciation phrase 58",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 59,
+    "lesson_id": 30,
+    "text": "Pronunciation phrase 59",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 60,
+    "lesson_id": 30,
+    "text": "Pronunciation phrase 60",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 61,
+    "lesson_id": 31,
+    "text": "Pronunciation phrase 61",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 62,
+    "lesson_id": 31,
+    "text": "Pronunciation phrase 62",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 63,
+    "lesson_id": 32,
+    "text": "Pronunciation phrase 63",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 64,
+    "lesson_id": 32,
+    "text": "Pronunciation phrase 64",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 65,
+    "lesson_id": 33,
+    "text": "Pronunciation phrase 65",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 66,
+    "lesson_id": 33,
+    "text": "Pronunciation phrase 66",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 67,
+    "lesson_id": 34,
+    "text": "Pronunciation phrase 67",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 68,
+    "lesson_id": 34,
+    "text": "Pronunciation phrase 68",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 69,
+    "lesson_id": 35,
+    "text": "Pronunciation phrase 69",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 70,
+    "lesson_id": 35,
+    "text": "Pronunciation phrase 70",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 71,
+    "lesson_id": 36,
+    "text": "Pronunciation phrase 71",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 72,
+    "lesson_id": 36,
+    "text": "Pronunciation phrase 72",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 73,
+    "lesson_id": 37,
+    "text": "Pronunciation phrase 73",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 74,
+    "lesson_id": 37,
+    "text": "Pronunciation phrase 74",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 75,
+    "lesson_id": 38,
+    "text": "Pronunciation phrase 75",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 76,
+    "lesson_id": 38,
+    "text": "Pronunciation phrase 76",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 77,
+    "lesson_id": 39,
+    "text": "Pronunciation phrase 77",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 78,
+    "lesson_id": 39,
+    "text": "Pronunciation phrase 78",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 79,
+    "lesson_id": 40,
+    "text": "Pronunciation phrase 79",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 80,
+    "lesson_id": 40,
+    "text": "Pronunciation phrase 80",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 81,
+    "lesson_id": 41,
+    "text": "Pronunciation phrase 81",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 82,
+    "lesson_id": 41,
+    "text": "Pronunciation phrase 82",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 83,
+    "lesson_id": 42,
+    "text": "Pronunciation phrase 83",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 84,
+    "lesson_id": 42,
+    "text": "Pronunciation phrase 84",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 85,
+    "lesson_id": 43,
+    "text": "Pronunciation phrase 85",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 86,
+    "lesson_id": 43,
+    "text": "Pronunciation phrase 86",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 87,
+    "lesson_id": 44,
+    "text": "Pronunciation phrase 87",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 88,
+    "lesson_id": 44,
+    "text": "Pronunciation phrase 88",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 89,
+    "lesson_id": 45,
+    "text": "Pronunciation phrase 89",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 90,
+    "lesson_id": 45,
+    "text": "Pronunciation phrase 90",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 91,
+    "lesson_id": 46,
+    "text": "Pronunciation phrase 91",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 92,
+    "lesson_id": 46,
+    "text": "Pronunciation phrase 92",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 93,
+    "lesson_id": 47,
+    "text": "Pronunciation phrase 93",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 94,
+    "lesson_id": 47,
+    "text": "Pronunciation phrase 94",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 95,
+    "lesson_id": 48,
+    "text": "Pronunciation phrase 95",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 96,
+    "lesson_id": 48,
+    "text": "Pronunciation phrase 96",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 97,
+    "lesson_id": 49,
+    "text": "Pronunciation phrase 97",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 98,
+    "lesson_id": 49,
+    "text": "Pronunciation phrase 98",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 99,
+    "lesson_id": 50,
+    "text": "Pronunciation phrase 99",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 100,
+    "lesson_id": 50,
+    "text": "Pronunciation phrase 100",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 101,
+    "lesson_id": 51,
+    "text": "Pronunciation phrase 101",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 102,
+    "lesson_id": 51,
+    "text": "Pronunciation phrase 102",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 103,
+    "lesson_id": 52,
+    "text": "Pronunciation phrase 103",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 104,
+    "lesson_id": 52,
+    "text": "Pronunciation phrase 104",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 105,
+    "lesson_id": 53,
+    "text": "Pronunciation phrase 105",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 106,
+    "lesson_id": 53,
+    "text": "Pronunciation phrase 106",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 107,
+    "lesson_id": 54,
+    "text": "Pronunciation phrase 107",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 108,
+    "lesson_id": 54,
+    "text": "Pronunciation phrase 108",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 109,
+    "lesson_id": 55,
+    "text": "Pronunciation phrase 109",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 110,
+    "lesson_id": 55,
+    "text": "Pronunciation phrase 110",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 111,
+    "lesson_id": 56,
+    "text": "Pronunciation phrase 111",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 112,
+    "lesson_id": 56,
+    "text": "Pronunciation phrase 112",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 113,
+    "lesson_id": 57,
+    "text": "Pronunciation phrase 113",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 114,
+    "lesson_id": 57,
+    "text": "Pronunciation phrase 114",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 115,
+    "lesson_id": 58,
+    "text": "Pronunciation phrase 115",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 116,
+    "lesson_id": 58,
+    "text": "Pronunciation phrase 116",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 117,
+    "lesson_id": 59,
+    "text": "Pronunciation phrase 117",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 118,
+    "lesson_id": 59,
+    "text": "Pronunciation phrase 118",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 119,
+    "lesson_id": 60,
+    "text": "Pronunciation phrase 119",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 120,
+    "lesson_id": 60,
+    "text": "Pronunciation phrase 120",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 121,
+    "lesson_id": 61,
+    "text": "Pronunciation phrase 121",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 122,
+    "lesson_id": 61,
+    "text": "Pronunciation phrase 122",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 123,
+    "lesson_id": 62,
+    "text": "Pronunciation phrase 123",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 124,
+    "lesson_id": 62,
+    "text": "Pronunciation phrase 124",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 125,
+    "lesson_id": 63,
+    "text": "Pronunciation phrase 125",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 126,
+    "lesson_id": 63,
+    "text": "Pronunciation phrase 126",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 127,
+    "lesson_id": 64,
+    "text": "Pronunciation phrase 127",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 128,
+    "lesson_id": 64,
+    "text": "Pronunciation phrase 128",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 129,
+    "lesson_id": 65,
+    "text": "Pronunciation phrase 129",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 130,
+    "lesson_id": 65,
+    "text": "Pronunciation phrase 130",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 131,
+    "lesson_id": 66,
+    "text": "Pronunciation phrase 131",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 132,
+    "lesson_id": 66,
+    "text": "Pronunciation phrase 132",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 133,
+    "lesson_id": 67,
+    "text": "Pronunciation phrase 133",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 134,
+    "lesson_id": 67,
+    "text": "Pronunciation phrase 134",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 135,
+    "lesson_id": 68,
+    "text": "Pronunciation phrase 135",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 136,
+    "lesson_id": 68,
+    "text": "Pronunciation phrase 136",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 137,
+    "lesson_id": 69,
+    "text": "Pronunciation phrase 137",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 138,
+    "lesson_id": 69,
+    "text": "Pronunciation phrase 138",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 139,
+    "lesson_id": 70,
+    "text": "Pronunciation phrase 139",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 140,
+    "lesson_id": 70,
+    "text": "Pronunciation phrase 140",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 141,
+    "lesson_id": 71,
+    "text": "Pronunciation phrase 141",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 142,
+    "lesson_id": 71,
+    "text": "Pronunciation phrase 142",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 143,
+    "lesson_id": 72,
+    "text": "Pronunciation phrase 143",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 144,
+    "lesson_id": 72,
+    "text": "Pronunciation phrase 144",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 145,
+    "lesson_id": 73,
+    "text": "Pronunciation phrase 145",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 146,
+    "lesson_id": 73,
+    "text": "Pronunciation phrase 146",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 147,
+    "lesson_id": 74,
+    "text": "Pronunciation phrase 147",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 148,
+    "lesson_id": 74,
+    "text": "Pronunciation phrase 148",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 149,
+    "lesson_id": 75,
+    "text": "Pronunciation phrase 149",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 150,
+    "lesson_id": 75,
+    "text": "Pronunciation phrase 150",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 151,
+    "lesson_id": 76,
+    "text": "Pronunciation phrase 151",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 152,
+    "lesson_id": 76,
+    "text": "Pronunciation phrase 152",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 153,
+    "lesson_id": 77,
+    "text": "Pronunciation phrase 153",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 154,
+    "lesson_id": 77,
+    "text": "Pronunciation phrase 154",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 155,
+    "lesson_id": 78,
+    "text": "Pronunciation phrase 155",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 156,
+    "lesson_id": 78,
+    "text": "Pronunciation phrase 156",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 157,
+    "lesson_id": 79,
+    "text": "Pronunciation phrase 157",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 158,
+    "lesson_id": 79,
+    "text": "Pronunciation phrase 158",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 159,
+    "lesson_id": 80,
+    "text": "Pronunciation phrase 159",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 160,
+    "lesson_id": 80,
+    "text": "Pronunciation phrase 160",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 161,
+    "lesson_id": 81,
+    "text": "Pronunciation phrase 161",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 162,
+    "lesson_id": 81,
+    "text": "Pronunciation phrase 162",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 163,
+    "lesson_id": 82,
+    "text": "Pronunciation phrase 163",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 164,
+    "lesson_id": 82,
+    "text": "Pronunciation phrase 164",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 165,
+    "lesson_id": 83,
+    "text": "Pronunciation phrase 165",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 166,
+    "lesson_id": 83,
+    "text": "Pronunciation phrase 166",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 167,
+    "lesson_id": 84,
+    "text": "Pronunciation phrase 167",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 168,
+    "lesson_id": 84,
+    "text": "Pronunciation phrase 168",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 169,
+    "lesson_id": 85,
+    "text": "Pronunciation phrase 169",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 170,
+    "lesson_id": 85,
+    "text": "Pronunciation phrase 170",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 171,
+    "lesson_id": 86,
+    "text": "Pronunciation phrase 171",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 172,
+    "lesson_id": 86,
+    "text": "Pronunciation phrase 172",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 173,
+    "lesson_id": 87,
+    "text": "Pronunciation phrase 173",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 174,
+    "lesson_id": 87,
+    "text": "Pronunciation phrase 174",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 175,
+    "lesson_id": 88,
+    "text": "Pronunciation phrase 175",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 176,
+    "lesson_id": 88,
+    "text": "Pronunciation phrase 176",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 177,
+    "lesson_id": 89,
+    "text": "Pronunciation phrase 177",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 178,
+    "lesson_id": 89,
+    "text": "Pronunciation phrase 178",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 179,
+    "lesson_id": 90,
+    "text": "Pronunciation phrase 179",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 180,
+    "lesson_id": 90,
+    "text": "Pronunciation phrase 180",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 181,
+    "lesson_id": 91,
+    "text": "Pronunciation phrase 181",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 182,
+    "lesson_id": 91,
+    "text": "Pronunciation phrase 182",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 183,
+    "lesson_id": 92,
+    "text": "Pronunciation phrase 183",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 184,
+    "lesson_id": 92,
+    "text": "Pronunciation phrase 184",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 185,
+    "lesson_id": 93,
+    "text": "Pronunciation phrase 185",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 186,
+    "lesson_id": 93,
+    "text": "Pronunciation phrase 186",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 187,
+    "lesson_id": 94,
+    "text": "Pronunciation phrase 187",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 188,
+    "lesson_id": 94,
+    "text": "Pronunciation phrase 188",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 189,
+    "lesson_id": 95,
+    "text": "Pronunciation phrase 189",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 190,
+    "lesson_id": 95,
+    "text": "Pronunciation phrase 190",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 191,
+    "lesson_id": 96,
+    "text": "Pronunciation phrase 191",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 192,
+    "lesson_id": 96,
+    "text": "Pronunciation phrase 192",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 193,
+    "lesson_id": 97,
+    "text": "Pronunciation phrase 193",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 194,
+    "lesson_id": 97,
+    "text": "Pronunciation phrase 194",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 195,
+    "lesson_id": 98,
+    "text": "Pronunciation phrase 195",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 196,
+    "lesson_id": 98,
+    "text": "Pronunciation phrase 196",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 197,
+    "lesson_id": 99,
+    "text": "Pronunciation phrase 197",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 198,
+    "lesson_id": 99,
+    "text": "Pronunciation phrase 198",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 199,
+    "lesson_id": 100,
+    "text": "Pronunciation phrase 199",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 200,
+    "lesson_id": 100,
+    "text": "Pronunciation phrase 200",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 201,
+    "lesson_id": 101,
+    "text": "Pronunciation phrase 201",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 202,
+    "lesson_id": 101,
+    "text": "Pronunciation phrase 202",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 203,
+    "lesson_id": 102,
+    "text": "Pronunciation phrase 203",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 204,
+    "lesson_id": 102,
+    "text": "Pronunciation phrase 204",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 205,
+    "lesson_id": 103,
+    "text": "Pronunciation phrase 205",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 206,
+    "lesson_id": 103,
+    "text": "Pronunciation phrase 206",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 207,
+    "lesson_id": 104,
+    "text": "Pronunciation phrase 207",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 208,
+    "lesson_id": 104,
+    "text": "Pronunciation phrase 208",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 209,
+    "lesson_id": 105,
+    "text": "Pronunciation phrase 209",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 210,
+    "lesson_id": 105,
+    "text": "Pronunciation phrase 210",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 211,
+    "lesson_id": 106,
+    "text": "Pronunciation phrase 211",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 212,
+    "lesson_id": 106,
+    "text": "Pronunciation phrase 212",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 213,
+    "lesson_id": 107,
+    "text": "Pronunciation phrase 213",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 214,
+    "lesson_id": 107,
+    "text": "Pronunciation phrase 214",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 215,
+    "lesson_id": 108,
+    "text": "Pronunciation phrase 215",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 216,
+    "lesson_id": 108,
+    "text": "Pronunciation phrase 216",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 217,
+    "lesson_id": 109,
+    "text": "Pronunciation phrase 217",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 218,
+    "lesson_id": 109,
+    "text": "Pronunciation phrase 218",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 219,
+    "lesson_id": 110,
+    "text": "Pronunciation phrase 219",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 220,
+    "lesson_id": 110,
+    "text": "Pronunciation phrase 220",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 221,
+    "lesson_id": 111,
+    "text": "Pronunciation phrase 221",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 222,
+    "lesson_id": 111,
+    "text": "Pronunciation phrase 222",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 223,
+    "lesson_id": 112,
+    "text": "Pronunciation phrase 223",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 224,
+    "lesson_id": 112,
+    "text": "Pronunciation phrase 224",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 225,
+    "lesson_id": 113,
+    "text": "Pronunciation phrase 225",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 226,
+    "lesson_id": 113,
+    "text": "Pronunciation phrase 226",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 227,
+    "lesson_id": 114,
+    "text": "Pronunciation phrase 227",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 228,
+    "lesson_id": 114,
+    "text": "Pronunciation phrase 228",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 229,
+    "lesson_id": 115,
+    "text": "Pronunciation phrase 229",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 230,
+    "lesson_id": 115,
+    "text": "Pronunciation phrase 230",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 231,
+    "lesson_id": 116,
+    "text": "Pronunciation phrase 231",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 232,
+    "lesson_id": 116,
+    "text": "Pronunciation phrase 232",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 233,
+    "lesson_id": 117,
+    "text": "Pronunciation phrase 233",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 234,
+    "lesson_id": 117,
+    "text": "Pronunciation phrase 234",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 235,
+    "lesson_id": 118,
+    "text": "Pronunciation phrase 235",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 236,
+    "lesson_id": 118,
+    "text": "Pronunciation phrase 236",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 237,
+    "lesson_id": 119,
+    "text": "Pronunciation phrase 237",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 238,
+    "lesson_id": 119,
+    "text": "Pronunciation phrase 238",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 239,
+    "lesson_id": 120,
+    "text": "Pronunciation phrase 239",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 240,
+    "lesson_id": 120,
+    "text": "Pronunciation phrase 240",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 241,
+    "lesson_id": 121,
+    "text": "Pronunciation phrase 241",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 242,
+    "lesson_id": 121,
+    "text": "Pronunciation phrase 242",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 243,
+    "lesson_id": 122,
+    "text": "Pronunciation phrase 243",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 244,
+    "lesson_id": 122,
+    "text": "Pronunciation phrase 244",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 245,
+    "lesson_id": 123,
+    "text": "Pronunciation phrase 245",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 246,
+    "lesson_id": 123,
+    "text": "Pronunciation phrase 246",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 247,
+    "lesson_id": 124,
+    "text": "Pronunciation phrase 247",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 248,
+    "lesson_id": 124,
+    "text": "Pronunciation phrase 248",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 249,
+    "lesson_id": 125,
+    "text": "Pronunciation phrase 249",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 250,
+    "lesson_id": 125,
+    "text": "Pronunciation phrase 250",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 251,
+    "lesson_id": 126,
+    "text": "Pronunciation phrase 251",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 252,
+    "lesson_id": 126,
+    "text": "Pronunciation phrase 252",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 253,
+    "lesson_id": 127,
+    "text": "Pronunciation phrase 253",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 254,
+    "lesson_id": 127,
+    "text": "Pronunciation phrase 254",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 255,
+    "lesson_id": 128,
+    "text": "Pronunciation phrase 255",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 256,
+    "lesson_id": 128,
+    "text": "Pronunciation phrase 256",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 257,
+    "lesson_id": 129,
+    "text": "Pronunciation phrase 257",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 258,
+    "lesson_id": 129,
+    "text": "Pronunciation phrase 258",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 259,
+    "lesson_id": 130,
+    "text": "Pronunciation phrase 259",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 260,
+    "lesson_id": 130,
+    "text": "Pronunciation phrase 260",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 261,
+    "lesson_id": 131,
+    "text": "Pronunciation phrase 261",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 262,
+    "lesson_id": 131,
+    "text": "Pronunciation phrase 262",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 263,
+    "lesson_id": 132,
+    "text": "Pronunciation phrase 263",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 264,
+    "lesson_id": 132,
+    "text": "Pronunciation phrase 264",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 265,
+    "lesson_id": 133,
+    "text": "Pronunciation phrase 265",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 266,
+    "lesson_id": 133,
+    "text": "Pronunciation phrase 266",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 267,
+    "lesson_id": 134,
+    "text": "Pronunciation phrase 267",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 268,
+    "lesson_id": 134,
+    "text": "Pronunciation phrase 268",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 269,
+    "lesson_id": 135,
+    "text": "Pronunciation phrase 269",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 270,
+    "lesson_id": 135,
+    "text": "Pronunciation phrase 270",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 271,
+    "lesson_id": 136,
+    "text": "Pronunciation phrase 271",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 272,
+    "lesson_id": 136,
+    "text": "Pronunciation phrase 272",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 273,
+    "lesson_id": 137,
+    "text": "Pronunciation phrase 273",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 274,
+    "lesson_id": 137,
+    "text": "Pronunciation phrase 274",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 275,
+    "lesson_id": 138,
+    "text": "Pronunciation phrase 275",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 276,
+    "lesson_id": 138,
+    "text": "Pronunciation phrase 276",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 277,
+    "lesson_id": 139,
+    "text": "Pronunciation phrase 277",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 278,
+    "lesson_id": 139,
+    "text": "Pronunciation phrase 278",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 279,
+    "lesson_id": 140,
+    "text": "Pronunciation phrase 279",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 280,
+    "lesson_id": 140,
+    "text": "Pronunciation phrase 280",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 281,
+    "lesson_id": 141,
+    "text": "Pronunciation phrase 281",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 282,
+    "lesson_id": 141,
+    "text": "Pronunciation phrase 282",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 283,
+    "lesson_id": 142,
+    "text": "Pronunciation phrase 283",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 284,
+    "lesson_id": 142,
+    "text": "Pronunciation phrase 284",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 285,
+    "lesson_id": 143,
+    "text": "Pronunciation phrase 285",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 286,
+    "lesson_id": 143,
+    "text": "Pronunciation phrase 286",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 287,
+    "lesson_id": 144,
+    "text": "Pronunciation phrase 287",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 288,
+    "lesson_id": 144,
+    "text": "Pronunciation phrase 288",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 289,
+    "lesson_id": 145,
+    "text": "Pronunciation phrase 289",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 290,
+    "lesson_id": 145,
+    "text": "Pronunciation phrase 290",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 291,
+    "lesson_id": 146,
+    "text": "Pronunciation phrase 291",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 292,
+    "lesson_id": 146,
+    "text": "Pronunciation phrase 292",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 293,
+    "lesson_id": 147,
+    "text": "Pronunciation phrase 293",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 294,
+    "lesson_id": 147,
+    "text": "Pronunciation phrase 294",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 295,
+    "lesson_id": 148,
+    "text": "Pronunciation phrase 295",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 296,
+    "lesson_id": 148,
+    "text": "Pronunciation phrase 296",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 297,
+    "lesson_id": 149,
+    "text": "Pronunciation phrase 297",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 298,
+    "lesson_id": 149,
+    "text": "Pronunciation phrase 298",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 299,
+    "lesson_id": 150,
+    "text": "Pronunciation phrase 299",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 300,
+    "lesson_id": 150,
+    "text": "Pronunciation phrase 300",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 301,
+    "lesson_id": 151,
+    "text": "Pronunciation phrase 301",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 302,
+    "lesson_id": 151,
+    "text": "Pronunciation phrase 302",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 303,
+    "lesson_id": 152,
+    "text": "Pronunciation phrase 303",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 304,
+    "lesson_id": 152,
+    "text": "Pronunciation phrase 304",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 305,
+    "lesson_id": 153,
+    "text": "Pronunciation phrase 305",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 306,
+    "lesson_id": 153,
+    "text": "Pronunciation phrase 306",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 307,
+    "lesson_id": 154,
+    "text": "Pronunciation phrase 307",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 308,
+    "lesson_id": 154,
+    "text": "Pronunciation phrase 308",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 309,
+    "lesson_id": 155,
+    "text": "Pronunciation phrase 309",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 310,
+    "lesson_id": 155,
+    "text": "Pronunciation phrase 310",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 311,
+    "lesson_id": 156,
+    "text": "Pronunciation phrase 311",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 312,
+    "lesson_id": 156,
+    "text": "Pronunciation phrase 312",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 313,
+    "lesson_id": 157,
+    "text": "Pronunciation phrase 313",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 314,
+    "lesson_id": 157,
+    "text": "Pronunciation phrase 314",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 315,
+    "lesson_id": 158,
+    "text": "Pronunciation phrase 315",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 316,
+    "lesson_id": 158,
+    "text": "Pronunciation phrase 316",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 317,
+    "lesson_id": 159,
+    "text": "Pronunciation phrase 317",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 318,
+    "lesson_id": 159,
+    "text": "Pronunciation phrase 318",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 319,
+    "lesson_id": 160,
+    "text": "Pronunciation phrase 319",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 320,
+    "lesson_id": 160,
+    "text": "Pronunciation phrase 320",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 321,
+    "lesson_id": 161,
+    "text": "Pronunciation phrase 321",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 322,
+    "lesson_id": 161,
+    "text": "Pronunciation phrase 322",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 323,
+    "lesson_id": 162,
+    "text": "Pronunciation phrase 323",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 324,
+    "lesson_id": 162,
+    "text": "Pronunciation phrase 324",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 325,
+    "lesson_id": 163,
+    "text": "Pronunciation phrase 325",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 326,
+    "lesson_id": 163,
+    "text": "Pronunciation phrase 326",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 327,
+    "lesson_id": 164,
+    "text": "Pronunciation phrase 327",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 328,
+    "lesson_id": 164,
+    "text": "Pronunciation phrase 328",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 329,
+    "lesson_id": 165,
+    "text": "Pronunciation phrase 329",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 330,
+    "lesson_id": 165,
+    "text": "Pronunciation phrase 330",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 331,
+    "lesson_id": 166,
+    "text": "Pronunciation phrase 331",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 332,
+    "lesson_id": 166,
+    "text": "Pronunciation phrase 332",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 333,
+    "lesson_id": 167,
+    "text": "Pronunciation phrase 333",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 334,
+    "lesson_id": 167,
+    "text": "Pronunciation phrase 334",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 335,
+    "lesson_id": 168,
+    "text": "Pronunciation phrase 335",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 336,
+    "lesson_id": 168,
+    "text": "Pronunciation phrase 336",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 337,
+    "lesson_id": 169,
+    "text": "Pronunciation phrase 337",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 338,
+    "lesson_id": 169,
+    "text": "Pronunciation phrase 338",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 339,
+    "lesson_id": 170,
+    "text": "Pronunciation phrase 339",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 340,
+    "lesson_id": 170,
+    "text": "Pronunciation phrase 340",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 341,
+    "lesson_id": 171,
+    "text": "Pronunciation phrase 341",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 342,
+    "lesson_id": 171,
+    "text": "Pronunciation phrase 342",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 343,
+    "lesson_id": 172,
+    "text": "Pronunciation phrase 343",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 344,
+    "lesson_id": 172,
+    "text": "Pronunciation phrase 344",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 345,
+    "lesson_id": 173,
+    "text": "Pronunciation phrase 345",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 346,
+    "lesson_id": 173,
+    "text": "Pronunciation phrase 346",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 347,
+    "lesson_id": 174,
+    "text": "Pronunciation phrase 347",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 348,
+    "lesson_id": 174,
+    "text": "Pronunciation phrase 348",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 349,
+    "lesson_id": 175,
+    "text": "Pronunciation phrase 349",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 350,
+    "lesson_id": 175,
+    "text": "Pronunciation phrase 350",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 351,
+    "lesson_id": 176,
+    "text": "Pronunciation phrase 351",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 352,
+    "lesson_id": 176,
+    "text": "Pronunciation phrase 352",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 353,
+    "lesson_id": 177,
+    "text": "Pronunciation phrase 353",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 354,
+    "lesson_id": 177,
+    "text": "Pronunciation phrase 354",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 355,
+    "lesson_id": 178,
+    "text": "Pronunciation phrase 355",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 356,
+    "lesson_id": 178,
+    "text": "Pronunciation phrase 356",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 357,
+    "lesson_id": 179,
+    "text": "Pronunciation phrase 357",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 358,
+    "lesson_id": 179,
+    "text": "Pronunciation phrase 358",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 359,
+    "lesson_id": 180,
+    "text": "Pronunciation phrase 359",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 360,
+    "lesson_id": 180,
+    "text": "Pronunciation phrase 360",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 361,
+    "lesson_id": 181,
+    "text": "Pronunciation phrase 361",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 362,
+    "lesson_id": 181,
+    "text": "Pronunciation phrase 362",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 363,
+    "lesson_id": 182,
+    "text": "Pronunciation phrase 363",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 364,
+    "lesson_id": 182,
+    "text": "Pronunciation phrase 364",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 365,
+    "lesson_id": 183,
+    "text": "Pronunciation phrase 365",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 366,
+    "lesson_id": 183,
+    "text": "Pronunciation phrase 366",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 367,
+    "lesson_id": 184,
+    "text": "Pronunciation phrase 367",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 368,
+    "lesson_id": 184,
+    "text": "Pronunciation phrase 368",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 369,
+    "lesson_id": 185,
+    "text": "Pronunciation phrase 369",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 370,
+    "lesson_id": 185,
+    "text": "Pronunciation phrase 370",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 371,
+    "lesson_id": 186,
+    "text": "Pronunciation phrase 371",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 372,
+    "lesson_id": 186,
+    "text": "Pronunciation phrase 372",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 373,
+    "lesson_id": 187,
+    "text": "Pronunciation phrase 373",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 374,
+    "lesson_id": 187,
+    "text": "Pronunciation phrase 374",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 375,
+    "lesson_id": 188,
+    "text": "Pronunciation phrase 375",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 376,
+    "lesson_id": 188,
+    "text": "Pronunciation phrase 376",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 377,
+    "lesson_id": 189,
+    "text": "Pronunciation phrase 377",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 378,
+    "lesson_id": 189,
+    "text": "Pronunciation phrase 378",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 379,
+    "lesson_id": 190,
+    "text": "Pronunciation phrase 379",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 380,
+    "lesson_id": 190,
+    "text": "Pronunciation phrase 380",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 381,
+    "lesson_id": 191,
+    "text": "Pronunciation phrase 381",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 382,
+    "lesson_id": 191,
+    "text": "Pronunciation phrase 382",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 383,
+    "lesson_id": 192,
+    "text": "Pronunciation phrase 383",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 384,
+    "lesson_id": 192,
+    "text": "Pronunciation phrase 384",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 385,
+    "lesson_id": 193,
+    "text": "Pronunciation phrase 385",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 386,
+    "lesson_id": 193,
+    "text": "Pronunciation phrase 386",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 387,
+    "lesson_id": 194,
+    "text": "Pronunciation phrase 387",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 388,
+    "lesson_id": 194,
+    "text": "Pronunciation phrase 388",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 389,
+    "lesson_id": 195,
+    "text": "Pronunciation phrase 389",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 390,
+    "lesson_id": 195,
+    "text": "Pronunciation phrase 390",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 391,
+    "lesson_id": 196,
+    "text": "Pronunciation phrase 391",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 392,
+    "lesson_id": 196,
+    "text": "Pronunciation phrase 392",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 393,
+    "lesson_id": 197,
+    "text": "Pronunciation phrase 393",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 394,
+    "lesson_id": 197,
+    "text": "Pronunciation phrase 394",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 395,
+    "lesson_id": 198,
+    "text": "Pronunciation phrase 395",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 396,
+    "lesson_id": 198,
+    "text": "Pronunciation phrase 396",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 397,
+    "lesson_id": 199,
+    "text": "Pronunciation phrase 397",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 398,
+    "lesson_id": 199,
+    "text": "Pronunciation phrase 398",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 399,
+    "lesson_id": 200,
+    "text": "Pronunciation phrase 399",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 400,
+    "lesson_id": 200,
+    "text": "Pronunciation phrase 400",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 401,
+    "lesson_id": 201,
+    "text": "Pronunciation phrase 401",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 402,
+    "lesson_id": 201,
+    "text": "Pronunciation phrase 402",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 403,
+    "lesson_id": 202,
+    "text": "Pronunciation phrase 403",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 404,
+    "lesson_id": 202,
+    "text": "Pronunciation phrase 404",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 405,
+    "lesson_id": 203,
+    "text": "Pronunciation phrase 405",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 406,
+    "lesson_id": 203,
+    "text": "Pronunciation phrase 406",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 407,
+    "lesson_id": 204,
+    "text": "Pronunciation phrase 407",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 408,
+    "lesson_id": 204,
+    "text": "Pronunciation phrase 408",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 409,
+    "lesson_id": 205,
+    "text": "Pronunciation phrase 409",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 410,
+    "lesson_id": 205,
+    "text": "Pronunciation phrase 410",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 411,
+    "lesson_id": 206,
+    "text": "Pronunciation phrase 411",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 412,
+    "lesson_id": 206,
+    "text": "Pronunciation phrase 412",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 413,
+    "lesson_id": 207,
+    "text": "Pronunciation phrase 413",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 414,
+    "lesson_id": 207,
+    "text": "Pronunciation phrase 414",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 415,
+    "lesson_id": 208,
+    "text": "Pronunciation phrase 415",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 416,
+    "lesson_id": 208,
+    "text": "Pronunciation phrase 416",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 417,
+    "lesson_id": 209,
+    "text": "Pronunciation phrase 417",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 418,
+    "lesson_id": 209,
+    "text": "Pronunciation phrase 418",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 419,
+    "lesson_id": 210,
+    "text": "Pronunciation phrase 419",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 420,
+    "lesson_id": 210,
+    "text": "Pronunciation phrase 420",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 421,
+    "lesson_id": 211,
+    "text": "Pronunciation phrase 421",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 422,
+    "lesson_id": 211,
+    "text": "Pronunciation phrase 422",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 423,
+    "lesson_id": 212,
+    "text": "Pronunciation phrase 423",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 424,
+    "lesson_id": 212,
+    "text": "Pronunciation phrase 424",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 425,
+    "lesson_id": 213,
+    "text": "Pronunciation phrase 425",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 426,
+    "lesson_id": 213,
+    "text": "Pronunciation phrase 426",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 427,
+    "lesson_id": 214,
+    "text": "Pronunciation phrase 427",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 428,
+    "lesson_id": 214,
+    "text": "Pronunciation phrase 428",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 429,
+    "lesson_id": 215,
+    "text": "Pronunciation phrase 429",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 430,
+    "lesson_id": 215,
+    "text": "Pronunciation phrase 430",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 431,
+    "lesson_id": 216,
+    "text": "Pronunciation phrase 431",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 432,
+    "lesson_id": 216,
+    "text": "Pronunciation phrase 432",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 433,
+    "lesson_id": 217,
+    "text": "Pronunciation phrase 433",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 434,
+    "lesson_id": 217,
+    "text": "Pronunciation phrase 434",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 435,
+    "lesson_id": 218,
+    "text": "Pronunciation phrase 435",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 436,
+    "lesson_id": 218,
+    "text": "Pronunciation phrase 436",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 437,
+    "lesson_id": 219,
+    "text": "Pronunciation phrase 437",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 438,
+    "lesson_id": 219,
+    "text": "Pronunciation phrase 438",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 439,
+    "lesson_id": 220,
+    "text": "Pronunciation phrase 439",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 440,
+    "lesson_id": 220,
+    "text": "Pronunciation phrase 440",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 441,
+    "lesson_id": 221,
+    "text": "Pronunciation phrase 441",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 442,
+    "lesson_id": 221,
+    "text": "Pronunciation phrase 442",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 443,
+    "lesson_id": 222,
+    "text": "Pronunciation phrase 443",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 444,
+    "lesson_id": 222,
+    "text": "Pronunciation phrase 444",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 445,
+    "lesson_id": 223,
+    "text": "Pronunciation phrase 445",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 446,
+    "lesson_id": 223,
+    "text": "Pronunciation phrase 446",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 447,
+    "lesson_id": 224,
+    "text": "Pronunciation phrase 447",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 448,
+    "lesson_id": 224,
+    "text": "Pronunciation phrase 448",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 449,
+    "lesson_id": 225,
+    "text": "Pronunciation phrase 449",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 450,
+    "lesson_id": 225,
+    "text": "Pronunciation phrase 450",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 451,
+    "lesson_id": 226,
+    "text": "Pronunciation phrase 451",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 452,
+    "lesson_id": 226,
+    "text": "Pronunciation phrase 452",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 453,
+    "lesson_id": 227,
+    "text": "Pronunciation phrase 453",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 454,
+    "lesson_id": 227,
+    "text": "Pronunciation phrase 454",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 455,
+    "lesson_id": 228,
+    "text": "Pronunciation phrase 455",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 456,
+    "lesson_id": 228,
+    "text": "Pronunciation phrase 456",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 457,
+    "lesson_id": 229,
+    "text": "Pronunciation phrase 457",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 458,
+    "lesson_id": 229,
+    "text": "Pronunciation phrase 458",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 459,
+    "lesson_id": 230,
+    "text": "Pronunciation phrase 459",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 460,
+    "lesson_id": 230,
+    "text": "Pronunciation phrase 460",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 461,
+    "lesson_id": 231,
+    "text": "Pronunciation phrase 461",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 462,
+    "lesson_id": 231,
+    "text": "Pronunciation phrase 462",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 463,
+    "lesson_id": 232,
+    "text": "Pronunciation phrase 463",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 464,
+    "lesson_id": 232,
+    "text": "Pronunciation phrase 464",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 465,
+    "lesson_id": 233,
+    "text": "Pronunciation phrase 465",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 466,
+    "lesson_id": 233,
+    "text": "Pronunciation phrase 466",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 467,
+    "lesson_id": 234,
+    "text": "Pronunciation phrase 467",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 468,
+    "lesson_id": 234,
+    "text": "Pronunciation phrase 468",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 469,
+    "lesson_id": 235,
+    "text": "Pronunciation phrase 469",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 470,
+    "lesson_id": 235,
+    "text": "Pronunciation phrase 470",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 471,
+    "lesson_id": 236,
+    "text": "Pronunciation phrase 471",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 472,
+    "lesson_id": 236,
+    "text": "Pronunciation phrase 472",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 473,
+    "lesson_id": 237,
+    "text": "Pronunciation phrase 473",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 474,
+    "lesson_id": 237,
+    "text": "Pronunciation phrase 474",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 475,
+    "lesson_id": 238,
+    "text": "Pronunciation phrase 475",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 476,
+    "lesson_id": 238,
+    "text": "Pronunciation phrase 476",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 477,
+    "lesson_id": 239,
+    "text": "Pronunciation phrase 477",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 478,
+    "lesson_id": 239,
+    "text": "Pronunciation phrase 478",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 479,
+    "lesson_id": 240,
+    "text": "Pronunciation phrase 479",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 480,
+    "lesson_id": 240,
+    "text": "Pronunciation phrase 480",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 481,
+    "lesson_id": 241,
+    "text": "Pronunciation phrase 481",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 482,
+    "lesson_id": 241,
+    "text": "Pronunciation phrase 482",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 483,
+    "lesson_id": 242,
+    "text": "Pronunciation phrase 483",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 484,
+    "lesson_id": 242,
+    "text": "Pronunciation phrase 484",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 485,
+    "lesson_id": 243,
+    "text": "Pronunciation phrase 485",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 486,
+    "lesson_id": 243,
+    "text": "Pronunciation phrase 486",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 487,
+    "lesson_id": 244,
+    "text": "Pronunciation phrase 487",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 488,
+    "lesson_id": 244,
+    "text": "Pronunciation phrase 488",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 489,
+    "lesson_id": 245,
+    "text": "Pronunciation phrase 489",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 490,
+    "lesson_id": 245,
+    "text": "Pronunciation phrase 490",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 491,
+    "lesson_id": 246,
+    "text": "Pronunciation phrase 491",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 492,
+    "lesson_id": 246,
+    "text": "Pronunciation phrase 492",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 493,
+    "lesson_id": 247,
+    "text": "Pronunciation phrase 493",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 494,
+    "lesson_id": 247,
+    "text": "Pronunciation phrase 494",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 495,
+    "lesson_id": 248,
+    "text": "Pronunciation phrase 495",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 496,
+    "lesson_id": 248,
+    "text": "Pronunciation phrase 496",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 497,
+    "lesson_id": 249,
+    "text": "Pronunciation phrase 497",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 498,
+    "lesson_id": 249,
+    "text": "Pronunciation phrase 498",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 499,
+    "lesson_id": 250,
+    "text": "Pronunciation phrase 499",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 500,
+    "lesson_id": 250,
+    "text": "Pronunciation phrase 500",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 501,
+    "lesson_id": 251,
+    "text": "Pronunciation phrase 501",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 502,
+    "lesson_id": 251,
+    "text": "Pronunciation phrase 502",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 503,
+    "lesson_id": 252,
+    "text": "Pronunciation phrase 503",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 504,
+    "lesson_id": 252,
+    "text": "Pronunciation phrase 504",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 505,
+    "lesson_id": 253,
+    "text": "Pronunciation phrase 505",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 506,
+    "lesson_id": 253,
+    "text": "Pronunciation phrase 506",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 507,
+    "lesson_id": 254,
+    "text": "Pronunciation phrase 507",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 508,
+    "lesson_id": 254,
+    "text": "Pronunciation phrase 508",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 509,
+    "lesson_id": 255,
+    "text": "Pronunciation phrase 509",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 510,
+    "lesson_id": 255,
+    "text": "Pronunciation phrase 510",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 511,
+    "lesson_id": 256,
+    "text": "Pronunciation phrase 511",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 512,
+    "lesson_id": 256,
+    "text": "Pronunciation phrase 512",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 513,
+    "lesson_id": 257,
+    "text": "Pronunciation phrase 513",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 514,
+    "lesson_id": 257,
+    "text": "Pronunciation phrase 514",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 515,
+    "lesson_id": 258,
+    "text": "Pronunciation phrase 515",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 516,
+    "lesson_id": 258,
+    "text": "Pronunciation phrase 516",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 517,
+    "lesson_id": 259,
+    "text": "Pronunciation phrase 517",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 518,
+    "lesson_id": 259,
+    "text": "Pronunciation phrase 518",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 519,
+    "lesson_id": 260,
+    "text": "Pronunciation phrase 519",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 520,
+    "lesson_id": 260,
+    "text": "Pronunciation phrase 520",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 521,
+    "lesson_id": 261,
+    "text": "Pronunciation phrase 521",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 522,
+    "lesson_id": 261,
+    "text": "Pronunciation phrase 522",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 523,
+    "lesson_id": 262,
+    "text": "Pronunciation phrase 523",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 524,
+    "lesson_id": 262,
+    "text": "Pronunciation phrase 524",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 525,
+    "lesson_id": 263,
+    "text": "Pronunciation phrase 525",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 526,
+    "lesson_id": 263,
+    "text": "Pronunciation phrase 526",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 527,
+    "lesson_id": 264,
+    "text": "Pronunciation phrase 527",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 528,
+    "lesson_id": 264,
+    "text": "Pronunciation phrase 528",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 529,
+    "lesson_id": 265,
+    "text": "Pronunciation phrase 529",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 530,
+    "lesson_id": 265,
+    "text": "Pronunciation phrase 530",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 531,
+    "lesson_id": 266,
+    "text": "Pronunciation phrase 531",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 532,
+    "lesson_id": 266,
+    "text": "Pronunciation phrase 532",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 533,
+    "lesson_id": 267,
+    "text": "Pronunciation phrase 533",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 534,
+    "lesson_id": 267,
+    "text": "Pronunciation phrase 534",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 535,
+    "lesson_id": 268,
+    "text": "Pronunciation phrase 535",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 536,
+    "lesson_id": 268,
+    "text": "Pronunciation phrase 536",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 537,
+    "lesson_id": 269,
+    "text": "Pronunciation phrase 537",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 538,
+    "lesson_id": 269,
+    "text": "Pronunciation phrase 538",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 539,
+    "lesson_id": 270,
+    "text": "Pronunciation phrase 539",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 540,
+    "lesson_id": 270,
+    "text": "Pronunciation phrase 540",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 541,
+    "lesson_id": 271,
+    "text": "Pronunciation phrase 541",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 542,
+    "lesson_id": 271,
+    "text": "Pronunciation phrase 542",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 543,
+    "lesson_id": 272,
+    "text": "Pronunciation phrase 543",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 544,
+    "lesson_id": 272,
+    "text": "Pronunciation phrase 544",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 545,
+    "lesson_id": 273,
+    "text": "Pronunciation phrase 545",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 546,
+    "lesson_id": 273,
+    "text": "Pronunciation phrase 546",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 547,
+    "lesson_id": 274,
+    "text": "Pronunciation phrase 547",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 548,
+    "lesson_id": 274,
+    "text": "Pronunciation phrase 548",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 549,
+    "lesson_id": 275,
+    "text": "Pronunciation phrase 549",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 550,
+    "lesson_id": 275,
+    "text": "Pronunciation phrase 550",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 551,
+    "lesson_id": 276,
+    "text": "Pronunciation phrase 551",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 552,
+    "lesson_id": 276,
+    "text": "Pronunciation phrase 552",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 553,
+    "lesson_id": 277,
+    "text": "Pronunciation phrase 553",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 554,
+    "lesson_id": 277,
+    "text": "Pronunciation phrase 554",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 555,
+    "lesson_id": 278,
+    "text": "Pronunciation phrase 555",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 556,
+    "lesson_id": 278,
+    "text": "Pronunciation phrase 556",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 557,
+    "lesson_id": 279,
+    "text": "Pronunciation phrase 557",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 558,
+    "lesson_id": 279,
+    "text": "Pronunciation phrase 558",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 559,
+    "lesson_id": 280,
+    "text": "Pronunciation phrase 559",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 560,
+    "lesson_id": 280,
+    "text": "Pronunciation phrase 560",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 561,
+    "lesson_id": 281,
+    "text": "Pronunciation phrase 561",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 562,
+    "lesson_id": 281,
+    "text": "Pronunciation phrase 562",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 563,
+    "lesson_id": 282,
+    "text": "Pronunciation phrase 563",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 564,
+    "lesson_id": 282,
+    "text": "Pronunciation phrase 564",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 565,
+    "lesson_id": 283,
+    "text": "Pronunciation phrase 565",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 566,
+    "lesson_id": 283,
+    "text": "Pronunciation phrase 566",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 567,
+    "lesson_id": 284,
+    "text": "Pronunciation phrase 567",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 568,
+    "lesson_id": 284,
+    "text": "Pronunciation phrase 568",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 569,
+    "lesson_id": 285,
+    "text": "Pronunciation phrase 569",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 570,
+    "lesson_id": 285,
+    "text": "Pronunciation phrase 570",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 571,
+    "lesson_id": 286,
+    "text": "Pronunciation phrase 571",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 572,
+    "lesson_id": 286,
+    "text": "Pronunciation phrase 572",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 573,
+    "lesson_id": 287,
+    "text": "Pronunciation phrase 573",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 574,
+    "lesson_id": 287,
+    "text": "Pronunciation phrase 574",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 575,
+    "lesson_id": 288,
+    "text": "Pronunciation phrase 575",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 576,
+    "lesson_id": 288,
+    "text": "Pronunciation phrase 576",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 577,
+    "lesson_id": 289,
+    "text": "Pronunciation phrase 577",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 578,
+    "lesson_id": 289,
+    "text": "Pronunciation phrase 578",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 579,
+    "lesson_id": 290,
+    "text": "Pronunciation phrase 579",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 580,
+    "lesson_id": 290,
+    "text": "Pronunciation phrase 580",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 581,
+    "lesson_id": 291,
+    "text": "Pronunciation phrase 581",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 582,
+    "lesson_id": 291,
+    "text": "Pronunciation phrase 582",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 583,
+    "lesson_id": 292,
+    "text": "Pronunciation phrase 583",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 584,
+    "lesson_id": 292,
+    "text": "Pronunciation phrase 584",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 585,
+    "lesson_id": 293,
+    "text": "Pronunciation phrase 585",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 586,
+    "lesson_id": 293,
+    "text": "Pronunciation phrase 586",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 587,
+    "lesson_id": 294,
+    "text": "Pronunciation phrase 587",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 588,
+    "lesson_id": 294,
+    "text": "Pronunciation phrase 588",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 589,
+    "lesson_id": 295,
+    "text": "Pronunciation phrase 589",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 590,
+    "lesson_id": 295,
+    "text": "Pronunciation phrase 590",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 591,
+    "lesson_id": 296,
+    "text": "Pronunciation phrase 591",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 592,
+    "lesson_id": 296,
+    "text": "Pronunciation phrase 592",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 593,
+    "lesson_id": 297,
+    "text": "Pronunciation phrase 593",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 594,
+    "lesson_id": 297,
+    "text": "Pronunciation phrase 594",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 595,
+    "lesson_id": 298,
+    "text": "Pronunciation phrase 595",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 596,
+    "lesson_id": 298,
+    "text": "Pronunciation phrase 596",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 597,
+    "lesson_id": 299,
+    "text": "Pronunciation phrase 597",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 598,
+    "lesson_id": 299,
+    "text": "Pronunciation phrase 598",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 599,
+    "lesson_id": 300,
+    "text": "Pronunciation phrase 599",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 600,
+    "lesson_id": 300,
+    "text": "Pronunciation phrase 600",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 601,
+    "lesson_id": 301,
+    "text": "Pronunciation phrase 601",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 602,
+    "lesson_id": 301,
+    "text": "Pronunciation phrase 602",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 603,
+    "lesson_id": 302,
+    "text": "Pronunciation phrase 603",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 604,
+    "lesson_id": 302,
+    "text": "Pronunciation phrase 604",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 605,
+    "lesson_id": 303,
+    "text": "Pronunciation phrase 605",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 606,
+    "lesson_id": 303,
+    "text": "Pronunciation phrase 606",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 607,
+    "lesson_id": 304,
+    "text": "Pronunciation phrase 607",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 608,
+    "lesson_id": 304,
+    "text": "Pronunciation phrase 608",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 609,
+    "lesson_id": 305,
+    "text": "Pronunciation phrase 609",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 610,
+    "lesson_id": 305,
+    "text": "Pronunciation phrase 610",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 611,
+    "lesson_id": 306,
+    "text": "Pronunciation phrase 611",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 612,
+    "lesson_id": 306,
+    "text": "Pronunciation phrase 612",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 613,
+    "lesson_id": 307,
+    "text": "Pronunciation phrase 613",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 614,
+    "lesson_id": 307,
+    "text": "Pronunciation phrase 614",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 615,
+    "lesson_id": 308,
+    "text": "Pronunciation phrase 615",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 616,
+    "lesson_id": 308,
+    "text": "Pronunciation phrase 616",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 617,
+    "lesson_id": 309,
+    "text": "Pronunciation phrase 617",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 618,
+    "lesson_id": 309,
+    "text": "Pronunciation phrase 618",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 619,
+    "lesson_id": 310,
+    "text": "Pronunciation phrase 619",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 620,
+    "lesson_id": 310,
+    "text": "Pronunciation phrase 620",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 621,
+    "lesson_id": 311,
+    "text": "Pronunciation phrase 621",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 622,
+    "lesson_id": 311,
+    "text": "Pronunciation phrase 622",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 623,
+    "lesson_id": 312,
+    "text": "Pronunciation phrase 623",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 624,
+    "lesson_id": 312,
+    "text": "Pronunciation phrase 624",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 625,
+    "lesson_id": 313,
+    "text": "Pronunciation phrase 625",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 626,
+    "lesson_id": 313,
+    "text": "Pronunciation phrase 626",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 627,
+    "lesson_id": 314,
+    "text": "Pronunciation phrase 627",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 628,
+    "lesson_id": 314,
+    "text": "Pronunciation phrase 628",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 629,
+    "lesson_id": 315,
+    "text": "Pronunciation phrase 629",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 630,
+    "lesson_id": 315,
+    "text": "Pronunciation phrase 630",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 631,
+    "lesson_id": 316,
+    "text": "Pronunciation phrase 631",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 632,
+    "lesson_id": 316,
+    "text": "Pronunciation phrase 632",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 633,
+    "lesson_id": 317,
+    "text": "Pronunciation phrase 633",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 634,
+    "lesson_id": 317,
+    "text": "Pronunciation phrase 634",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 635,
+    "lesson_id": 318,
+    "text": "Pronunciation phrase 635",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 636,
+    "lesson_id": 318,
+    "text": "Pronunciation phrase 636",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 637,
+    "lesson_id": 319,
+    "text": "Pronunciation phrase 637",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 638,
+    "lesson_id": 319,
+    "text": "Pronunciation phrase 638",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 639,
+    "lesson_id": 320,
+    "text": "Pronunciation phrase 639",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 640,
+    "lesson_id": 320,
+    "text": "Pronunciation phrase 640",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 641,
+    "lesson_id": 321,
+    "text": "Pronunciation phrase 641",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 642,
+    "lesson_id": 321,
+    "text": "Pronunciation phrase 642",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 643,
+    "lesson_id": 322,
+    "text": "Pronunciation phrase 643",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 644,
+    "lesson_id": 322,
+    "text": "Pronunciation phrase 644",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 645,
+    "lesson_id": 323,
+    "text": "Pronunciation phrase 645",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 646,
+    "lesson_id": 323,
+    "text": "Pronunciation phrase 646",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 647,
+    "lesson_id": 324,
+    "text": "Pronunciation phrase 647",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 648,
+    "lesson_id": 324,
+    "text": "Pronunciation phrase 648",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 649,
+    "lesson_id": 325,
+    "text": "Pronunciation phrase 649",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 650,
+    "lesson_id": 325,
+    "text": "Pronunciation phrase 650",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 651,
+    "lesson_id": 326,
+    "text": "Pronunciation phrase 651",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 652,
+    "lesson_id": 326,
+    "text": "Pronunciation phrase 652",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 653,
+    "lesson_id": 327,
+    "text": "Pronunciation phrase 653",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 654,
+    "lesson_id": 327,
+    "text": "Pronunciation phrase 654",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 655,
+    "lesson_id": 328,
+    "text": "Pronunciation phrase 655",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 656,
+    "lesson_id": 328,
+    "text": "Pronunciation phrase 656",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 657,
+    "lesson_id": 329,
+    "text": "Pronunciation phrase 657",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 658,
+    "lesson_id": 329,
+    "text": "Pronunciation phrase 658",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 659,
+    "lesson_id": 330,
+    "text": "Pronunciation phrase 659",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 660,
+    "lesson_id": 330,
+    "text": "Pronunciation phrase 660",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 661,
+    "lesson_id": 331,
+    "text": "Pronunciation phrase 661",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 662,
+    "lesson_id": 331,
+    "text": "Pronunciation phrase 662",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 663,
+    "lesson_id": 332,
+    "text": "Pronunciation phrase 663",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 664,
+    "lesson_id": 332,
+    "text": "Pronunciation phrase 664",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 665,
+    "lesson_id": 333,
+    "text": "Pronunciation phrase 665",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 666,
+    "lesson_id": 333,
+    "text": "Pronunciation phrase 666",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 667,
+    "lesson_id": 334,
+    "text": "Pronunciation phrase 667",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 668,
+    "lesson_id": 334,
+    "text": "Pronunciation phrase 668",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 669,
+    "lesson_id": 335,
+    "text": "Pronunciation phrase 669",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 670,
+    "lesson_id": 335,
+    "text": "Pronunciation phrase 670",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 671,
+    "lesson_id": 336,
+    "text": "Pronunciation phrase 671",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 672,
+    "lesson_id": 336,
+    "text": "Pronunciation phrase 672",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 673,
+    "lesson_id": 337,
+    "text": "Pronunciation phrase 673",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 674,
+    "lesson_id": 337,
+    "text": "Pronunciation phrase 674",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 675,
+    "lesson_id": 338,
+    "text": "Pronunciation phrase 675",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 676,
+    "lesson_id": 338,
+    "text": "Pronunciation phrase 676",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 677,
+    "lesson_id": 339,
+    "text": "Pronunciation phrase 677",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 678,
+    "lesson_id": 339,
+    "text": "Pronunciation phrase 678",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 679,
+    "lesson_id": 340,
+    "text": "Pronunciation phrase 679",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 680,
+    "lesson_id": 340,
+    "text": "Pronunciation phrase 680",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 681,
+    "lesson_id": 341,
+    "text": "Pronunciation phrase 681",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 682,
+    "lesson_id": 341,
+    "text": "Pronunciation phrase 682",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 683,
+    "lesson_id": 342,
+    "text": "Pronunciation phrase 683",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 684,
+    "lesson_id": 342,
+    "text": "Pronunciation phrase 684",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 685,
+    "lesson_id": 343,
+    "text": "Pronunciation phrase 685",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 686,
+    "lesson_id": 343,
+    "text": "Pronunciation phrase 686",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 687,
+    "lesson_id": 344,
+    "text": "Pronunciation phrase 687",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 688,
+    "lesson_id": 344,
+    "text": "Pronunciation phrase 688",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 689,
+    "lesson_id": 345,
+    "text": "Pronunciation phrase 689",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 690,
+    "lesson_id": 345,
+    "text": "Pronunciation phrase 690",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 691,
+    "lesson_id": 346,
+    "text": "Pronunciation phrase 691",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 692,
+    "lesson_id": 346,
+    "text": "Pronunciation phrase 692",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 693,
+    "lesson_id": 347,
+    "text": "Pronunciation phrase 693",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 694,
+    "lesson_id": 347,
+    "text": "Pronunciation phrase 694",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 695,
+    "lesson_id": 348,
+    "text": "Pronunciation phrase 695",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 696,
+    "lesson_id": 348,
+    "text": "Pronunciation phrase 696",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 697,
+    "lesson_id": 349,
+    "text": "Pronunciation phrase 697",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 698,
+    "lesson_id": 349,
+    "text": "Pronunciation phrase 698",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 699,
+    "lesson_id": 350,
+    "text": "Pronunciation phrase 699",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 700,
+    "lesson_id": 350,
+    "text": "Pronunciation phrase 700",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 701,
+    "lesson_id": 351,
+    "text": "Pronunciation phrase 701",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 702,
+    "lesson_id": 351,
+    "text": "Pronunciation phrase 702",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 703,
+    "lesson_id": 352,
+    "text": "Pronunciation phrase 703",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 704,
+    "lesson_id": 352,
+    "text": "Pronunciation phrase 704",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 705,
+    "lesson_id": 353,
+    "text": "Pronunciation phrase 705",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 706,
+    "lesson_id": 353,
+    "text": "Pronunciation phrase 706",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 707,
+    "lesson_id": 354,
+    "text": "Pronunciation phrase 707",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 708,
+    "lesson_id": 354,
+    "text": "Pronunciation phrase 708",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 709,
+    "lesson_id": 355,
+    "text": "Pronunciation phrase 709",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 710,
+    "lesson_id": 355,
+    "text": "Pronunciation phrase 710",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 711,
+    "lesson_id": 356,
+    "text": "Pronunciation phrase 711",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 712,
+    "lesson_id": 356,
+    "text": "Pronunciation phrase 712",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 713,
+    "lesson_id": 357,
+    "text": "Pronunciation phrase 713",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 714,
+    "lesson_id": 357,
+    "text": "Pronunciation phrase 714",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 715,
+    "lesson_id": 358,
+    "text": "Pronunciation phrase 715",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 716,
+    "lesson_id": 358,
+    "text": "Pronunciation phrase 716",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 717,
+    "lesson_id": 359,
+    "text": "Pronunciation phrase 717",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 718,
+    "lesson_id": 359,
+    "text": "Pronunciation phrase 718",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 719,
+    "lesson_id": 360,
+    "text": "Pronunciation phrase 719",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 720,
+    "lesson_id": 360,
+    "text": "Pronunciation phrase 720",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 721,
+    "lesson_id": 361,
+    "text": "Pronunciation phrase 721",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 722,
+    "lesson_id": 361,
+    "text": "Pronunciation phrase 722",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 723,
+    "lesson_id": 362,
+    "text": "Pronunciation phrase 723",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 724,
+    "lesson_id": 362,
+    "text": "Pronunciation phrase 724",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 725,
+    "lesson_id": 363,
+    "text": "Pronunciation phrase 725",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 726,
+    "lesson_id": 363,
+    "text": "Pronunciation phrase 726",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 727,
+    "lesson_id": 364,
+    "text": "Pronunciation phrase 727",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 728,
+    "lesson_id": 364,
+    "text": "Pronunciation phrase 728",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 729,
+    "lesson_id": 365,
+    "text": "Pronunciation phrase 729",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 730,
+    "lesson_id": 365,
+    "text": "Pronunciation phrase 730",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 731,
+    "lesson_id": 366,
+    "text": "Pronunciation phrase 731",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 732,
+    "lesson_id": 366,
+    "text": "Pronunciation phrase 732",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 733,
+    "lesson_id": 367,
+    "text": "Pronunciation phrase 733",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 734,
+    "lesson_id": 367,
+    "text": "Pronunciation phrase 734",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 735,
+    "lesson_id": 368,
+    "text": "Pronunciation phrase 735",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 736,
+    "lesson_id": 368,
+    "text": "Pronunciation phrase 736",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 737,
+    "lesson_id": 369,
+    "text": "Pronunciation phrase 737",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 738,
+    "lesson_id": 369,
+    "text": "Pronunciation phrase 738",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 739,
+    "lesson_id": 370,
+    "text": "Pronunciation phrase 739",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 740,
+    "lesson_id": 370,
+    "text": "Pronunciation phrase 740",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 741,
+    "lesson_id": 371,
+    "text": "Pronunciation phrase 741",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 742,
+    "lesson_id": 371,
+    "text": "Pronunciation phrase 742",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 743,
+    "lesson_id": 372,
+    "text": "Pronunciation phrase 743",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 744,
+    "lesson_id": 372,
+    "text": "Pronunciation phrase 744",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 745,
+    "lesson_id": 373,
+    "text": "Pronunciation phrase 745",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 746,
+    "lesson_id": 373,
+    "text": "Pronunciation phrase 746",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 747,
+    "lesson_id": 374,
+    "text": "Pronunciation phrase 747",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 748,
+    "lesson_id": 374,
+    "text": "Pronunciation phrase 748",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 749,
+    "lesson_id": 375,
+    "text": "Pronunciation phrase 749",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 750,
+    "lesson_id": 375,
+    "text": "Pronunciation phrase 750",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 751,
+    "lesson_id": 376,
+    "text": "Pronunciation phrase 751",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 752,
+    "lesson_id": 376,
+    "text": "Pronunciation phrase 752",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 753,
+    "lesson_id": 377,
+    "text": "Pronunciation phrase 753",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 754,
+    "lesson_id": 377,
+    "text": "Pronunciation phrase 754",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 755,
+    "lesson_id": 378,
+    "text": "Pronunciation phrase 755",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 756,
+    "lesson_id": 378,
+    "text": "Pronunciation phrase 756",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 757,
+    "lesson_id": 379,
+    "text": "Pronunciation phrase 757",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 758,
+    "lesson_id": 379,
+    "text": "Pronunciation phrase 758",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 759,
+    "lesson_id": 380,
+    "text": "Pronunciation phrase 759",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 760,
+    "lesson_id": 380,
+    "text": "Pronunciation phrase 760",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 761,
+    "lesson_id": 381,
+    "text": "Pronunciation phrase 761",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 762,
+    "lesson_id": 381,
+    "text": "Pronunciation phrase 762",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 763,
+    "lesson_id": 382,
+    "text": "Pronunciation phrase 763",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 764,
+    "lesson_id": 382,
+    "text": "Pronunciation phrase 764",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 765,
+    "lesson_id": 383,
+    "text": "Pronunciation phrase 765",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 766,
+    "lesson_id": 383,
+    "text": "Pronunciation phrase 766",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 767,
+    "lesson_id": 384,
+    "text": "Pronunciation phrase 767",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 768,
+    "lesson_id": 384,
+    "text": "Pronunciation phrase 768",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 769,
+    "lesson_id": 385,
+    "text": "Pronunciation phrase 769",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 770,
+    "lesson_id": 385,
+    "text": "Pronunciation phrase 770",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 771,
+    "lesson_id": 386,
+    "text": "Pronunciation phrase 771",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 772,
+    "lesson_id": 386,
+    "text": "Pronunciation phrase 772",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 773,
+    "lesson_id": 387,
+    "text": "Pronunciation phrase 773",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 774,
+    "lesson_id": 387,
+    "text": "Pronunciation phrase 774",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 775,
+    "lesson_id": 388,
+    "text": "Pronunciation phrase 775",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 776,
+    "lesson_id": 388,
+    "text": "Pronunciation phrase 776",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 777,
+    "lesson_id": 389,
+    "text": "Pronunciation phrase 777",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 778,
+    "lesson_id": 389,
+    "text": "Pronunciation phrase 778",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 779,
+    "lesson_id": 390,
+    "text": "Pronunciation phrase 779",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 780,
+    "lesson_id": 390,
+    "text": "Pronunciation phrase 780",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 781,
+    "lesson_id": 391,
+    "text": "Pronunciation phrase 781",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 782,
+    "lesson_id": 391,
+    "text": "Pronunciation phrase 782",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 783,
+    "lesson_id": 392,
+    "text": "Pronunciation phrase 783",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 784,
+    "lesson_id": 392,
+    "text": "Pronunciation phrase 784",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 785,
+    "lesson_id": 393,
+    "text": "Pronunciation phrase 785",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 786,
+    "lesson_id": 393,
+    "text": "Pronunciation phrase 786",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 787,
+    "lesson_id": 394,
+    "text": "Pronunciation phrase 787",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 788,
+    "lesson_id": 394,
+    "text": "Pronunciation phrase 788",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 789,
+    "lesson_id": 395,
+    "text": "Pronunciation phrase 789",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 790,
+    "lesson_id": 395,
+    "text": "Pronunciation phrase 790",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 791,
+    "lesson_id": 396,
+    "text": "Pronunciation phrase 791",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 792,
+    "lesson_id": 396,
+    "text": "Pronunciation phrase 792",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 793,
+    "lesson_id": 397,
+    "text": "Pronunciation phrase 793",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 794,
+    "lesson_id": 397,
+    "text": "Pronunciation phrase 794",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 795,
+    "lesson_id": 398,
+    "text": "Pronunciation phrase 795",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 796,
+    "lesson_id": 398,
+    "text": "Pronunciation phrase 796",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 797,
+    "lesson_id": 399,
+    "text": "Pronunciation phrase 797",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 798,
+    "lesson_id": 399,
+    "text": "Pronunciation phrase 798",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 799,
+    "lesson_id": 400,
+    "text": "Pronunciation phrase 799",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 800,
+    "lesson_id": 400,
+    "text": "Pronunciation phrase 800",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 801,
+    "lesson_id": 401,
+    "text": "Pronunciation phrase 801",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 802,
+    "lesson_id": 401,
+    "text": "Pronunciation phrase 802",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 803,
+    "lesson_id": 402,
+    "text": "Pronunciation phrase 803",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 804,
+    "lesson_id": 402,
+    "text": "Pronunciation phrase 804",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 805,
+    "lesson_id": 403,
+    "text": "Pronunciation phrase 805",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 806,
+    "lesson_id": 403,
+    "text": "Pronunciation phrase 806",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 807,
+    "lesson_id": 404,
+    "text": "Pronunciation phrase 807",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 808,
+    "lesson_id": 404,
+    "text": "Pronunciation phrase 808",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 809,
+    "lesson_id": 405,
+    "text": "Pronunciation phrase 809",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 810,
+    "lesson_id": 405,
+    "text": "Pronunciation phrase 810",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 811,
+    "lesson_id": 406,
+    "text": "Pronunciation phrase 811",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 812,
+    "lesson_id": 406,
+    "text": "Pronunciation phrase 812",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 813,
+    "lesson_id": 407,
+    "text": "Pronunciation phrase 813",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 814,
+    "lesson_id": 407,
+    "text": "Pronunciation phrase 814",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 815,
+    "lesson_id": 408,
+    "text": "Pronunciation phrase 815",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 816,
+    "lesson_id": 408,
+    "text": "Pronunciation phrase 816",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 817,
+    "lesson_id": 409,
+    "text": "Pronunciation phrase 817",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 818,
+    "lesson_id": 409,
+    "text": "Pronunciation phrase 818",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 819,
+    "lesson_id": 410,
+    "text": "Pronunciation phrase 819",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 820,
+    "lesson_id": 410,
+    "text": "Pronunciation phrase 820",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 821,
+    "lesson_id": 411,
+    "text": "Pronunciation phrase 821",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 822,
+    "lesson_id": 411,
+    "text": "Pronunciation phrase 822",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 823,
+    "lesson_id": 412,
+    "text": "Pronunciation phrase 823",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 824,
+    "lesson_id": 412,
+    "text": "Pronunciation phrase 824",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 825,
+    "lesson_id": 413,
+    "text": "Pronunciation phrase 825",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 826,
+    "lesson_id": 413,
+    "text": "Pronunciation phrase 826",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 827,
+    "lesson_id": 414,
+    "text": "Pronunciation phrase 827",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 828,
+    "lesson_id": 414,
+    "text": "Pronunciation phrase 828",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 829,
+    "lesson_id": 415,
+    "text": "Pronunciation phrase 829",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 830,
+    "lesson_id": 415,
+    "text": "Pronunciation phrase 830",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 831,
+    "lesson_id": 416,
+    "text": "Pronunciation phrase 831",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 832,
+    "lesson_id": 416,
+    "text": "Pronunciation phrase 832",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 833,
+    "lesson_id": 417,
+    "text": "Pronunciation phrase 833",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 834,
+    "lesson_id": 417,
+    "text": "Pronunciation phrase 834",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 835,
+    "lesson_id": 418,
+    "text": "Pronunciation phrase 835",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 836,
+    "lesson_id": 418,
+    "text": "Pronunciation phrase 836",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 837,
+    "lesson_id": 419,
+    "text": "Pronunciation phrase 837",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 838,
+    "lesson_id": 419,
+    "text": "Pronunciation phrase 838",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 839,
+    "lesson_id": 420,
+    "text": "Pronunciation phrase 839",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 840,
+    "lesson_id": 420,
+    "text": "Pronunciation phrase 840",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 841,
+    "lesson_id": 421,
+    "text": "Pronunciation phrase 841",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 842,
+    "lesson_id": 421,
+    "text": "Pronunciation phrase 842",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 843,
+    "lesson_id": 422,
+    "text": "Pronunciation phrase 843",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 844,
+    "lesson_id": 422,
+    "text": "Pronunciation phrase 844",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 845,
+    "lesson_id": 423,
+    "text": "Pronunciation phrase 845",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 846,
+    "lesson_id": 423,
+    "text": "Pronunciation phrase 846",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 847,
+    "lesson_id": 424,
+    "text": "Pronunciation phrase 847",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 848,
+    "lesson_id": 424,
+    "text": "Pronunciation phrase 848",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 849,
+    "lesson_id": 425,
+    "text": "Pronunciation phrase 849",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 850,
+    "lesson_id": 425,
+    "text": "Pronunciation phrase 850",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 851,
+    "lesson_id": 426,
+    "text": "Pronunciation phrase 851",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 852,
+    "lesson_id": 426,
+    "text": "Pronunciation phrase 852",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 853,
+    "lesson_id": 427,
+    "text": "Pronunciation phrase 853",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 854,
+    "lesson_id": 427,
+    "text": "Pronunciation phrase 854",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 855,
+    "lesson_id": 428,
+    "text": "Pronunciation phrase 855",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 856,
+    "lesson_id": 428,
+    "text": "Pronunciation phrase 856",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 857,
+    "lesson_id": 429,
+    "text": "Pronunciation phrase 857",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 858,
+    "lesson_id": 429,
+    "text": "Pronunciation phrase 858",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 859,
+    "lesson_id": 430,
+    "text": "Pronunciation phrase 859",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 860,
+    "lesson_id": 430,
+    "text": "Pronunciation phrase 860",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 861,
+    "lesson_id": 431,
+    "text": "Pronunciation phrase 861",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 862,
+    "lesson_id": 431,
+    "text": "Pronunciation phrase 862",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 863,
+    "lesson_id": 432,
+    "text": "Pronunciation phrase 863",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 864,
+    "lesson_id": 432,
+    "text": "Pronunciation phrase 864",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 865,
+    "lesson_id": 433,
+    "text": "Pronunciation phrase 865",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 866,
+    "lesson_id": 433,
+    "text": "Pronunciation phrase 866",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 867,
+    "lesson_id": 434,
+    "text": "Pronunciation phrase 867",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 868,
+    "lesson_id": 434,
+    "text": "Pronunciation phrase 868",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 869,
+    "lesson_id": 435,
+    "text": "Pronunciation phrase 869",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 870,
+    "lesson_id": 435,
+    "text": "Pronunciation phrase 870",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 871,
+    "lesson_id": 436,
+    "text": "Pronunciation phrase 871",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 872,
+    "lesson_id": 436,
+    "text": "Pronunciation phrase 872",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 873,
+    "lesson_id": 437,
+    "text": "Pronunciation phrase 873",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 874,
+    "lesson_id": 437,
+    "text": "Pronunciation phrase 874",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 875,
+    "lesson_id": 438,
+    "text": "Pronunciation phrase 875",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 876,
+    "lesson_id": 438,
+    "text": "Pronunciation phrase 876",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 877,
+    "lesson_id": 439,
+    "text": "Pronunciation phrase 877",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 878,
+    "lesson_id": 439,
+    "text": "Pronunciation phrase 878",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 879,
+    "lesson_id": 440,
+    "text": "Pronunciation phrase 879",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 880,
+    "lesson_id": 440,
+    "text": "Pronunciation phrase 880",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 881,
+    "lesson_id": 441,
+    "text": "Pronunciation phrase 881",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 882,
+    "lesson_id": 441,
+    "text": "Pronunciation phrase 882",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 883,
+    "lesson_id": 442,
+    "text": "Pronunciation phrase 883",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 884,
+    "lesson_id": 442,
+    "text": "Pronunciation phrase 884",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 885,
+    "lesson_id": 443,
+    "text": "Pronunciation phrase 885",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 886,
+    "lesson_id": 443,
+    "text": "Pronunciation phrase 886",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 887,
+    "lesson_id": 444,
+    "text": "Pronunciation phrase 887",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 888,
+    "lesson_id": 444,
+    "text": "Pronunciation phrase 888",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 889,
+    "lesson_id": 445,
+    "text": "Pronunciation phrase 889",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 890,
+    "lesson_id": 445,
+    "text": "Pronunciation phrase 890",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 891,
+    "lesson_id": 446,
+    "text": "Pronunciation phrase 891",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 892,
+    "lesson_id": 446,
+    "text": "Pronunciation phrase 892",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 893,
+    "lesson_id": 447,
+    "text": "Pronunciation phrase 893",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 894,
+    "lesson_id": 447,
+    "text": "Pronunciation phrase 894",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 895,
+    "lesson_id": 448,
+    "text": "Pronunciation phrase 895",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 896,
+    "lesson_id": 448,
+    "text": "Pronunciation phrase 896",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 897,
+    "lesson_id": 449,
+    "text": "Pronunciation phrase 897",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 898,
+    "lesson_id": 449,
+    "text": "Pronunciation phrase 898",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 899,
+    "lesson_id": 450,
+    "text": "Pronunciation phrase 899",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 900,
+    "lesson_id": 450,
+    "text": "Pronunciation phrase 900",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 901,
+    "lesson_id": 451,
+    "text": "Pronunciation phrase 901",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 902,
+    "lesson_id": 451,
+    "text": "Pronunciation phrase 902",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 903,
+    "lesson_id": 452,
+    "text": "Pronunciation phrase 903",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 904,
+    "lesson_id": 452,
+    "text": "Pronunciation phrase 904",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 905,
+    "lesson_id": 453,
+    "text": "Pronunciation phrase 905",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 906,
+    "lesson_id": 453,
+    "text": "Pronunciation phrase 906",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 907,
+    "lesson_id": 454,
+    "text": "Pronunciation phrase 907",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 908,
+    "lesson_id": 454,
+    "text": "Pronunciation phrase 908",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 909,
+    "lesson_id": 455,
+    "text": "Pronunciation phrase 909",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 910,
+    "lesson_id": 455,
+    "text": "Pronunciation phrase 910",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 911,
+    "lesson_id": 456,
+    "text": "Pronunciation phrase 911",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 912,
+    "lesson_id": 456,
+    "text": "Pronunciation phrase 912",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 913,
+    "lesson_id": 457,
+    "text": "Pronunciation phrase 913",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 914,
+    "lesson_id": 457,
+    "text": "Pronunciation phrase 914",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 915,
+    "lesson_id": 458,
+    "text": "Pronunciation phrase 915",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 916,
+    "lesson_id": 458,
+    "text": "Pronunciation phrase 916",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 917,
+    "lesson_id": 459,
+    "text": "Pronunciation phrase 917",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 918,
+    "lesson_id": 459,
+    "text": "Pronunciation phrase 918",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 919,
+    "lesson_id": 460,
+    "text": "Pronunciation phrase 919",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 920,
+    "lesson_id": 460,
+    "text": "Pronunciation phrase 920",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 921,
+    "lesson_id": 461,
+    "text": "Pronunciation phrase 921",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 922,
+    "lesson_id": 461,
+    "text": "Pronunciation phrase 922",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 923,
+    "lesson_id": 462,
+    "text": "Pronunciation phrase 923",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 924,
+    "lesson_id": 462,
+    "text": "Pronunciation phrase 924",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 925,
+    "lesson_id": 463,
+    "text": "Pronunciation phrase 925",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 926,
+    "lesson_id": 463,
+    "text": "Pronunciation phrase 926",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 927,
+    "lesson_id": 464,
+    "text": "Pronunciation phrase 927",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 928,
+    "lesson_id": 464,
+    "text": "Pronunciation phrase 928",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 929,
+    "lesson_id": 465,
+    "text": "Pronunciation phrase 929",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 930,
+    "lesson_id": 465,
+    "text": "Pronunciation phrase 930",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 931,
+    "lesson_id": 466,
+    "text": "Pronunciation phrase 931",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 932,
+    "lesson_id": 466,
+    "text": "Pronunciation phrase 932",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 933,
+    "lesson_id": 467,
+    "text": "Pronunciation phrase 933",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 934,
+    "lesson_id": 467,
+    "text": "Pronunciation phrase 934",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 935,
+    "lesson_id": 468,
+    "text": "Pronunciation phrase 935",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 936,
+    "lesson_id": 468,
+    "text": "Pronunciation phrase 936",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 937,
+    "lesson_id": 469,
+    "text": "Pronunciation phrase 937",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 938,
+    "lesson_id": 469,
+    "text": "Pronunciation phrase 938",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 939,
+    "lesson_id": 470,
+    "text": "Pronunciation phrase 939",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 940,
+    "lesson_id": 470,
+    "text": "Pronunciation phrase 940",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 941,
+    "lesson_id": 471,
+    "text": "Pronunciation phrase 941",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 942,
+    "lesson_id": 471,
+    "text": "Pronunciation phrase 942",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 943,
+    "lesson_id": 472,
+    "text": "Pronunciation phrase 943",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 944,
+    "lesson_id": 472,
+    "text": "Pronunciation phrase 944",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 945,
+    "lesson_id": 473,
+    "text": "Pronunciation phrase 945",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 946,
+    "lesson_id": 473,
+    "text": "Pronunciation phrase 946",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 947,
+    "lesson_id": 474,
+    "text": "Pronunciation phrase 947",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 948,
+    "lesson_id": 474,
+    "text": "Pronunciation phrase 948",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 949,
+    "lesson_id": 475,
+    "text": "Pronunciation phrase 949",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 950,
+    "lesson_id": 475,
+    "text": "Pronunciation phrase 950",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 951,
+    "lesson_id": 476,
+    "text": "Pronunciation phrase 951",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 952,
+    "lesson_id": 476,
+    "text": "Pronunciation phrase 952",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 953,
+    "lesson_id": 477,
+    "text": "Pronunciation phrase 953",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 954,
+    "lesson_id": 477,
+    "text": "Pronunciation phrase 954",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 955,
+    "lesson_id": 478,
+    "text": "Pronunciation phrase 955",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 956,
+    "lesson_id": 478,
+    "text": "Pronunciation phrase 956",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 957,
+    "lesson_id": 479,
+    "text": "Pronunciation phrase 957",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 958,
+    "lesson_id": 479,
+    "text": "Pronunciation phrase 958",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 959,
+    "lesson_id": 480,
+    "text": "Pronunciation phrase 959",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 960,
+    "lesson_id": 480,
+    "text": "Pronunciation phrase 960",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 961,
+    "lesson_id": 481,
+    "text": "Pronunciation phrase 961",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 962,
+    "lesson_id": 481,
+    "text": "Pronunciation phrase 962",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 963,
+    "lesson_id": 482,
+    "text": "Pronunciation phrase 963",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 964,
+    "lesson_id": 482,
+    "text": "Pronunciation phrase 964",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 965,
+    "lesson_id": 483,
+    "text": "Pronunciation phrase 965",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 966,
+    "lesson_id": 483,
+    "text": "Pronunciation phrase 966",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 967,
+    "lesson_id": 484,
+    "text": "Pronunciation phrase 967",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 968,
+    "lesson_id": 484,
+    "text": "Pronunciation phrase 968",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 969,
+    "lesson_id": 485,
+    "text": "Pronunciation phrase 969",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 970,
+    "lesson_id": 485,
+    "text": "Pronunciation phrase 970",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 971,
+    "lesson_id": 486,
+    "text": "Pronunciation phrase 971",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 972,
+    "lesson_id": 486,
+    "text": "Pronunciation phrase 972",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 973,
+    "lesson_id": 487,
+    "text": "Pronunciation phrase 973",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 974,
+    "lesson_id": 487,
+    "text": "Pronunciation phrase 974",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 975,
+    "lesson_id": 488,
+    "text": "Pronunciation phrase 975",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 976,
+    "lesson_id": 488,
+    "text": "Pronunciation phrase 976",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 977,
+    "lesson_id": 489,
+    "text": "Pronunciation phrase 977",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 978,
+    "lesson_id": 489,
+    "text": "Pronunciation phrase 978",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 979,
+    "lesson_id": 490,
+    "text": "Pronunciation phrase 979",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 980,
+    "lesson_id": 490,
+    "text": "Pronunciation phrase 980",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 981,
+    "lesson_id": 491,
+    "text": "Pronunciation phrase 981",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 982,
+    "lesson_id": 491,
+    "text": "Pronunciation phrase 982",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 983,
+    "lesson_id": 492,
+    "text": "Pronunciation phrase 983",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 984,
+    "lesson_id": 492,
+    "text": "Pronunciation phrase 984",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 985,
+    "lesson_id": 493,
+    "text": "Pronunciation phrase 985",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 986,
+    "lesson_id": 493,
+    "text": "Pronunciation phrase 986",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 987,
+    "lesson_id": 494,
+    "text": "Pronunciation phrase 987",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 988,
+    "lesson_id": 494,
+    "text": "Pronunciation phrase 988",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 989,
+    "lesson_id": 495,
+    "text": "Pronunciation phrase 989",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 990,
+    "lesson_id": 495,
+    "text": "Pronunciation phrase 990",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 991,
+    "lesson_id": 496,
+    "text": "Pronunciation phrase 991",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 992,
+    "lesson_id": 496,
+    "text": "Pronunciation phrase 992",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 993,
+    "lesson_id": 497,
+    "text": "Pronunciation phrase 993",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 994,
+    "lesson_id": 497,
+    "text": "Pronunciation phrase 994",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 995,
+    "lesson_id": 498,
+    "text": "Pronunciation phrase 995",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 996,
+    "lesson_id": 498,
+    "text": "Pronunciation phrase 996",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  },
+  {
+    "id": 997,
+    "lesson_id": 499,
+    "text": "Pronunciation phrase 997",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A2"
+  },
+  {
+    "id": 998,
+    "lesson_id": 499,
+    "text": "Pronunciation phrase 998",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B1"
+  },
+  {
+    "id": 999,
+    "lesson_id": 500,
+    "text": "Pronunciation phrase 999",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "B2"
+  },
+  {
+    "id": 1000,
+    "lesson_id": 500,
+    "text": "Pronunciation phrase 1000",
+    "stress": "Speak slowly, then repeat naturally.",
+    "difficulty": "A1"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "slug": "restaurant",
+    "title": "Restaurant",
+    "description": "Ordering food, drinks, and handling service conversations.",
+    "icon": "restaurant",
+    "color": "#F57C00",
+    "cefr": "A1"
+  },
+  {
+    "id": 2,
+    "slug": "airport",
+    "title": "Airport",
+    "description": "Check-in, security, boarding, and travel help.",
+    "icon": "airport",
+    "color": "#1976D2",
+    "cefr": "A2"
+  },
+  {
+    "id": 3,
+    "slug": "business",
+    "title": "Business",
+    "description": "Meetings, deadlines, updates, and professional small talk.",
+    "icon": "business",
+    "color": "#388E3C",
+    "cefr": "B1"
+  },
+  {
+    "id": 4,
+    "slug": "daily-life",
+    "title": "Daily Life",
+    "description": "Home, routines, errands, and casual conversation.",
+    "icon": "daily-life",
+    "color": "#7B1FA2",
+    "cefr": "B2"
+  },
+  {
+    "id": 5,
+    "slug": "interview",
+    "title": "Interview",
+    "description": "Job interviews, introductions, and career stories.",
+    "icon": "interview",
+    "color": "#C2185B",
+    "cefr": "A1"
+  },
+  {
+    "id": 6,
+    "slug": "shopping",
+    "title": "Shopping",
+    "description": "Prices, sizes, returns, and product questions.",
+    "icon": "shopping",
+    "color": "#455A64",
+    "cefr": "A2"
+  },
+  {
+    "id": 7,
+    "slug": "health",
+    "title": "Health",
+    "description": "Appointments, symptoms, and pharmacy conversations.",
+    "icon": "health",
+    "color": "#F57C00",
+    "cefr": "B1"
+  },
+  {
+    "id": 8,
+    "slug": "travel",
+    "title": "Travel",
+    "description": "Hotels, directions, tickets, and local recommendations.",
+    "icon": "travel",
+    "color": "#1976D2",
+    "cefr": "B2"
+  },
+  {
+    "id": 9,
+    "slug": "education",
+    "title": "Education",
+    "description": "Classroom, study, exams, and academic discussion.",
+    "icon": "education",
+    "color": "#388E3C",
+    "cefr": "A1"
+  },
+  {
+    "id": 10,
+    "slug": "social",
+    "title": "Social",
+    "description": "Friends, invitations, opinions, and storytelling.",
+    "icon": "social",
+    "color": "#7B1FA2",
+    "cefr": "A2"
+  },
+  {
+    "id": 11,
+    "slug": "technology",
+    "title": "Technology",
+    "description": "Devices, apps, support, and online services.",
+    "icon": "technology",
+    "color": "#C2185B",
+    "cefr": "B1"
+  },
+  {
+    "id": 12,
+    "slug": "finance",
+    "title": "Finance",
+    "description": "Banking, payments, budgets, and bills.",
+    "icon": "finance",
+    "color": "#455A64",
+    "cefr": "B2"
+  }
+]

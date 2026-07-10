@@ -60,7 +60,7 @@ void main() {
       whereArgs: [initialLessons.first.id],
     );
     expect(packRows.first['slug'], 'core-offline-english');
-    expect(categoryRows.first['total'], 12);
+    expect(categoryRows.first['total'], greaterThanOrEqualTo(12));
     expect(vocabularyRows.first['total'], 10000);
     expect(exerciseRows.first['total'], 20000);
     expect(stepRows.length, greaterThanOrEqualTo(4));

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Practice Streak",
+    "description": "Practice for several days in a row.",
+    "icon": "streak"
+  },
+  {
+    "id": 2,
+    "title": "Pronunciation Starter",
+    "description": "Finish your first drill.",
+    "icon": "mic"
+  }
+]

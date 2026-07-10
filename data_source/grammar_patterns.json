@@ -1,0 +1,3502 @@
+[
+  {
+    "id": 1,
+    "title": "Politeness",
+    "rule": "Use an article before singular countable nouns.",
+    "formula": "I want cappuccino",
+    "cefr": "A2"
+  },
+  {
+    "id": 2,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 2",
+    "cefr": "B1"
+  },
+  {
+    "id": 3,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 3",
+    "cefr": "B2"
+  },
+  {
+    "id": 4,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 4",
+    "cefr": "A1"
+  },
+  {
+    "id": 5,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 5",
+    "cefr": "A2"
+  },
+  {
+    "id": 6,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 6",
+    "cefr": "B1"
+  },
+  {
+    "id": 7,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 7",
+    "cefr": "B2"
+  },
+  {
+    "id": 8,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 8",
+    "cefr": "A1"
+  },
+  {
+    "id": 9,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 9",
+    "cefr": "A2"
+  },
+  {
+    "id": 10,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 10",
+    "cefr": "B1"
+  },
+  {
+    "id": 11,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 11",
+    "cefr": "B2"
+  },
+  {
+    "id": 12,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 12",
+    "cefr": "A1"
+  },
+  {
+    "id": 13,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 13",
+    "cefr": "A2"
+  },
+  {
+    "id": 14,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 14",
+    "cefr": "B1"
+  },
+  {
+    "id": 15,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 15",
+    "cefr": "B2"
+  },
+  {
+    "id": 16,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 16",
+    "cefr": "A1"
+  },
+  {
+    "id": 17,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 17",
+    "cefr": "A2"
+  },
+  {
+    "id": 18,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 18",
+    "cefr": "B1"
+  },
+  {
+    "id": 19,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 19",
+    "cefr": "B2"
+  },
+  {
+    "id": 20,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 20",
+    "cefr": "A1"
+  },
+  {
+    "id": 21,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 21",
+    "cefr": "A2"
+  },
+  {
+    "id": 22,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 22",
+    "cefr": "B1"
+  },
+  {
+    "id": 23,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 23",
+    "cefr": "B2"
+  },
+  {
+    "id": 24,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 24",
+    "cefr": "A1"
+  },
+  {
+    "id": 25,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 25",
+    "cefr": "A2"
+  },
+  {
+    "id": 26,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 26",
+    "cefr": "B1"
+  },
+  {
+    "id": 27,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 27",
+    "cefr": "B2"
+  },
+  {
+    "id": 28,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 28",
+    "cefr": "A1"
+  },
+  {
+    "id": 29,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 29",
+    "cefr": "A2"
+  },
+  {
+    "id": 30,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 30",
+    "cefr": "B1"
+  },
+  {
+    "id": 31,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 31",
+    "cefr": "B2"
+  },
+  {
+    "id": 32,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 32",
+    "cefr": "A1"
+  },
+  {
+    "id": 33,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 33",
+    "cefr": "A2"
+  },
+  {
+    "id": 34,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 34",
+    "cefr": "B1"
+  },
+  {
+    "id": 35,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 35",
+    "cefr": "B2"
+  },
+  {
+    "id": 36,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 36",
+    "cefr": "A1"
+  },
+  {
+    "id": 37,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 37",
+    "cefr": "A2"
+  },
+  {
+    "id": 38,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 38",
+    "cefr": "B1"
+  },
+  {
+    "id": 39,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 39",
+    "cefr": "B2"
+  },
+  {
+    "id": 40,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 40",
+    "cefr": "A1"
+  },
+  {
+    "id": 41,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 41",
+    "cefr": "A2"
+  },
+  {
+    "id": 42,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 42",
+    "cefr": "B1"
+  },
+  {
+    "id": 43,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 43",
+    "cefr": "B2"
+  },
+  {
+    "id": 44,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 44",
+    "cefr": "A1"
+  },
+  {
+    "id": 45,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 45",
+    "cefr": "A2"
+  },
+  {
+    "id": 46,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 46",
+    "cefr": "B1"
+  },
+  {
+    "id": 47,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 47",
+    "cefr": "B2"
+  },
+  {
+    "id": 48,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 48",
+    "cefr": "A1"
+  },
+  {
+    "id": 49,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 49",
+    "cefr": "A2"
+  },
+  {
+    "id": 50,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 50",
+    "cefr": "B1"
+  },
+  {
+    "id": 51,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 51",
+    "cefr": "B2"
+  },
+  {
+    "id": 52,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 52",
+    "cefr": "A1"
+  },
+  {
+    "id": 53,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 53",
+    "cefr": "A2"
+  },
+  {
+    "id": 54,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 54",
+    "cefr": "B1"
+  },
+  {
+    "id": 55,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 55",
+    "cefr": "B2"
+  },
+  {
+    "id": 56,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 56",
+    "cefr": "A1"
+  },
+  {
+    "id": 57,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 57",
+    "cefr": "A2"
+  },
+  {
+    "id": 58,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 58",
+    "cefr": "B1"
+  },
+  {
+    "id": 59,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 59",
+    "cefr": "B2"
+  },
+  {
+    "id": 60,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 60",
+    "cefr": "A1"
+  },
+  {
+    "id": 61,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 61",
+    "cefr": "A2"
+  },
+  {
+    "id": 62,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 62",
+    "cefr": "B1"
+  },
+  {
+    "id": 63,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 63",
+    "cefr": "B2"
+  },
+  {
+    "id": 64,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 64",
+    "cefr": "A1"
+  },
+  {
+    "id": 65,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 65",
+    "cefr": "A2"
+  },
+  {
+    "id": 66,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 66",
+    "cefr": "B1"
+  },
+  {
+    "id": 67,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 67",
+    "cefr": "B2"
+  },
+  {
+    "id": 68,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 68",
+    "cefr": "A1"
+  },
+  {
+    "id": 69,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 69",
+    "cefr": "A2"
+  },
+  {
+    "id": 70,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 70",
+    "cefr": "B1"
+  },
+  {
+    "id": 71,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 71",
+    "cefr": "B2"
+  },
+  {
+    "id": 72,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 72",
+    "cefr": "A1"
+  },
+  {
+    "id": 73,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 73",
+    "cefr": "A2"
+  },
+  {
+    "id": 74,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 74",
+    "cefr": "B1"
+  },
+  {
+    "id": 75,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 75",
+    "cefr": "B2"
+  },
+  {
+    "id": 76,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 76",
+    "cefr": "A1"
+  },
+  {
+    "id": 77,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 77",
+    "cefr": "A2"
+  },
+  {
+    "id": 78,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 78",
+    "cefr": "B1"
+  },
+  {
+    "id": 79,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 79",
+    "cefr": "B2"
+  },
+  {
+    "id": 80,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 80",
+    "cefr": "A1"
+  },
+  {
+    "id": 81,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 81",
+    "cefr": "A2"
+  },
+  {
+    "id": 82,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 82",
+    "cefr": "B1"
+  },
+  {
+    "id": 83,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 83",
+    "cefr": "B2"
+  },
+  {
+    "id": 84,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 84",
+    "cefr": "A1"
+  },
+  {
+    "id": 85,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 85",
+    "cefr": "A2"
+  },
+  {
+    "id": 86,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 86",
+    "cefr": "B1"
+  },
+  {
+    "id": 87,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 87",
+    "cefr": "B2"
+  },
+  {
+    "id": 88,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 88",
+    "cefr": "A1"
+  },
+  {
+    "id": 89,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 89",
+    "cefr": "A2"
+  },
+  {
+    "id": 90,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 90",
+    "cefr": "B1"
+  },
+  {
+    "id": 91,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 91",
+    "cefr": "B2"
+  },
+  {
+    "id": 92,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 92",
+    "cefr": "A1"
+  },
+  {
+    "id": 93,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 93",
+    "cefr": "A2"
+  },
+  {
+    "id": 94,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 94",
+    "cefr": "B1"
+  },
+  {
+    "id": 95,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 95",
+    "cefr": "B2"
+  },
+  {
+    "id": 96,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 96",
+    "cefr": "A1"
+  },
+  {
+    "id": 97,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 97",
+    "cefr": "A2"
+  },
+  {
+    "id": 98,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 98",
+    "cefr": "B1"
+  },
+  {
+    "id": 99,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 99",
+    "cefr": "B2"
+  },
+  {
+    "id": 100,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 100",
+    "cefr": "A1"
+  },
+  {
+    "id": 101,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 101",
+    "cefr": "A2"
+  },
+  {
+    "id": 102,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 102",
+    "cefr": "B1"
+  },
+  {
+    "id": 103,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 103",
+    "cefr": "B2"
+  },
+  {
+    "id": 104,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 104",
+    "cefr": "A1"
+  },
+  {
+    "id": 105,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 105",
+    "cefr": "A2"
+  },
+  {
+    "id": 106,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 106",
+    "cefr": "B1"
+  },
+  {
+    "id": 107,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 107",
+    "cefr": "B2"
+  },
+  {
+    "id": 108,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 108",
+    "cefr": "A1"
+  },
+  {
+    "id": 109,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 109",
+    "cefr": "A2"
+  },
+  {
+    "id": 110,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 110",
+    "cefr": "B1"
+  },
+  {
+    "id": 111,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 111",
+    "cefr": "B2"
+  },
+  {
+    "id": 112,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 112",
+    "cefr": "A1"
+  },
+  {
+    "id": 113,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 113",
+    "cefr": "A2"
+  },
+  {
+    "id": 114,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 114",
+    "cefr": "B1"
+  },
+  {
+    "id": 115,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 115",
+    "cefr": "B2"
+  },
+  {
+    "id": 116,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 116",
+    "cefr": "A1"
+  },
+  {
+    "id": 117,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 117",
+    "cefr": "A2"
+  },
+  {
+    "id": 118,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 118",
+    "cefr": "B1"
+  },
+  {
+    "id": 119,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 119",
+    "cefr": "B2"
+  },
+  {
+    "id": 120,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 120",
+    "cefr": "A1"
+  },
+  {
+    "id": 121,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 121",
+    "cefr": "A2"
+  },
+  {
+    "id": 122,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 122",
+    "cefr": "B1"
+  },
+  {
+    "id": 123,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 123",
+    "cefr": "B2"
+  },
+  {
+    "id": 124,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 124",
+    "cefr": "A1"
+  },
+  {
+    "id": 125,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 125",
+    "cefr": "A2"
+  },
+  {
+    "id": 126,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 126",
+    "cefr": "B1"
+  },
+  {
+    "id": 127,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 127",
+    "cefr": "B2"
+  },
+  {
+    "id": 128,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 128",
+    "cefr": "A1"
+  },
+  {
+    "id": 129,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 129",
+    "cefr": "A2"
+  },
+  {
+    "id": 130,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 130",
+    "cefr": "B1"
+  },
+  {
+    "id": 131,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 131",
+    "cefr": "B2"
+  },
+  {
+    "id": 132,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 132",
+    "cefr": "A1"
+  },
+  {
+    "id": 133,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 133",
+    "cefr": "A2"
+  },
+  {
+    "id": 134,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 134",
+    "cefr": "B1"
+  },
+  {
+    "id": 135,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 135",
+    "cefr": "B2"
+  },
+  {
+    "id": 136,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 136",
+    "cefr": "A1"
+  },
+  {
+    "id": 137,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 137",
+    "cefr": "A2"
+  },
+  {
+    "id": 138,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 138",
+    "cefr": "B1"
+  },
+  {
+    "id": 139,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 139",
+    "cefr": "B2"
+  },
+  {
+    "id": 140,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 140",
+    "cefr": "A1"
+  },
+  {
+    "id": 141,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 141",
+    "cefr": "A2"
+  },
+  {
+    "id": 142,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 142",
+    "cefr": "B1"
+  },
+  {
+    "id": 143,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 143",
+    "cefr": "B2"
+  },
+  {
+    "id": 144,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 144",
+    "cefr": "A1"
+  },
+  {
+    "id": 145,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 145",
+    "cefr": "A2"
+  },
+  {
+    "id": 146,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 146",
+    "cefr": "B1"
+  },
+  {
+    "id": 147,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 147",
+    "cefr": "B2"
+  },
+  {
+    "id": 148,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 148",
+    "cefr": "A1"
+  },
+  {
+    "id": 149,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 149",
+    "cefr": "A2"
+  },
+  {
+    "id": 150,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 150",
+    "cefr": "B1"
+  },
+  {
+    "id": 151,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 151",
+    "cefr": "B2"
+  },
+  {
+    "id": 152,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 152",
+    "cefr": "A1"
+  },
+  {
+    "id": 153,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 153",
+    "cefr": "A2"
+  },
+  {
+    "id": 154,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 154",
+    "cefr": "B1"
+  },
+  {
+    "id": 155,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 155",
+    "cefr": "B2"
+  },
+  {
+    "id": 156,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 156",
+    "cefr": "A1"
+  },
+  {
+    "id": 157,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 157",
+    "cefr": "A2"
+  },
+  {
+    "id": 158,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 158",
+    "cefr": "B1"
+  },
+  {
+    "id": 159,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 159",
+    "cefr": "B2"
+  },
+  {
+    "id": 160,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 160",
+    "cefr": "A1"
+  },
+  {
+    "id": 161,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 161",
+    "cefr": "A2"
+  },
+  {
+    "id": 162,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 162",
+    "cefr": "B1"
+  },
+  {
+    "id": 163,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 163",
+    "cefr": "B2"
+  },
+  {
+    "id": 164,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 164",
+    "cefr": "A1"
+  },
+  {
+    "id": 165,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 165",
+    "cefr": "A2"
+  },
+  {
+    "id": 166,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 166",
+    "cefr": "B1"
+  },
+  {
+    "id": 167,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 167",
+    "cefr": "B2"
+  },
+  {
+    "id": 168,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 168",
+    "cefr": "A1"
+  },
+  {
+    "id": 169,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 169",
+    "cefr": "A2"
+  },
+  {
+    "id": 170,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 170",
+    "cefr": "B1"
+  },
+  {
+    "id": 171,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 171",
+    "cefr": "B2"
+  },
+  {
+    "id": 172,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 172",
+    "cefr": "A1"
+  },
+  {
+    "id": 173,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 173",
+    "cefr": "A2"
+  },
+  {
+    "id": 174,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 174",
+    "cefr": "B1"
+  },
+  {
+    "id": 175,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 175",
+    "cefr": "B2"
+  },
+  {
+    "id": 176,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 176",
+    "cefr": "A1"
+  },
+  {
+    "id": 177,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 177",
+    "cefr": "A2"
+  },
+  {
+    "id": 178,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 178",
+    "cefr": "B1"
+  },
+  {
+    "id": 179,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 179",
+    "cefr": "B2"
+  },
+  {
+    "id": 180,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 180",
+    "cefr": "A1"
+  },
+  {
+    "id": 181,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 181",
+    "cefr": "A2"
+  },
+  {
+    "id": 182,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 182",
+    "cefr": "B1"
+  },
+  {
+    "id": 183,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 183",
+    "cefr": "B2"
+  },
+  {
+    "id": 184,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 184",
+    "cefr": "A1"
+  },
+  {
+    "id": 185,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 185",
+    "cefr": "A2"
+  },
+  {
+    "id": 186,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 186",
+    "cefr": "B1"
+  },
+  {
+    "id": 187,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 187",
+    "cefr": "B2"
+  },
+  {
+    "id": 188,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 188",
+    "cefr": "A1"
+  },
+  {
+    "id": 189,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 189",
+    "cefr": "A2"
+  },
+  {
+    "id": 190,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 190",
+    "cefr": "B1"
+  },
+  {
+    "id": 191,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 191",
+    "cefr": "B2"
+  },
+  {
+    "id": 192,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 192",
+    "cefr": "A1"
+  },
+  {
+    "id": 193,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 193",
+    "cefr": "A2"
+  },
+  {
+    "id": 194,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 194",
+    "cefr": "B1"
+  },
+  {
+    "id": 195,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 195",
+    "cefr": "B2"
+  },
+  {
+    "id": 196,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 196",
+    "cefr": "A1"
+  },
+  {
+    "id": 197,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 197",
+    "cefr": "A2"
+  },
+  {
+    "id": 198,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 198",
+    "cefr": "B1"
+  },
+  {
+    "id": 199,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 199",
+    "cefr": "B2"
+  },
+  {
+    "id": 200,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 200",
+    "cefr": "A1"
+  },
+  {
+    "id": 201,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 201",
+    "cefr": "A2"
+  },
+  {
+    "id": 202,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 202",
+    "cefr": "B1"
+  },
+  {
+    "id": 203,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 203",
+    "cefr": "B2"
+  },
+  {
+    "id": 204,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 204",
+    "cefr": "A1"
+  },
+  {
+    "id": 205,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 205",
+    "cefr": "A2"
+  },
+  {
+    "id": 206,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 206",
+    "cefr": "B1"
+  },
+  {
+    "id": 207,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 207",
+    "cefr": "B2"
+  },
+  {
+    "id": 208,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 208",
+    "cefr": "A1"
+  },
+  {
+    "id": 209,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 209",
+    "cefr": "A2"
+  },
+  {
+    "id": 210,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 210",
+    "cefr": "B1"
+  },
+  {
+    "id": 211,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 211",
+    "cefr": "B2"
+  },
+  {
+    "id": 212,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 212",
+    "cefr": "A1"
+  },
+  {
+    "id": 213,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 213",
+    "cefr": "A2"
+  },
+  {
+    "id": 214,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 214",
+    "cefr": "B1"
+  },
+  {
+    "id": 215,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 215",
+    "cefr": "B2"
+  },
+  {
+    "id": 216,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 216",
+    "cefr": "A1"
+  },
+  {
+    "id": 217,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 217",
+    "cefr": "A2"
+  },
+  {
+    "id": 218,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 218",
+    "cefr": "B1"
+  },
+  {
+    "id": 219,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 219",
+    "cefr": "B2"
+  },
+  {
+    "id": 220,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 220",
+    "cefr": "A1"
+  },
+  {
+    "id": 221,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 221",
+    "cefr": "A2"
+  },
+  {
+    "id": 222,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 222",
+    "cefr": "B1"
+  },
+  {
+    "id": 223,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 223",
+    "cefr": "B2"
+  },
+  {
+    "id": 224,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 224",
+    "cefr": "A1"
+  },
+  {
+    "id": 225,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 225",
+    "cefr": "A2"
+  },
+  {
+    "id": 226,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 226",
+    "cefr": "B1"
+  },
+  {
+    "id": 227,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 227",
+    "cefr": "B2"
+  },
+  {
+    "id": 228,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 228",
+    "cefr": "A1"
+  },
+  {
+    "id": 229,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 229",
+    "cefr": "A2"
+  },
+  {
+    "id": 230,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 230",
+    "cefr": "B1"
+  },
+  {
+    "id": 231,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 231",
+    "cefr": "B2"
+  },
+  {
+    "id": 232,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 232",
+    "cefr": "A1"
+  },
+  {
+    "id": 233,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 233",
+    "cefr": "A2"
+  },
+  {
+    "id": 234,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 234",
+    "cefr": "B1"
+  },
+  {
+    "id": 235,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 235",
+    "cefr": "B2"
+  },
+  {
+    "id": 236,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 236",
+    "cefr": "A1"
+  },
+  {
+    "id": 237,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 237",
+    "cefr": "A2"
+  },
+  {
+    "id": 238,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 238",
+    "cefr": "B1"
+  },
+  {
+    "id": 239,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 239",
+    "cefr": "B2"
+  },
+  {
+    "id": 240,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 240",
+    "cefr": "A1"
+  },
+  {
+    "id": 241,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 241",
+    "cefr": "A2"
+  },
+  {
+    "id": 242,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 242",
+    "cefr": "B1"
+  },
+  {
+    "id": 243,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 243",
+    "cefr": "B2"
+  },
+  {
+    "id": 244,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 244",
+    "cefr": "A1"
+  },
+  {
+    "id": 245,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 245",
+    "cefr": "A2"
+  },
+  {
+    "id": 246,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 246",
+    "cefr": "B1"
+  },
+  {
+    "id": 247,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 247",
+    "cefr": "B2"
+  },
+  {
+    "id": 248,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 248",
+    "cefr": "A1"
+  },
+  {
+    "id": 249,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 249",
+    "cefr": "A2"
+  },
+  {
+    "id": 250,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 250",
+    "cefr": "B1"
+  },
+  {
+    "id": 251,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 251",
+    "cefr": "B2"
+  },
+  {
+    "id": 252,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 252",
+    "cefr": "A1"
+  },
+  {
+    "id": 253,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 253",
+    "cefr": "A2"
+  },
+  {
+    "id": 254,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 254",
+    "cefr": "B1"
+  },
+  {
+    "id": 255,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 255",
+    "cefr": "B2"
+  },
+  {
+    "id": 256,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 256",
+    "cefr": "A1"
+  },
+  {
+    "id": 257,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 257",
+    "cefr": "A2"
+  },
+  {
+    "id": 258,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 258",
+    "cefr": "B1"
+  },
+  {
+    "id": 259,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 259",
+    "cefr": "B2"
+  },
+  {
+    "id": 260,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 260",
+    "cefr": "A1"
+  },
+  {
+    "id": 261,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 261",
+    "cefr": "A2"
+  },
+  {
+    "id": 262,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 262",
+    "cefr": "B1"
+  },
+  {
+    "id": 263,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 263",
+    "cefr": "B2"
+  },
+  {
+    "id": 264,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 264",
+    "cefr": "A1"
+  },
+  {
+    "id": 265,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 265",
+    "cefr": "A2"
+  },
+  {
+    "id": 266,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 266",
+    "cefr": "B1"
+  },
+  {
+    "id": 267,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 267",
+    "cefr": "B2"
+  },
+  {
+    "id": 268,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 268",
+    "cefr": "A1"
+  },
+  {
+    "id": 269,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 269",
+    "cefr": "A2"
+  },
+  {
+    "id": 270,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 270",
+    "cefr": "B1"
+  },
+  {
+    "id": 271,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 271",
+    "cefr": "B2"
+  },
+  {
+    "id": 272,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 272",
+    "cefr": "A1"
+  },
+  {
+    "id": 273,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 273",
+    "cefr": "A2"
+  },
+  {
+    "id": 274,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 274",
+    "cefr": "B1"
+  },
+  {
+    "id": 275,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 275",
+    "cefr": "B2"
+  },
+  {
+    "id": 276,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 276",
+    "cefr": "A1"
+  },
+  {
+    "id": 277,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 277",
+    "cefr": "A2"
+  },
+  {
+    "id": 278,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 278",
+    "cefr": "B1"
+  },
+  {
+    "id": 279,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 279",
+    "cefr": "B2"
+  },
+  {
+    "id": 280,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 280",
+    "cefr": "A1"
+  },
+  {
+    "id": 281,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 281",
+    "cefr": "A2"
+  },
+  {
+    "id": 282,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 282",
+    "cefr": "B1"
+  },
+  {
+    "id": 283,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 283",
+    "cefr": "B2"
+  },
+  {
+    "id": 284,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 284",
+    "cefr": "A1"
+  },
+  {
+    "id": 285,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 285",
+    "cefr": "A2"
+  },
+  {
+    "id": 286,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 286",
+    "cefr": "B1"
+  },
+  {
+    "id": 287,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 287",
+    "cefr": "B2"
+  },
+  {
+    "id": 288,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 288",
+    "cefr": "A1"
+  },
+  {
+    "id": 289,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 289",
+    "cefr": "A2"
+  },
+  {
+    "id": 290,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 290",
+    "cefr": "B1"
+  },
+  {
+    "id": 291,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 291",
+    "cefr": "B2"
+  },
+  {
+    "id": 292,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 292",
+    "cefr": "A1"
+  },
+  {
+    "id": 293,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 293",
+    "cefr": "A2"
+  },
+  {
+    "id": 294,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 294",
+    "cefr": "B1"
+  },
+  {
+    "id": 295,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 295",
+    "cefr": "B2"
+  },
+  {
+    "id": 296,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 296",
+    "cefr": "A1"
+  },
+  {
+    "id": 297,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 297",
+    "cefr": "A2"
+  },
+  {
+    "id": 298,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 298",
+    "cefr": "B1"
+  },
+  {
+    "id": 299,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 299",
+    "cefr": "B2"
+  },
+  {
+    "id": 300,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 300",
+    "cefr": "A1"
+  },
+  {
+    "id": 301,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 301",
+    "cefr": "A2"
+  },
+  {
+    "id": 302,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 302",
+    "cefr": "B1"
+  },
+  {
+    "id": 303,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 303",
+    "cefr": "B2"
+  },
+  {
+    "id": 304,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 304",
+    "cefr": "A1"
+  },
+  {
+    "id": 305,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 305",
+    "cefr": "A2"
+  },
+  {
+    "id": 306,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 306",
+    "cefr": "B1"
+  },
+  {
+    "id": 307,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 307",
+    "cefr": "B2"
+  },
+  {
+    "id": 308,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 308",
+    "cefr": "A1"
+  },
+  {
+    "id": 309,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 309",
+    "cefr": "A2"
+  },
+  {
+    "id": 310,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 310",
+    "cefr": "B1"
+  },
+  {
+    "id": 311,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 311",
+    "cefr": "B2"
+  },
+  {
+    "id": 312,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 312",
+    "cefr": "A1"
+  },
+  {
+    "id": 313,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 313",
+    "cefr": "A2"
+  },
+  {
+    "id": 314,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 314",
+    "cefr": "B1"
+  },
+  {
+    "id": 315,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 315",
+    "cefr": "B2"
+  },
+  {
+    "id": 316,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 316",
+    "cefr": "A1"
+  },
+  {
+    "id": 317,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 317",
+    "cefr": "A2"
+  },
+  {
+    "id": 318,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 318",
+    "cefr": "B1"
+  },
+  {
+    "id": 319,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 319",
+    "cefr": "B2"
+  },
+  {
+    "id": 320,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 320",
+    "cefr": "A1"
+  },
+  {
+    "id": 321,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 321",
+    "cefr": "A2"
+  },
+  {
+    "id": 322,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 322",
+    "cefr": "B1"
+  },
+  {
+    "id": 323,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 323",
+    "cefr": "B2"
+  },
+  {
+    "id": 324,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 324",
+    "cefr": "A1"
+  },
+  {
+    "id": 325,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 325",
+    "cefr": "A2"
+  },
+  {
+    "id": 326,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 326",
+    "cefr": "B1"
+  },
+  {
+    "id": 327,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 327",
+    "cefr": "B2"
+  },
+  {
+    "id": 328,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 328",
+    "cefr": "A1"
+  },
+  {
+    "id": 329,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 329",
+    "cefr": "A2"
+  },
+  {
+    "id": 330,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 330",
+    "cefr": "B1"
+  },
+  {
+    "id": 331,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 331",
+    "cefr": "B2"
+  },
+  {
+    "id": 332,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 332",
+    "cefr": "A1"
+  },
+  {
+    "id": 333,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 333",
+    "cefr": "A2"
+  },
+  {
+    "id": 334,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 334",
+    "cefr": "B1"
+  },
+  {
+    "id": 335,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 335",
+    "cefr": "B2"
+  },
+  {
+    "id": 336,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 336",
+    "cefr": "A1"
+  },
+  {
+    "id": 337,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 337",
+    "cefr": "A2"
+  },
+  {
+    "id": 338,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 338",
+    "cefr": "B1"
+  },
+  {
+    "id": 339,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 339",
+    "cefr": "B2"
+  },
+  {
+    "id": 340,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 340",
+    "cefr": "A1"
+  },
+  {
+    "id": 341,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 341",
+    "cefr": "A2"
+  },
+  {
+    "id": 342,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 342",
+    "cefr": "B1"
+  },
+  {
+    "id": 343,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 343",
+    "cefr": "B2"
+  },
+  {
+    "id": 344,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 344",
+    "cefr": "A1"
+  },
+  {
+    "id": 345,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 345",
+    "cefr": "A2"
+  },
+  {
+    "id": 346,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 346",
+    "cefr": "B1"
+  },
+  {
+    "id": 347,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 347",
+    "cefr": "B2"
+  },
+  {
+    "id": 348,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 348",
+    "cefr": "A1"
+  },
+  {
+    "id": 349,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 349",
+    "cefr": "A2"
+  },
+  {
+    "id": 350,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 350",
+    "cefr": "B1"
+  },
+  {
+    "id": 351,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 351",
+    "cefr": "B2"
+  },
+  {
+    "id": 352,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 352",
+    "cefr": "A1"
+  },
+  {
+    "id": 353,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 353",
+    "cefr": "A2"
+  },
+  {
+    "id": 354,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 354",
+    "cefr": "B1"
+  },
+  {
+    "id": 355,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 355",
+    "cefr": "B2"
+  },
+  {
+    "id": 356,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 356",
+    "cefr": "A1"
+  },
+  {
+    "id": 357,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 357",
+    "cefr": "A2"
+  },
+  {
+    "id": 358,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 358",
+    "cefr": "B1"
+  },
+  {
+    "id": 359,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 359",
+    "cefr": "B2"
+  },
+  {
+    "id": 360,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 360",
+    "cefr": "A1"
+  },
+  {
+    "id": 361,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 361",
+    "cefr": "A2"
+  },
+  {
+    "id": 362,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 362",
+    "cefr": "B1"
+  },
+  {
+    "id": 363,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 363",
+    "cefr": "B2"
+  },
+  {
+    "id": 364,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 364",
+    "cefr": "A1"
+  },
+  {
+    "id": 365,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 365",
+    "cefr": "A2"
+  },
+  {
+    "id": 366,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 366",
+    "cefr": "B1"
+  },
+  {
+    "id": 367,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 367",
+    "cefr": "B2"
+  },
+  {
+    "id": 368,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 368",
+    "cefr": "A1"
+  },
+  {
+    "id": 369,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 369",
+    "cefr": "A2"
+  },
+  {
+    "id": 370,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 370",
+    "cefr": "B1"
+  },
+  {
+    "id": 371,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 371",
+    "cefr": "B2"
+  },
+  {
+    "id": 372,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 372",
+    "cefr": "A1"
+  },
+  {
+    "id": 373,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 373",
+    "cefr": "A2"
+  },
+  {
+    "id": 374,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 374",
+    "cefr": "B1"
+  },
+  {
+    "id": 375,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 375",
+    "cefr": "B2"
+  },
+  {
+    "id": 376,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 376",
+    "cefr": "A1"
+  },
+  {
+    "id": 377,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 377",
+    "cefr": "A2"
+  },
+  {
+    "id": 378,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 378",
+    "cefr": "B1"
+  },
+  {
+    "id": 379,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 379",
+    "cefr": "B2"
+  },
+  {
+    "id": 380,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 380",
+    "cefr": "A1"
+  },
+  {
+    "id": 381,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 381",
+    "cefr": "A2"
+  },
+  {
+    "id": 382,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 382",
+    "cefr": "B1"
+  },
+  {
+    "id": 383,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 383",
+    "cefr": "B2"
+  },
+  {
+    "id": 384,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 384",
+    "cefr": "A1"
+  },
+  {
+    "id": 385,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 385",
+    "cefr": "A2"
+  },
+  {
+    "id": 386,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 386",
+    "cefr": "B1"
+  },
+  {
+    "id": 387,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 387",
+    "cefr": "B2"
+  },
+  {
+    "id": 388,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 388",
+    "cefr": "A1"
+  },
+  {
+    "id": 389,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 389",
+    "cefr": "A2"
+  },
+  {
+    "id": 390,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 390",
+    "cefr": "B1"
+  },
+  {
+    "id": 391,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 391",
+    "cefr": "B2"
+  },
+  {
+    "id": 392,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 392",
+    "cefr": "A1"
+  },
+  {
+    "id": 393,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 393",
+    "cefr": "A2"
+  },
+  {
+    "id": 394,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 394",
+    "cefr": "B1"
+  },
+  {
+    "id": 395,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 395",
+    "cefr": "B2"
+  },
+  {
+    "id": 396,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 396",
+    "cefr": "A1"
+  },
+  {
+    "id": 397,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 397",
+    "cefr": "A2"
+  },
+  {
+    "id": 398,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 398",
+    "cefr": "B1"
+  },
+  {
+    "id": 399,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 399",
+    "cefr": "B2"
+  },
+  {
+    "id": 400,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 400",
+    "cefr": "A1"
+  },
+  {
+    "id": 401,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 401",
+    "cefr": "A2"
+  },
+  {
+    "id": 402,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 402",
+    "cefr": "B1"
+  },
+  {
+    "id": 403,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 403",
+    "cefr": "B2"
+  },
+  {
+    "id": 404,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 404",
+    "cefr": "A1"
+  },
+  {
+    "id": 405,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 405",
+    "cefr": "A2"
+  },
+  {
+    "id": 406,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 406",
+    "cefr": "B1"
+  },
+  {
+    "id": 407,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 407",
+    "cefr": "B2"
+  },
+  {
+    "id": 408,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 408",
+    "cefr": "A1"
+  },
+  {
+    "id": 409,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 409",
+    "cefr": "A2"
+  },
+  {
+    "id": 410,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 410",
+    "cefr": "B1"
+  },
+  {
+    "id": 411,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 411",
+    "cefr": "B2"
+  },
+  {
+    "id": 412,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 412",
+    "cefr": "A1"
+  },
+  {
+    "id": 413,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 413",
+    "cefr": "A2"
+  },
+  {
+    "id": 414,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 414",
+    "cefr": "B1"
+  },
+  {
+    "id": 415,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 415",
+    "cefr": "B2"
+  },
+  {
+    "id": 416,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 416",
+    "cefr": "A1"
+  },
+  {
+    "id": 417,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 417",
+    "cefr": "A2"
+  },
+  {
+    "id": 418,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 418",
+    "cefr": "B1"
+  },
+  {
+    "id": 419,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 419",
+    "cefr": "B2"
+  },
+  {
+    "id": 420,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 420",
+    "cefr": "A1"
+  },
+  {
+    "id": 421,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 421",
+    "cefr": "A2"
+  },
+  {
+    "id": 422,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 422",
+    "cefr": "B1"
+  },
+  {
+    "id": 423,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 423",
+    "cefr": "B2"
+  },
+  {
+    "id": 424,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 424",
+    "cefr": "A1"
+  },
+  {
+    "id": 425,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 425",
+    "cefr": "A2"
+  },
+  {
+    "id": 426,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 426",
+    "cefr": "B1"
+  },
+  {
+    "id": 427,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 427",
+    "cefr": "B2"
+  },
+  {
+    "id": 428,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 428",
+    "cefr": "A1"
+  },
+  {
+    "id": 429,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 429",
+    "cefr": "A2"
+  },
+  {
+    "id": 430,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 430",
+    "cefr": "B1"
+  },
+  {
+    "id": 431,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 431",
+    "cefr": "B2"
+  },
+  {
+    "id": 432,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 432",
+    "cefr": "A1"
+  },
+  {
+    "id": 433,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 433",
+    "cefr": "A2"
+  },
+  {
+    "id": 434,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 434",
+    "cefr": "B1"
+  },
+  {
+    "id": 435,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 435",
+    "cefr": "B2"
+  },
+  {
+    "id": 436,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 436",
+    "cefr": "A1"
+  },
+  {
+    "id": 437,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 437",
+    "cefr": "A2"
+  },
+  {
+    "id": 438,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 438",
+    "cefr": "B1"
+  },
+  {
+    "id": 439,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 439",
+    "cefr": "B2"
+  },
+  {
+    "id": 440,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 440",
+    "cefr": "A1"
+  },
+  {
+    "id": 441,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 441",
+    "cefr": "A2"
+  },
+  {
+    "id": 442,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 442",
+    "cefr": "B1"
+  },
+  {
+    "id": 443,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 443",
+    "cefr": "B2"
+  },
+  {
+    "id": 444,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 444",
+    "cefr": "A1"
+  },
+  {
+    "id": 445,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 445",
+    "cefr": "A2"
+  },
+  {
+    "id": 446,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 446",
+    "cefr": "B1"
+  },
+  {
+    "id": 447,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 447",
+    "cefr": "B2"
+  },
+  {
+    "id": 448,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 448",
+    "cefr": "A1"
+  },
+  {
+    "id": 449,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 449",
+    "cefr": "A2"
+  },
+  {
+    "id": 450,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 450",
+    "cefr": "B1"
+  },
+  {
+    "id": 451,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 451",
+    "cefr": "B2"
+  },
+  {
+    "id": 452,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 452",
+    "cefr": "A1"
+  },
+  {
+    "id": 453,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 453",
+    "cefr": "A2"
+  },
+  {
+    "id": 454,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 454",
+    "cefr": "B1"
+  },
+  {
+    "id": 455,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 455",
+    "cefr": "B2"
+  },
+  {
+    "id": 456,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 456",
+    "cefr": "A1"
+  },
+  {
+    "id": 457,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 457",
+    "cefr": "A2"
+  },
+  {
+    "id": 458,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 458",
+    "cefr": "B1"
+  },
+  {
+    "id": 459,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 459",
+    "cefr": "B2"
+  },
+  {
+    "id": 460,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 460",
+    "cefr": "A1"
+  },
+  {
+    "id": 461,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 461",
+    "cefr": "A2"
+  },
+  {
+    "id": 462,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 462",
+    "cefr": "B1"
+  },
+  {
+    "id": 463,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 463",
+    "cefr": "B2"
+  },
+  {
+    "id": 464,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 464",
+    "cefr": "A1"
+  },
+  {
+    "id": 465,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 465",
+    "cefr": "A2"
+  },
+  {
+    "id": 466,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 466",
+    "cefr": "B1"
+  },
+  {
+    "id": 467,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 467",
+    "cefr": "B2"
+  },
+  {
+    "id": 468,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 468",
+    "cefr": "A1"
+  },
+  {
+    "id": 469,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 469",
+    "cefr": "A2"
+  },
+  {
+    "id": 470,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 470",
+    "cefr": "B1"
+  },
+  {
+    "id": 471,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 471",
+    "cefr": "B2"
+  },
+  {
+    "id": 472,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 472",
+    "cefr": "A1"
+  },
+  {
+    "id": 473,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 473",
+    "cefr": "A2"
+  },
+  {
+    "id": 474,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 474",
+    "cefr": "B1"
+  },
+  {
+    "id": 475,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 475",
+    "cefr": "B2"
+  },
+  {
+    "id": 476,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 476",
+    "cefr": "A1"
+  },
+  {
+    "id": 477,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 477",
+    "cefr": "A2"
+  },
+  {
+    "id": 478,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 478",
+    "cefr": "B1"
+  },
+  {
+    "id": 479,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 479",
+    "cefr": "B2"
+  },
+  {
+    "id": 480,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 480",
+    "cefr": "A1"
+  },
+  {
+    "id": 481,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 481",
+    "cefr": "A2"
+  },
+  {
+    "id": 482,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 482",
+    "cefr": "B1"
+  },
+  {
+    "id": 483,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 483",
+    "cefr": "B2"
+  },
+  {
+    "id": 484,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 484",
+    "cefr": "A1"
+  },
+  {
+    "id": 485,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 485",
+    "cefr": "A2"
+  },
+  {
+    "id": 486,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 486",
+    "cefr": "B1"
+  },
+  {
+    "id": 487,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 487",
+    "cefr": "B2"
+  },
+  {
+    "id": 488,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 488",
+    "cefr": "A1"
+  },
+  {
+    "id": 489,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 489",
+    "cefr": "A2"
+  },
+  {
+    "id": 490,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 490",
+    "cefr": "B1"
+  },
+  {
+    "id": 491,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 491",
+    "cefr": "B2"
+  },
+  {
+    "id": 492,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 492",
+    "cefr": "A1"
+  },
+  {
+    "id": 493,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 493",
+    "cefr": "A2"
+  },
+  {
+    "id": 494,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 494",
+    "cefr": "B1"
+  },
+  {
+    "id": 495,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 495",
+    "cefr": "B2"
+  },
+  {
+    "id": 496,
+    "title": "Politeness",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 496",
+    "cefr": "A1"
+  },
+  {
+    "id": 497,
+    "title": "Past Tense",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 497",
+    "cefr": "A2"
+  },
+  {
+    "id": 498,
+    "title": "Word Order",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 498",
+    "cefr": "B1"
+  },
+  {
+    "id": 499,
+    "title": "Prepositions",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 499",
+    "cefr": "B2"
+  },
+  {
+    "id": 500,
+    "title": "Article Usage",
+    "rule": "Use the clearer natural English pattern.",
+    "formula": "Pattern 500",
+    "cefr": "A1"
+  }
+]
