@@ -116,6 +116,7 @@ class DatabaseSchema {
       )
     ''');
   }
+  
 
   static void createTutorPersonasTable(Batch batch) {
     batch.execute('''
